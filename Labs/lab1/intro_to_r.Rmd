@@ -1,6 +1,5 @@
 ---
 title: "Introduction to R and RStudio"
-  html_document:
 output:
   html_document:
     theme: simplex
@@ -22,7 +21,7 @@ get to that stage, however, you need to build some basic fluency in R.  Today we
 begin with the fundamental building blocks of R and RStudio: the interface, 
 reading in data, and basic commands.
 
-![rinterface](rInterface2014.png)
+![](rInterface2014.png)
 
 The panel in the upper right contains your *workspace* as well as a history of 
 the commands that you've previously entered.  Any plots that you generate will 
@@ -45,7 +44,7 @@ reproducibility of your analysis and results. To help get you started we are
 providing a template for you. Use the following code to download this template:
 
 ```{r load-template, eval=FALSE}
-download("http://stat.duke.edu/courses/Fall15/sta101.002/rmd/lab1.Rmd", destfile = "lab1.Rmd")
+download("http://garciarios.github.io/govt_3990/Labs/lab1/lab1.Rmd", destfile = "lab1.Rmd")
 ```
 
 You will see a new file called `lab1.Rmd` in the Files tab on the pane in the 

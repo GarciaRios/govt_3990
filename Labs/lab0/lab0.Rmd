@@ -5,7 +5,6 @@ output:
     theme: simplex
     highlight: haddock
     css: ../labs.css
-    toc: yes
 ---
 
 ```{r echo = FALSE} 
@@ -33,7 +32,9 @@ name of the programming language itself and RStudio is a convenient interface.
 
 The RStudio window should look something like this:
 
-![rinterface](rInterface2015.png)
+![](rInterface2015.png)
+
+##
 
 The panel in the upper right contains your *workspace* as well as a history of 
 the commands that you've previously entered.  Any plots that you generate will 

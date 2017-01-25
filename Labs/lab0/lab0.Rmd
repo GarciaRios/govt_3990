@@ -79,7 +79,7 @@ analysis is reproducible.
 
 ### (3) Pre-test
 
-Dowload and print the [Course Assement]("./Govt_3990_Course_Assessment.pdf"). Try your best, but don’t worry about it if the questions are unfamiliar to you. This information will only be used to adjust the course accordingly. 
+Dowload and print the [Course Assement](./Govt_3990_Course_Assessment.pdf). Try your best, but don’t worry about it if the questions are unfamiliar to you. This information will only be used to adjust the course accordingly. 
 
 
 <div id="license">

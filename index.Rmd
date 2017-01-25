@@ -30,7 +30,7 @@ In fractious times, we reaffirm core principles.  The Government Department at C
 ***
 
 ## Office Hours  
-<a href="https://garciarios.youcanbook.me"> <img src="./images/ycbme.png" alt="Drawing" style="width: 70px;"/> **[Click here to find avaialable office
+<a href="https://garciarios.youcanbook.me"> <img src= "./images/ycbme.png" style="width: 70px;"/> **[Click here to find avaialable office
 hours](https://garciarios.youcanbook.me)**
 
 ***

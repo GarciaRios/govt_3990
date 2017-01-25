@@ -2,14 +2,14 @@
 ***
 ## Labs
 0. **<a target="_blank" href=./Labs/lab0/lab0.html><i class="fa fa-flask fa-lg"> -- Lab 0 Introduction </i></i>** 
-1. **<a target="_blank" href=./Labs/lab1/intro_to_r.html><i class="fa fa-flask fa-lg"> -- Intro to R </i></i>**
-2. **<a target="_blank" href=./Labs/lab2/lab2.html><i class="fa fa-flask fa-lg"> -- Introduction to Data </i></i>**
-3. **<a target="_blank" href=./Labs/lab3/probability.html><i class="fa fa-flask fa-lg"> -- Probability </i></i>**
-4. **<a target="_blank" href=./Labs/lab4/sampling_distributions.html><i class="fa fa-flask fa-lg"> -- Sampling Distributions </i></i>**
-5. **<a target="_blank" href=./Labs/lab5/confidence_intervals.html><i class="fa fa-flask fa-lg"> -- Confidence Intervals </i></i>**
-6. **<a target="_blank" href=./Labs/lab6/inf_for_numerical_data.html><i class="fa fa-flask fa-lg"> -- Inference  for Numerical Data</i></i>**
-7. **<a target="_blank" href=./Labs/lab7/more_inf_for_numerical_data.html><i class="fa fa-flask fa-lg"> -- More Inference  for Numerical Data </i></i>**
-8. **<a target="_blank" href=./Labs/lab8/inf_for_categorical_data><i class="fa fa-flask fa-lg"> -- Inference  for Numerical Data </i></i>**
-9. **<a target="_blank" href=./Labs/lab9/simple_regression.html><i class="fa fa-flask fa-lg"> -- Intro to Linear Regression </i></i>**
-10. **<a target="_blank" href=./Labs/lab10//multiple_regression.html><i class="fa fa-flask fa-lg"> -- Multiple Regression </i></i>**
+1. **<a target="_blank" href=./Labs/lab1/Xintro_to_r.html><i class="fa fa-flask fa-lg"> -- Intro to R </i></i>**
+2. **<a target="_blank" href=./Labs/lab2/Xlab2.html><i class="fa fa-flask fa-lg"> -- Introduction to Data </i></i>**
+3. **<a target="_blank" href=./Labs/lab3/Xprobability.html><i class="fa fa-flask fa-lg"> -- Probability </i></i>**
+4. **<a target="_blank" href=./Labs/lab4/Xsampling_distributions.html><i class="fa fa-flask fa-lg"> -- Sampling Distributions </i></i>**
+5. **<a target="_blank" href=./Labs/lab5/Xconfidence_intervals.html><i class="fa fa-flask fa-lg"> -- Confidence Intervals </i></i>**
+6. **<a target="_blank" href=./Labs/lab6/Xinf_for_numerical_data.html><i class="fa fa-flask fa-lg"> -- Inference  for Numerical Data</i></i>**
+7. **<a target="_blank" href=./Labs/lab7/Xmore_inf_for_numerical_data.html><i class="fa fa-flask fa-lg"> -- More Inference  for Numerical Data </i></i>**
+8. **<a target="_blank" href=./Labs/lab8/Xinf_for_categorical_data><i class="fa fa-flask fa-lg"> -- Inference  for Numerical Data </i></i>**
+9. **<a target="_blank" href=./Labs/lab9/Xsimple_regression.html><i class="fa fa-flask fa-lg"> -- Intro to Linear Regression </i></i>**
+10. **<a target="_blank" href=./Labs/lab10//Xmultiple_regression.html><i class="fa fa-flask fa-lg"> -- Multiple Regression </i></i>**
 

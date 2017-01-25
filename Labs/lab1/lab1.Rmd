@@ -2,9 +2,11 @@
 title: "Lab 1 - Intro to R and RStudio"
 author: "Team name"
 date: "August 31, 2015"
-output: 
-  html_document: 
-    highlight: pygments
+output:
+  html_document:
+    theme: simplex
+    highlight: haddock
+    css: ../labs.css
 ---
 
 ```{r setup, include=FALSE}

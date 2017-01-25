@@ -5,11 +5,12 @@ output:
     theme: simplex
     highlight: haddock
     css: ../labs.css
+    toc: yes
 ---
 
 ```{r echo = FALSE} 
 # Update these for course
-course_website <- "http://garciarios.github.io/govt_3990/labs.html" 
+course_website <- "http://garciarios.github.io/govt_3990/" 
 sakai_site <- "https://sakai.duke.edu/portal/site/22299c5a-2e30-49a7-b46d-289ae3e0d739/page/f473d807-e64b-47bc-9a27-4e3ebb48496e#"
 sakai_test <- "https://sakai.duke.edu/portal/site/22299c5a-2e30-49a7-b46d-289ae3e0d739/page/ded8317e-62b3-43cf-a414-a7169219df88"
 caos_access_code <- "UTK6227VCQ"
@@ -34,7 +35,7 @@ The RStudio window should look something like this:
 
 ![](rInterface2015.png)
 
-##
+
 
 The panel in the upper right contains your *workspace* as well as a history of 
 the commands that you've previously entered.  Any plots that you generate will 
@@ -64,7 +65,7 @@ And you can save this result to an object that you can access later
 x = 2+2
 ```
 
-Try typing `x` in the console to verify that.
+Try typing `x` in the console to verify that. 
 
 You can also see this new object in your environment on the upper right pane. 
 Next time you log on to RStudio the object will still be here.
@@ -74,58 +75,18 @@ and in the meantime you will be exposed to some programming. In addition, you
 will learn best practices for saving your code and making sure that your 
 analysis is reproducible.
 
-### (3) Familiarize yourself with Sakai
 
-While all course materials will be distributed via the course website listed 
-above, we will also use Sakai turning in assignments, grades, and forum 
-discussion. Go to [Sakai](`r sakai_site`) and log on (using your NetID and 
-password). If you are enrolled in the course it should be listed among your 
-courses for this semester.
 
-### (4) Sign up for Piazza
+### (3) Pre-test
 
-While you're on the Sakai page for this course, sign up for Piazza, which is 
-the platform that we will use for online discussion related to this course. 
-Click on the Piazza link on the course site, complete the enrollment, and make 
-sure that you're able to view and post.
+Dowload and print the [Course Assement]("./Govt_3990_Course_Assessment.pdf"). Try your best, but don’t worry about it if the questions are unfamiliar to you. This information will only be used to adjust the course accordingly. 
 
-### (5) Questions for class survey
 
-One of your first tasks in this class is to help design a survey. This survey 
-will be completed anonymously. It will (ideally) have information on variables 
-you are interested in working with. When writing a question think about whether 
-you would feel comfortable answering it on an anonymous survey.
+<div id="license">
+This lab is released under a 
+[Creative Commons Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0). 
 
-Work with classmates in your row to come up with a survey question, and add it 
-to this [Google doc](https://docs.google.com/document/d/1_WRRyPRz-fgSqFOUe1vwvniz9tgu6eFUNzF8BEpjL9U/edit?usp=sharing). 
-Make sure that the wording of the question is clear, and (if categorical) the 
-answer choices make sense.
+</div>
 
-Before adding a question check to make sure that it hasn’t been added before. 
-If your question has already been added, but you would prefer to phrase it 
-differently (because you believe your phrasing is more clear / better), you can 
-add it as `alternative wording' underneath the original question.
 
-### (6) Getting to know you survey
-
-Take the [*Getting to know you*](`r sakai_test`) survey on Sakai.
-
-You can access this on the Tests & Quizzes tab on the Sakai site for this 
-course.
-
-### (7) Pre-test
-
-Go to https://apps3.cehd.umn.edu/artist/user/scale_select.html and use the 
-following information to take the pre-test:
-
-```
-ACCESS CODE:  `r caos_access_code`
-COURSE: `r caos_section`
-```
-
-Use your **Net ID** as the student ID.
-
-Try your best, but don't worry about it if the questions are unfamiliar to you. 
-This information will only be used to place you in teams. Plus, those who 
-complete the pre- and the post-test (available at the end of the semester) will 
-receive extra credit on the final exam.
+******

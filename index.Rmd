@@ -36,6 +36,17 @@ hours](https://garciarios.youcanbook.me)**
 ***
 
 
+
+### Required materials:
+
+* Textbook: [OpenIntro Statistics](http://openintro.org/os) - Diez, Barr, Çetinkaya-Rundel \\
+   CreateSpace, 3rd Edition, 2015 (ISBN: 978-1943450039) \\
+   
+The textbook is freely [available online](http://openintro.org/os). You're encuoraged to read on screen but you can print it out. If you prefer a paperback version you can buy it at the cost of printing (around $10) [on Amazon](http://openintro.org/os). The textbook store will not carry copies of this text.
+
+* * *
+
+
 ### Course goals & objectives:
 
 This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the semester, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena.
@@ -158,7 +169,7 @@ Performance assessments will be given at the end of a unit. These are very simil
 
 The objective of the projects is to give you independent applied research experience using real data and statistical methods.
 
-*Presentatin project 1: For a topic/puzzle of interest to you, you will describe the relevant data to be used, expoectations, hypotheses. You will present this in lcas for feedback from me and your clasmates. Finally you are also expected to turn in a a 3-5 apgae report.
+* Presentatin project 1: For a topic/puzzle of interest to you, you will describe the relevant data to be used, expoectations, hypotheses. You will present this in lcas for feedback from me and your clasmates. Finally you are also expected to turn in a a 3-5 pgs report.
 
 * Presentation project 1: You will use all (relevant) techniques learned in this class to finalize your research project and present your findigs to your classmates.
 

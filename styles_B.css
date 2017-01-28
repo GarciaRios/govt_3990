@@ -4,4 +4,20 @@
 }
 body{
 font-size:14px;
+font-family: 'Fira Sans', sans-serif;
 }
+
+a {
+font-family: 'Fira Sans', sans-serif;
+}
+i {
+font-family: 'Fira Sans', sans-serif;
+}
+h1 {font-family: 'Fira Sans', sans-serif;}
+h2 {font-family: 'Fira Sans', sans-serif;}
+h3 {font-family: 'Fira Sans', sans-serif;}
+h4 {font-family: 'Fira Sans', sans-serif;}
+h5 {font-family: 'Fira Sans', sans-serif;}
+h6 {font-family: 'Fira Sans', sans-serif;}
+
+

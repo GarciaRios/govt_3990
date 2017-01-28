@@ -1,15 +1,23 @@
-
+---
+output: 
+  html_document:  
+    theme: simplex
+    css: styles_B.css
+---
 ***
 ## Labs
-0. **<a target="_blank" href=./Labs/lab0/lab0.html><i class="fa fa-flask fa-lg"> -- Lab 0 Introduction </i></i>** 
-1. **<a target="_blank" href=./Labs/lab1/Xintro_to_r.html><i class="fa fa-flask fa-lg"> -- Intro to R </i></i>**
-2. **<a target="_blank" href=./Labs/lab2/Xlab2.html><i class="fa fa-flask fa-lg"> -- Introduction to Data </i></i>**
-3. **<a target="_blank" href=./Labs/lab3/Xprobability.html><i class="fa fa-flask fa-lg"> -- Probability </i></i>**
-4. **<a target="_blank" href=./Labs/lab4/Xsampling_distributions.html><i class="fa fa-flask fa-lg"> -- Sampling Distributions </i></i>**
-5. **<a target="_blank" href=./Labs/lab5/Xconfidence_intervals.html><i class="fa fa-flask fa-lg"> -- Confidence Intervals </i></i>**
-6. **<a target="_blank" href=./Labs/lab6/Xinf_for_numerical_data.html><i class="fa fa-flask fa-lg"> -- Inference  for Numerical Data</i></i>**
-7. **<a target="_blank" href=./Labs/lab7/Xmore_inf_for_numerical_data.html><i class="fa fa-flask fa-lg"> -- More Inference  for Numerical Data </i></i>**
-8. **<a target="_blank" href=./Labs/lab8/Xinf_for_categorical_data><i class="fa fa-flask fa-lg"> -- Inference  for Numerical Data </i></i>**
-9. **<a target="_blank" href=./Labs/lab9/Xsimple_regression.html><i class="fa fa-flask fa-lg"> -- Intro to Linear Regression </i></i>**
-10. **<a target="_blank" href=./Labs/lab10//Xmultiple_regression.html><i class="fa fa-flask fa-lg"> -- Multiple Regression </i></i>**
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab0/lab0.html>0.-- Introduction to the Course</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab1/Xintro_to_r.html>1. -- Intro to R </a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab2/Xlab2.html>      2. -- Introduction to Data</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab3/Xprobability.html>3. -- Probability</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab4/Xsampling_distributions.html>4. -- Sampling Distributions</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab5/Xconfidence_intervals.html>5. -- Confidence Intervals</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab6/Xinf_for_numerical_data.html>6. -- Inference  for Numerical Data</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab7/Xmore_inf_for_numerical_data.html>7. -- More Inference  for Numerical Data</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab8/Xinf_for_categorical_data>8. -- Inference  for Numerical Data </a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab9/Xsimple_regression.html>9. -- Intro to Linear Regression</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab10//Xmultiple_regression.html>10. -- Multiple Regression</a>
+</ul>
+
 

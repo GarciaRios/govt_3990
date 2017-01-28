@@ -1,0 +1,50 @@
+---
+title: Calendar
+---
+
+***
+
+<i class="fa fa-warning"></i> The following schedule is a *tentative* guideline and will be evolving to meet course needs up to and during the quarter.
+In particular, the pace of the course will be adjusted so that we move as possible conditional on everyone "getting" the material.
+
+***
+
+### Key
+
+<i class="fa fa-book"></i> Readings
+
+<i class="fa fa-code"></i> Data Camp courses
+
+<i class="fa fa-gears"></i> Actions to take
+
+<i class="fa fa-bar-chart"></i> Lessons
+
+<i class="fa fa-puzzle-piece"></i> Assignments.
+
+<i class="fa fa-flask"></i> Labs.
+
+*OpenIntro* = *Open Intro Statistics*
+
+****
+
+### Week 1
+
+**Introduction**
+
+#### Class
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-bar-chart"></i> Jan 25 Introduction to the course <a href="./Slides/topic0/topic0.pdf">Deck 0</a>
+<li><i class="fa-li fa fa-bar-chart"></i> Jan 30 Data Collection + Observational studies & experiments <a href="/lessons/intro-to-r-with-gapminder.html">Deck 1</a>
+</ul>
+
+#### Lab
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-flask"></i><a href="/lessons/getting-data-into-r.html">Getting Data into R</a>
+</ul>
+
+### Week 2
+### Week 3
+### Week 5
+### Week 6

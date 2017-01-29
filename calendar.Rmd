@@ -42,10 +42,24 @@ In particular, the pace of the course will be adjusted so that we move as possib
 #### Lab
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-flask"></i><a href="/lessons/getting-data-into-r.html">Getting Data into R</a>
+<li><i class="fa-li fa fa-flask"></i>Lab 0 <a href=href=./Labs/lab1/Xintro_to_r.html">Introduction to the Course</a>
 </ul>
 
 ### Week 2
+#### Class
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-bar-chart"></i> Jan 30 Data Collection + Exploratory data analysis <a href="/lessons/intro-to-r-with-gapminder.html">Deck 1</a>
+<li><i class="fa-li fa fa-puzzle-piece"></i> Jan 30 Lab 0 Due<li>
+</ul>
+
+#### Lab
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-flask"></i>Lab 1 <a href=href=./Labs/lab1/Xintro_to_r.html">Intro to R</a>
+</ul>
 ### Week 3
+#### Class
+#### Lab
 ### Week 5
 ### Week 6

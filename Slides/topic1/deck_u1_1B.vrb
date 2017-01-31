@@ -1,0 +1,23 @@
+\frametitle{From a past Sta 101 survey...}
+
+\alert{How are people reporting lower vs. higher values of FB visits?}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/survey/dot_fb_visits_per_day}
+\end{center}
+
+\pause
+
+\soln{Finer scale for lower numbers.}
+
+%---Note---%
+\note{
+
+How many people reporting lower vs. higher values of FB?  It is either 100 or
+200, not 107, 113.
+
+We can see that if you don't give guidance on data then it can be tough to
+analyze.
+
+}
+

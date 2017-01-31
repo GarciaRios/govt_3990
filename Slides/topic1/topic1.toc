@@ -1,3 +1,0 @@
-\beamer@endinputifotherversion {3.36pt}
-\beamer@sectionintoc {1}{Main ideas}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Use a sample to make inferences about the population}{3}{0}{1}

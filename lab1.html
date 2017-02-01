@@ -9,9 +9,11 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Team name" />
 
+<meta name="date" content="2015-08-31" />
 
-<title>Calendar</title>
+<title>Lab 1 - Intro to R and RStudio</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,24 +22,47 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
+
 <style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #0000ff; } /* Keyword */
+code > span.ch { color: #008080; } /* Char */
+code > span.st { color: #008080; } /* String */
+code > span.co { color: #008000; } /* Comment */
+code > span.ot { color: #ff4000; } /* Other */
+code > span.al { color: #ff0000; } /* Alert */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #008000; font-weight: bold; } /* Warning */
+code > span.cn { } /* Constant */
+code > span.sc { color: #008080; } /* SpecialChar */
+code > span.vs { color: #008080; } /* VerbatimString */
+code > span.ss { color: #008080; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { } /* Variable */
+code > span.cf { color: #0000ff; } /* ControlFlow */
+code > span.op { } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #ff4000; } /* Preprocessor */
+code > span.do { color: #008000; } /* Documentation */
+code > span.an { color: #008000; } /* Annotation */
+code > span.cv { color: #008000; } /* CommentVar */
+code > span.at { } /* Attribute */
+code > span.in { color: #008000; } /* Information */
+</style>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
   }
 </style>
-<script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
-}
-</script>
-
 
 
 <style type="text/css">
@@ -67,7 +92,7 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="styles_B.css" type="text/css" />
+<link rel="stylesheet" href="..\labs.css" type="text/css" />
 
 </head>
 
@@ -217,82 +242,55 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Calendar</h1>
+<h1 class="title toc-ignore">Lab 1 - Intro to R and RStudio</h1>
+<h4 class="author"><em>Team name</em></h4>
+<h4 class="date"><em>August 31, 2015</em></h4>
 
 </div>
 
 
+<p><strong>Author:</strong> [Enter author name here]</p>
+<p><strong>Discussants:</strong> [Enter discussant names here. Remember, these are other team members present in lab.]</p>
 <hr />
-<p><i class="fa fa-warning"></i> The following schedule is a <em>tentative</em> guideline and will be evolving to meet course needs up to and during the quarter. In particular, the pace of the course will be adjusted so that we move as possible conditional on everyone “getting” the material.</p>
+<p>**Load Arbuthnot’s <a href="data:**" class="uri">data:**</a></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">source</span>(<span class="st">&quot;http://www.openintro.org/stat/data/arbuthnot.R&quot;</span>)</code></pre></div>
+<div id="exercise-1" class="section level4">
+<h4>Exercise 1:</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># code for Exercise 1 is already entered below as an example</span>
+arbuthnot$girls</code></pre></div>
+<pre><code>##  [1] 4683 4457 4102 4590 4839 4820 4928 4605 4457 4952 4784 5332 5200 4910
+## [15] 4617 3997 3919 3395 3536 3181 2746 2722 2840 2908 2959 3179 3349 3382
+## [29] 3289 3013 2781 3247 4107 4803 4881 5681 4858 4319 5322 5560 5829 5719
+## [43] 6061 6120 5822 5738 5717 5847 6203 6033 6041 6299 6533 6744 7158 7127
+## [57] 7246 7119 7214 7101 7167 7302 7392 7316 7483 6647 6713 7229 7767 7626
+## [71] 7452 7061 7514 7656 7683 5738 7779 7417 7687 7623 7380 7288</code></pre>
+</div>
+<div id="exercise-2" class="section level4">
+<h4>Exercise 2:</h4>
+<p>[Enter your response for Exercise 2 here.]</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># enter your code for Exercise 2 here</span></code></pre></div>
+</div>
+<div id="exercise-3" class="section level4">
+<h4>Exercise 3:</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># enter your code for Exercise 3 here</span></code></pre></div>
 <hr />
-<div id="key" class="section level3">
-<h3>Key</h3>
-<p><i class="fa fa-book"></i> Readings</p>
-<p><i class="fa fa-code"></i> Data Camp courses</p>
-<p><i class="fa fa-gears"></i> Actions to take</p>
-<p><i class="fa fa-bar-chart"></i> Lessons</p>
-<p><i class="fa fa-puzzle-piece"></i> Assignments.</p>
-<p><i class="fa fa-flask"></i> Labs.</p>
-<p><em>OpenIntro</em> = <em>Open Intro Statistics</em></p>
-<hr />
 </div>
-<div id="week-1" class="section level3">
-<h3>Week 1</h3>
-<p><strong>Introduction</strong></p>
-<div id="class" class="section level4">
-<h4>Class</h4>
-<ul class="fa-ul">
-<li>
-<i class="fa-li fa fa-bar-chart"></i> Jan 25 Introduction to the course <a target="_blank" href="./Slides/topic0/topic0.pdf">Deck 0</a>
-<li>
-<i class="fa-li fa fa-bar-chart"></i> Jan 30 Data Collection + Observational studies &amp; experiments <a href="/lessons/intro-to-r-with-gapminder.html">Deck 1</a>
-<li>
-<i class="fa-li fa fa-puzzle-piece"></i> Jan 30 Lab 0 Due
-<li>
-</ul>
+<div id="on-your-own" class="section level3">
+<h3>On your own:</h3>
+<p>**Load present day <a href="data:**" class="uri">data:**</a></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">source</span>(<span class="st">&quot;http://www.openintro.org/stat/data/present.R&quot;</span>)</code></pre></div>
+<div id="section" class="section level4">
+<h4>1:</h4>
 </div>
-<div id="lab" class="section level4">
-<h4>Lab</h4>
-<ul class="fa-ul">
-<li>
-<i class="fa-li fa fa-flask"></i>Lab 0 <a target="_blank" href=./Labs/lab0/lab0.html>Introduction to the Course</a>
-</ul>
+<div id="section-1" class="section level4">
+<h4>2:</h4>
 </div>
+<div id="section-2" class="section level4">
+<h4>3:</h4>
 </div>
-<div id="week-2" class="section level3">
-<h3>Week 2</h3>
-<div id="class-1" class="section level4">
-<h4>Class</h4>
-<ul class="fa-ul">
-<li>
-<i class="fa-li fa fa-bar-chart"></i> Jan 30 Data Collection + Exploratory data analysis <a href="/lessons/intro-to-r-with-gapminder.html">Deck 1</a>
-<li>
-<i class="fa-li fa fa-puzzle-piece"></i> Jan 30 Lab 0 Due
-<li>
-</ul>
+<div id="section-3" class="section level4">
+<h4>4:</h4>
 </div>
-<div id="lab-1" class="section level4">
-<h4>Lab</h4>
-<ul class="fa-ul">
-<li>
-<i class="fa-li fa fa-flask"></i>Lab 1 <a href=href=./Labs/lab1/intro_to_r.html>Intro to R</a>
-</ul>
-</div>
-</div>
-<div id="week-3" class="section level3">
-<h3>Week 3</h3>
-<div id="class-2" class="section level4">
-<h4>Class</h4>
-</div>
-<div id="lab-2" class="section level4">
-<h4>Lab</h4>
-</div>
-</div>
-<div id="week-5" class="section level3">
-<h3>Week 5</h3>
-</div>
-<div id="week-6" class="section level3">
-<h3>Week 6</h3>
 </div>
 
 

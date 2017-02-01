@@ -56,7 +56,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 #### Lab
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-flask"></i>Lab 1 <a href=href=./Labs/lab1/intro_to_r.html>Intro to R</a>
+<li><i class="fa-li fa fa-flask"></i>Lab 1 <a href=./Labs/lab1/intro_to_r.html>Intro to R</a>
 </ul>
 ### Week 3
 #### Class

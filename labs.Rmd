@@ -8,7 +8,7 @@ output:
 ## Labs
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab0/lab0.html>0.-- Introduction to the Course</a>
-<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab1/Xintro_to_r.html>1. -- Intro to R </a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab1/intro_to_r.html>1. -- Intro to R </a>
 <li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab2/Xlab2.html>      2. -- Introduction to Data</a>
 <li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab3/Xprobability.html>3. -- Probability</a>
 <li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab4/Xsampling_distributions.html>4. -- Sampling Distributions</a>

@@ -49,8 +49,8 @@ In particular, the pace of the course will be adjusted so that we move as possib
 #### Class
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-bar-chart"></i> Jan 30 Data Collection + Exploratory data analysis <a href="/lessons/intro-to-r-with-gapminder.html">Deck 1</a>
-<li><i class="fa-li fa fa-puzzle-piece"></i> Jan 30 Lab 0 Due<li>
+<li><i class="fa-li fa fa-bar-chart"></i> Jan 30 Data Collection + Exploratory data analysis <a href="/lessons/intro-to-r-with-gapminder.html">Deck 1.1</a>
+<li><i class="fa-li fa fa-puzzle-piece"></i> Jan 30 Lab 0 Due</a>
 </ul>
 
 #### Lab
@@ -58,8 +58,19 @@ In particular, the pace of the course will be adjusted so that we move as possib
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-flask"></i>Lab 1 <a href=./Labs/lab1/intro_to_r.html>Intro to R</a>
 </ul>
+
 ### Week 3
-#### 
+#### Class
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-gears"></i> Reading:  OpenIntro -  Ch 1, Sec 1.6-1.8</a>
+<li><i class="fa-li fa fa-bar-chart"></i> Feb 6 More exploratory data analysis<a href="/lessons/intro-to-r-with-gapminder.html"> Deck 1.2</a>
+</ul>
 #### Lab
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-gears"></i>Feb 8  Lab 1 Due</a>
+<li><i class="fa-li fa fa-flask"></i>Lab 2 <a href=./Labs/lab2/Xlab2.html> Introduction to Data</a>
+</ul>
+### Week 4
+
 ### Week 5
-### Week 6

@@ -92,33 +92,33 @@
 \headcommand {\beamer@framepages {55}{55}}
 \headcommand {\slideentry {9}{0}{6}{56/59}{}{0}}
 \headcommand {\beamer@framepages {56}{59}}
-\headcommand {\slideentry {9}{0}{7}{60/61}{}{0}}
-\headcommand {\beamer@framepages {60}{61}}
-\headcommand {\sectionentry {10}{Robust statistics are not easily affected by outliers and extreme skew}{62}{Robust statistics are not easily affected by outliers and extreme skew}{0}}
-\headcommand {\beamer@sectionpages {49}{61}}
-\headcommand {\beamer@subsectionpages {49}{61}}
-\headcommand {\slideentry {10}{0}{1}{62/62}{}{0}}
+\headcommand {\slideentry {9}{0}{7}{60/60}{}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\sectionentry {10}{Robust statistics are not easily affected by outliers and extreme skew}{61}{Robust statistics are not easily affected by outliers and extreme skew}{0}}
+\headcommand {\beamer@sectionpages {49}{60}}
+\headcommand {\beamer@subsectionpages {49}{60}}
+\headcommand {\slideentry {10}{0}{1}{61/61}{}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\slideentry {10}{0}{2}{62/62}{}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {10}{0}{2}{63/63}{}{0}}
+\headcommand {\sectionentry {11}{Use box plots to display quartiles, median, and outliers}{63}{Use box plots to display quartiles, median, and outliers}{0}}
+\headcommand {\beamer@sectionpages {61}{62}}
+\headcommand {\beamer@subsectionpages {61}{62}}
+\headcommand {\slideentry {11}{0}{1}{63/63}{}{0}}
 \headcommand {\beamer@framepages {63}{63}}
-\headcommand {\sectionentry {11}{Use box plots to display quartiles, median, and outliers}{64}{Use box plots to display quartiles, median, and outliers}{0}}
-\headcommand {\beamer@sectionpages {62}{63}}
-\headcommand {\beamer@subsectionpages {62}{63}}
-\headcommand {\slideentry {11}{0}{1}{64/64}{}{0}}
+\headcommand {\slideentry {11}{0}{2}{64/64}{}{0}}
 \headcommand {\beamer@framepages {64}{64}}
-\headcommand {\slideentry {11}{0}{2}{65/65}{}{0}}
+\headcommand {\slideentry {11}{0}{3}{65/65}{}{0}}
 \headcommand {\beamer@framepages {65}{65}}
-\headcommand {\slideentry {11}{0}{3}{66/66}{}{0}}
+\headcommand {\sectionentry {12}{Summary}{66}{Summary}{0}}
+\headcommand {\beamer@sectionpages {63}{65}}
+\headcommand {\beamer@subsectionpages {63}{65}}
+\headcommand {\slideentry {12}{0}{1}{66/66}{}{0}}
 \headcommand {\beamer@framepages {66}{66}}
-\headcommand {\sectionentry {12}{Summary}{67}{Summary}{0}}
-\headcommand {\beamer@sectionpages {64}{66}}
-\headcommand {\beamer@subsectionpages {64}{66}}
-\headcommand {\slideentry {12}{0}{1}{67/67}{}{0}}
+\headcommand {\slideentry {12}{0}{2}{67/67}{}{0}}
 \headcommand {\beamer@framepages {67}{67}}
-\headcommand {\slideentry {12}{0}{2}{68/68}{}{0}}
-\headcommand {\beamer@framepages {68}{68}}
-\headcommand {\beamer@partpages {1}{68}}
-\headcommand {\beamer@subsectionpages {67}{68}}
-\headcommand {\beamer@sectionpages {67}{68}}
-\headcommand {\beamer@documentpages {68}}
+\headcommand {\beamer@partpages {1}{67}}
+\headcommand {\beamer@subsectionpages {66}{67}}
+\headcommand {\beamer@sectionpages {66}{67}}
+\headcommand {\beamer@documentpages {67}}
 \headcommand {\def \inserttotalframenumber {26}}

@@ -35,7 +35,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-bar-chart"></i> Jan 25 Introduction to the course <a target="_blank" href="./Slides/topic0/topic0.pdf">Deck 0</a>
-<li><i class="fa-li fa fa-bar-chart"></i> Jan 30 Data Collection + Observational studies & experiments <a href="/lessons/intro-to-r-with-gapminder.html">Deck 1</a>
+
 <li><i class="fa-li fa fa-puzzle-piece"></i> Jan 30 Lab 0 Due<li>
 </ul>
 
@@ -49,7 +49,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 #### Class
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-bar-chart"></i> Jan 30 Data Collection + Exploratory data analysis <a href="/lessons/intro-to-r-with-gapminder.html">Deck 1.1</a>
+<li><i class="fa-li fa fa-bar-chart"></i> Jan 30 Data Collection + Observational studies & experiments <a target="_blank" href="./Slides/unit1/deck-1-1.pdf"> Deck 1.1</a>
 <li><i class="fa-li fa fa-puzzle-piece"></i> Jan 30 Lab 0 Due</a>
 </ul>
 

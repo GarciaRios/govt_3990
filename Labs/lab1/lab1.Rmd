@@ -1,12 +1,11 @@
 ---
 title: "Lab 1 - Intro to R and RStudio"
-author: "Team name"
-date: "August 31, 2015"
+author: "Name here"
+date: "Feb 1 2017"
 output:
   html_document:
-    theme: simplex
+    theme: cosmo
     highlight: haddock
-    css: ../labs.css
 ---
 
 ```{r setup, include=FALSE}
@@ -16,13 +15,9 @@ library(dplyr)
 library(ggplot2)
 ```
 
-**Author:** [Enter author name here]
-
-**Discussants:** [Enter discussant names here. Remember, these are other team members present in lab.]
-
 * * *
 
-**Load Arbuthnot's data:**
+**Load Arbuthnot's data: **
 ```{r}
 source("http://www.openintro.org/stat/data/arbuthnot.R")
 ```
@@ -52,7 +47,7 @@ arbuthnot$girls
 
 ### On your own:
 
-**Load present day data:**
+**Load present day data: **
 ```{r}
 source("http://www.openintro.org/stat/data/present.R")
 ```

@@ -22,6 +22,54 @@
 %%%%%%%%%%%%%%%%%%%%%%%%5
 
 
+%%%%%%%%%%%%%%%%
+% Color text commands
+%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%
+% User defined colors
+%%%%%%%%%%%%%%%%
+
+% Pantone 2016 Spring colors
+% https://atelierbram.github.io/c-tiles16/colorscheming/pantone-spring-2016-colortable.html
+% update each semester or year
+
+\xdefinecolor{custom_blue}{rgb}{0.01, 0.31, 0.52} % Snorkel Blue
+\xdefinecolor{custom_darkBlue}{rgb}{0.20, 0.20, 0.39} % Reflecting Pond  
+\xdefinecolor{custom_orange}{rgb}{0.96, 0.57, 0.42} % Cadmium Orange
+\xdefinecolor{custom_green}{rgb}{0, 0.47, 0.52} % Biscay Bay
+\xdefinecolor{custom_red}{rgb}{0.58, 0.32, 0.32} % Marsala
+\xdefinecolor{custom_lightGray}{rgb}{0.78, 0.80, 0.80} % Glacier Gray
+\xdefinecolor{custom_darkGray}{rgb}{0.35, 0.39, 0.43} % Stormy Weather
+
+
+
+%orange
+\newcommand{\orange}[1]{\textit{\textcolor{custom_orange}{#1}}}
+
+% yellow
+\newcommand{\yellow}[1]{\textit{\textcolor{yellow}{#1}}}
+
+% blue
+\newcommand{\blue}[1]{\textit{\textcolor{blue}{#1}}}
+
+% green
+\newcommand{\green}[1]{\textit{\textcolor{custom_green}{#1}}}
+
+% red
+\newcommand{\red}[1]{\textit{\textcolor{custom_red}{#1}}}
+
+% dark gray
+\newcommand{\darkgray}[1]{\textit{\textcolor{custom_darkGray}{#1}}}
+
+% light gray
+\newcommand{\lightgray}[1]{\textit{\textcolor{custom_lightGray}{#1}}}
+
+% pink
+\newcommand{\pink}[1]{\textit{\textcolor{pink}{#1}}}
+
 %\setbeamertemplate{section in toc}{\inserttocsectionnumber.~\inserttocsection}
 %\setbeamertemplate{subsection in toc}{$\qquad$\inserttocsubsectionnumber.~\inserttocsubsection \\}
 %
@@ -418,7 +466,7 @@ causality}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[fragile]
-\frametitle{From a past Sta 101 survey...}
+\frametitle{From a class survey...}
 
 \alert{Do you see anything out of the ordinary?}
 
@@ -452,7 +500,7 @@ we want to phrase it so that there is only one interpretation.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[fragile]
-\frametitle{From a past Sta 101 survey...}
+\frametitle{From a class survey...}
 
 \alert{How are people reporting lower vs. higher values of FB visits?}
 
@@ -690,46 +738,47 @@ mean, but not the median.  so it is more robust.
 
 \begin{frame}
 \frametitle{Standard deviation and variance}
-%
-%\begin{itemize}
-%
-%\item Most commonly used measure of variability is the \alert{standard deviation}, which roughly measures the average deviation from the mean
-%\begin{itemize}
-%\item Notation: $\sigma$: population standard deviation, $s$: sample standard deviation
-%\end{itemize}
-%
-%\item Calculating the standard deviation, for a population (rarely, if ever) and for a sample:
-%
-%\[{$\sigma = \sqrt{\frac{\sum_{i = 1}^N (x_i - \mu)^2}{n}}$} \qquad s = \sqrt{\frac{\sum_{i = 1}^n (x_i - \bar{x})^2}{n - 1}} \]
-%
-%\item Square of the standard deviation is called the \alert{variance}.
-%
-%\end{itemize}
-%
-%%---Note---%
-%\note{
-%
-%spread.  here we are going to go about standard deviation.
-%
-%one of the more tedious computations.
-%
-%it roughly measures the average deviation from the mean.
-%
-%we want to think about how far or how close the data are from the mean on
-%average.
-%
-%notation: sigma, greek population standard deviation.  s: sample standard
-%deviation.
-%
-%gray here is population data, we rarely have this.
-%
-%a couple things: used square.  and divide by $n-1$.
-%
-%why use squares.
-%
-%standard deviation is nice because it is the same units as what you measure.
-%
-%}
+
+\begin{itemize}
+
+\item Most commonly used measure of variability is the \alert{standard deviation}, which roughly measures the average deviation from the mean
+\begin{itemize}
+\item Notation: $\sigma$: population standard deviation, $s$: sample standard deviation
+\end{itemize}
+
+\item Calculating the standard deviation, for a population (rarely, if ever) and for a sample:
+
+\[ \darkgray{$\sigma = \sqrt{\frac{\sum_{i = 1}^N (x_i - \mu)^2}{n}}$} \qquad s = \sqrt{\frac{\sum_{i = 1}^n (x_i - \bar{x})^2}{n - 1}} \]
+
+
+\item Square of the standard deviation is called the \alert{variance}.
+
+\end{itemize}
+
+%---Note---%
+\note{
+
+spread.  here we are going to go about standard deviation.
+
+one of the more tedious computations.
+
+it roughly measures the average deviation from the mean.
+
+we want to think about how far or how close the data are from the mean on
+average.
+
+notation: sigma, greek population standard deviation.  s: sample standard
+deviation.
+
+gray here is population data, we rarely have this.
+
+a couple things: used square.  and divide by $n-1$.
+
+why use squares.
+
+standard deviation is nice because it is the same units as what you measure.
+
+}
 
 \end{frame}
 

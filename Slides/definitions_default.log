@@ -1,0 +1,22 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  5 FEB 2017 20:53
+entering extended mode
+**./definitions_default.tex
+(definitions_default.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 72 language(s) loaded.
+)
+! Emergency stop.
+<*> ./definitions_default.tex
+                             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 15 strings out of 428441
+ 203 string characters out of 3157317
+ 52764 words of memory out of 3000000
+ 3500 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1314 hyphenation exceptions out of 8191
+ 7i,0n,6p,103b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

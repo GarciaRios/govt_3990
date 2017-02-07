@@ -5,12 +5,12 @@
 % See http://deic.uab.es/~iblanes/beamer_gallery/ for mor options
 
 % Style theme
-%\usetheme{Pittsburgh}
-%
-%% Color theme
+\usetheme{metropolis}
+
+% Color theme
 %\usecolortheme{seahorse}
-%
-%% Helvetica Neue Light for most text
+
+% Helvetica Neue Light for most text
 %\usepackage{fontspec}
 %\setsansfont{Helvetica Neue Light}
 
@@ -18,34 +18,34 @@
 % Packages
 %%%%%%%%%%%%%%%%
 
-%\usepackage{geometry}
-%\usepackage{graphicx}
-%\usepackage{amssymb}
-%\usepackage{epstopdf}
-%\usepackage{amsmath}  	% this permits text in eqnarray among other benefits
-%\usepackage{url}		% produces hyperlinks
-%\usepackage[english]{babel}
-%\usepackage{colortbl}	% allows for color usage in tables
-%\usepackage{multirow}	% allows for rows that span multiple rows in tables
-%\usepackage{color}		% this package has a variety of color options
-%\usepackage{pgf}
-%\usepackage{calc}
-%\usepackage{ulem}
-%\usepackage{multicol}
-%\usepackage{textcomp}
-%\usepackage{listings}
-%\usepackage{changepage}
-%\usepackage{tikz}
-%\usetikzlibrary{trees}		% for probability trees
-%\usepackage{fancyvrb}	% for colored code chunks
-%\usepackage{nameref}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{amsmath}  	% this permits text in eqnarray among other benefits
+\usepackage{url}		% produces hyperlinks
+\usepackage[english]{babel}
+\usepackage{colortbl}	% allows for color usage in tables
+\usepackage{multirow}	% allows for rows that span multiple rows in tables
+\usepackage{color}		% this package has a variety of color options
+\usepackage{pgf}
+\usepackage{calc}
+\usepackage{ulem}
+\usepackage{multicol}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{changepage}
+\usepackage{tikz}
+\usetikzlibrary{trees}		% for probability trees
+\usepackage{fancyvrb}	% for colored code chunks
+\usepackage{nameref}
 
 %%%%%%%%%%%%%%%%
 % Remove navigation symbols
 %%%%%%%%%%%%%%%%
 
-%\beamertemplatenavigationsymbolsempty
-%\hypersetup{pdfpagemode=UseNone} % don't show bookmarks on initial view
+\beamertemplatenavigationsymbolsempty
+\hypersetup{pdfpagemode=UseNone} % don't show bookmarks on initial view
 
 %%%%%%%%%%%%%%%%
 % User defined colors
@@ -75,18 +75,18 @@
 %
 %\setbeamercolor{structure}{fg= custom_blue}
 %\setbeamercolor{frametitle}{bg= custom_blue!90}
-\setbeamertemplate{blocks}[shadow=false]
+%\setbeamertemplate{blocks}[shadow=false]
 %\setbeamersize{text margin left=2em,text margin right=2em}
 
 %%%%%%%%%%%%%%%%
 % Styling fonts, bullets, etc.
 %%%%%%%%%%%%%%%%
-
+%
 %% title slide
 %\setbeamerfont{title}{size=\large,series=\bfseries}
 %\setbeamerfont{subtitle}{size=\large,series=\mdseries}
 %%\setbeamerfont{institute}{size=\large,series=\mdseries}
-
+%
 % color of alerted text
 \setbeamercolor{alerted text}{fg=custom_orange}
 
@@ -98,8 +98,9 @@
 \setbeamerfont{itemize/enumerate subbody}{size=\footnotesize}
 \setbeamerfont{itemize/enumerate subitem}{size=\footnotesize}
 
-%% styling of enumerate bullets
-%\setbeamertemplate{enumerate item}{\insertenumlabel.}
+% styling of enumerate bullets
+\setbeamertemplate{enumerate item}{\insertenumlabel.}
+
 %\setbeamerfont{enumerate item}{family={\fontspec{Helvetica Neue}}}
 %\setbeamerfont{enumerate subitem}{family={\fontspec{Helvetica Neue}}}
 %\setbeamerfont{enumerate subsubitem}{family={\fontspec{Helvetica Neue}}}
@@ -107,18 +108,21 @@
 % make frame titles small to make room in the slide
 \setbeamerfont{frametitle}{size=\small} 
 
-% set Helvetica Neue font for frame and section titles
-\setbeamerfont{frametitle}{family={\fontspec{Helvetica Neue}}}
-\setbeamerfont{sectiontitle}{family={\fontspec{Helvetica Neue}}}
-\setbeamerfont{section in toc}{family={\fontspec{Helvetica Neue}}}
-\setbeamerfont{subsection in toc}{family={\fontspec{Helvetica Neue}}, size=\small}
-\setbeamerfont{footline}{family={\fontspec{Helvetica Neue}}}
-\setbeamerfont{subsection in toc}{family={\fontspec{Helvetica Neue}}}
-\setbeamerfont{block title}{family={\fontspec{Helvetica Neue}}}
 
-%%%%%%%%%%%%%%%%
-% New fonts accessed by fontspec package
-%%%%%%%%%%%%%%%%
+
+
+%% set Helvetica Neue font for frame and section titles
+%\setbeamerfont{frametitle}{family={\fontspec{Helvetica Neue}}}
+%\setbeamerfont{sectiontitle}{family={\fontspec{Helvetica Neue}}}
+%\setbeamerfont{section in toc}{family={\fontspec{Helvetica Neue}}}
+%\setbeamerfont{subsection in toc}{family={\fontspec{Helvetica Neue}}, size=\small}
+%\setbeamerfont{footline}{family={\fontspec{Helvetica Neue}}}
+%\setbeamerfont{subsection in toc}{family={\fontspec{Helvetica Neue}}}
+%\setbeamerfont{block title}{family={\fontspec{Helvetica Neue}}}
+%
+%%%%%%%%%%%%%%%%%
+%% New fonts accessed by fontspec package
+%%%%%%%%%%%%%%%%%
 %
 %% Monaco font for code
 %\newfontfamily{\monaco}{Monaco}
@@ -376,11 +380,3 @@
   } 
   }
 }
-
-
-% solution stuff
-\newcommand{\solnMult}[1]{
-\only<1>{#1}
-\only<2->{\red{\textbf{#1}}}
-}
-\newcommand{\soln}[1]{\textit{#1}}

@@ -12,14 +12,13 @@ output:
 knitr::opts_chunk$set(eval = FALSE)
 library(dplyr)
 library(ggplot2)
-load(url("https://stat.duke.edu/~mc301/data/nycflights.RData"))
 ```
 
 <div id="template">
 **Your reproducible lab report: ** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-download.file("http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab2.Rmd", destfile = "lab2.Rmd")
+download.file("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab2/lab2.Rmd", destfile = "lab2.Rmd")
 ```
 </div>
 

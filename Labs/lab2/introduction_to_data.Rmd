@@ -12,6 +12,7 @@ output:
 knitr::opts_chunk$set(eval = FALSE)
 library(dplyr)
 library(ggplot2)
+load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab2/Data/nycflights.RData"))
 ```
 
 <div id="template">

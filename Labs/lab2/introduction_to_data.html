@@ -161,7 +161,7 @@ $(document).ready(function () {
 
 <div id="template">
 <p><strong>Your reproducible lab report: </strong> Before you get started, download the R Markdown template for this lab. Remember all of your code and answers go in this document:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">download.file</span>(<span class="st">&quot;http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab2.Rmd&quot;</span>, <span class="dt">destfile =</span> <span class="st">&quot;lab2.Rmd&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">download.file</span>(<span class="st">&quot;https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab2/lab2.Rmd&quot;</span>, <span class="dt">destfile =</span> <span class="st">&quot;lab2.Rmd&quot;</span>)</code></pre></div>
 </div>
 <p>Some define statistics as the field that focuses on turning information into knowledge. The first step in that process is to summarize and describe the raw information - the data. In this lab we explore flights, specifically a random sample of 32735 domestic flights that departed from the three major New York City airport in 2013. We will generate simple graphical and numerical summaries of data on these flights and explore delay times. As this is a large data set, along the way you’ll also learn the indispensable skills of data processing and subsetting.</p>
 <div id="boxedtext">
@@ -173,7 +173,7 @@ $(document).ready(function () {
 <h3>Data</h3>
 <p>The <a href="http://www.rita.dot.gov/bts/about/">Bureau of Transportation Statistics</a> (BTS) is a statistical agency that is a part of the Research and Innovative Technology Administration (RITA). As its name implies, BTS collects and makes available transportation data, such as the flights data we will be working with in this lab.</p>
 <p>We begin by loading the data set of 32735 observations into the R workspace. After launching RStudio, enter the following command.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="kw">url</span>(<span class="st">&quot;https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab1/Data/nycflights.RData&quot;</span>))</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="kw">url</span>(<span class="st">&quot;https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab2/Data/nycflights.RData&quot;</span>))</code></pre></div>
 <p>The data set <code>nycflights</code> that shows up in your workspace is a <em>data matrix</em>, with each row representing an <em>observation</em> and each column representing a <em>variable</em>. R calls this data format a <strong>data frame</strong>, which is a term that will be used throughout the labs.</p>
 <p>To view the names of the variables, type the command</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">names</span>(nycflights)</code></pre></div>

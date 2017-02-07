@@ -1,0 +1,6 @@
+---
+title: Not Found
+---
+
+### Page not found. Go back to the <a href="/">homepage</a>.
+<p><img src="404.jpg" alt="page not found" /></p>

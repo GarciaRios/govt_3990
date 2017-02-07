@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Use segmented bar plots or mosaic plots for visualizing relationships between two categorical variables}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Use side-by-side box plots to visualize relationships between a numerical and categorical variable}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{Not all observed differences are statistically significant}{12}{0}{2}
+\beamer@subsectionintoc {2}{4}{Be aware of Simpson's paradox}{14}{0}{2}
+\beamer@sectionintoc {3}{Application Exercise}{28}{0}{3}
+\beamer@sectionintoc {4}{Summary}{30}{0}{4}

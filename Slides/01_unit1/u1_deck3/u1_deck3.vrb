@@ -1,0 +1,13 @@
+\frametitle{2. Use side-by-side box plots to visualize relationships between a numerical and categorical variable}
+
+\disc{How do drinking habits of vegetarian vs. non-vegetarian students compare?}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figures/survey/box_drinks_veg}
+\end{center}
+
+%---Note---%
+\note{
+
+}
+

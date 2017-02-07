@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Use a sample to make inferences about the population}{3}{0}{1}
+\beamer@sectionintoc {2}{Ideally use a simple random sample, stratify to control for a variable, and cluster to make sampling easier}{13}{0}{2}
+\beamer@sectionintoc {3}{Sampling schemes can suffer from a variety of biases}{20}{0}{3}
+\beamer@sectionintoc {4}{Experiments use random assignment to treatment groups, observational studies do not}{26}{0}{4}
+\beamer@sectionintoc {5}{Four principles of experimental design: randomize, control, block, replicate}{32}{0}{5}
+\beamer@sectionintoc {6}{Random sampling helps generalizability, random assignment helps causality}{37}{0}{6}
+\beamer@sectionintoc {7}{Summary}{39}{0}{7}
+\beamer@sectionintoc {8}{Always start your exploration with a visualization}{42}{0}{8}
+\beamer@sectionintoc {9}{When describing numerical distributions discuss shape, center, spread, and unusual observations}{49}{0}{9}
+\beamer@sectionintoc {10}{Robust statistics are not easily affected by outliers and extreme skew}{61}{0}{10}
+\beamer@sectionintoc {11}{Use box plots to display quartiles, median, and outliers}{63}{0}{11}
+\beamer@sectionintoc {12}{Summary}{66}{0}{12}

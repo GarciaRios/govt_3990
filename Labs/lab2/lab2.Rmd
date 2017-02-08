@@ -1,6 +1,6 @@
 ---
 title: "Lab 2 - Intro to data"
-author: "Team name"
+author: "Name here"
 date: "Date of lab session"
 output: 
   html_document: 
@@ -22,7 +22,7 @@ library(ggplot2)
 
 #### Load data:
 ```{r}
-load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab2/Data/nycflights.RData"))
+load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab2/Data/cdc.RData"))
 ```
 
 #### Exercise 1: 

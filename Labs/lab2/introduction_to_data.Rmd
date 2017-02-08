@@ -53,14 +53,14 @@ We will focus on a random sample of 20,000 people from the BRFSS survey
 conducted in 2000. While there are over 200  variables in this data set, we will
 work with a small subset.
 
-We begin by loading the data set of 20,000 observations into the R workspace. 
+We begin by loading the data set of 20,000 observations into the R work space. 
 After launching RStudio, enter the following command.
 
 ```{r load-data}
-load(url("https://stat.duke.edu/~mc301/data/cdc.RData"))
+load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab2/Data/cdc.RData"))
 ```
 
-The data set `cdc` that shows up in your workspace is a *data matrix*, with each
+The data set `cdc` that shows up in your work space is a *data matrix*, with each
 row representing a *case* and each column representing a *variable*. R calls 
 this data format a *data frame*, which is a term that will be used throughout 
 the labs.
@@ -83,8 +83,8 @@ We call this a **codebook**:
     - good 
     - fair 
     - poor 
-  + `exerany` Wether the respondent exercised in the past month: yes (1) or did not (0).
-  + `hlthplan` Whether the respondent had some form of health coverage: yes (1) or di not (0). 
+  + `exerany` Whether the respondent exercised in the past month: yes (1) or did not (0).
+  + `hlthplan` Whether the respondent had some form of health coverage: yes (1) or did not (0). 
   + `smoke100` Whether the respondent had smoked at least 100 cigarettes in her lifetime. 
   + `height` Respondent's height in inches. 
   + `weight` Respondent's weight in pounds. 
@@ -114,7 +114,7 @@ The BRFSS questionnaire is a massive trove of information. A good first step in
 any analysis is to distill all of that information into a few summary statistics
 and graphics. 
 
-Previously we used `qplot` which is simple version of `ggplot`
+Previously we used `qplot` which is the simplified version of `ggplot`
 
 Let's start with some histograms. We can create a the histogram for the age of our respondents with the following command:
 
@@ -123,14 +123,14 @@ ggplot(cdc, aes(x = age)) +
   geom_histogram()
 ```
 
-This functions says to plot `age` on the x-axis. It also defines a `geom` (short for 
+This functions says to plot `age` on the x-axis, this information and more goes into the aesthetic components `aes`. It also defines a `geom` (short for 
 geometric object), which describes the type of plot you will produce. 
 
 
 
 Histograms are generally a very good way to see the shape of a single 
 distribution, but that shape can change depending on how the data is split 
-between the different bins. You can easily define the binwidth you want to use (notice that it can go in the initial set up or inside the `geom`:
+between the different bins. You can easily define the binwidth you want to use (notice that it can go in the initial set up or inside the `geom`):
 
 ```{r hist-bmi}
 ggplot(cdc, aes(x = age)) + 
@@ -295,7 +295,7 @@ How are these two variables related?
 
 ### Between two categorical variables
 
-To create a segmented bar plots we can use the following two optoons.
+To create a segmented bar plots we can use the following two options.
 
 ```{r mosaic-smoke-gender}
 ggplot(cdc, aes(x = gender)) + 
@@ -320,9 +320,6 @@ ggplot(cdc, aes(x= gender, y = height)) +
   geom_boxplot()
 ```
 
-The notation here is new. `geom`, short for geometric objects, describe the type of 
-plot you will produce. So we're asking R to give us a box plots of heights where 
-the groups are defined by gender. 
 
 Next let's consider a new variable that doesn't show up directly in this data 
 set: Body Mass Index (BMI) 
@@ -469,4 +466,4 @@ will serve us well throughout this course.
 -   Using numerical summaries and side-by-side box plots, determine if men tend
     to view their weight differently than women.
 
--   Now it's time to get creative. Make a scatter plot of weight vs desire wiegh and add a new aestetic elemnt to the scatter with `color` with your choice of an interesting variable. Explain your findings.
+-   Now it's time to get creative. Make a scatter plot of weight vs desired weight and add a new aesthetic element to the scatter with `color` with your choice of an interesting variable. Explain your findings.

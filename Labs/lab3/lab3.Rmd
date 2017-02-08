@@ -1,11 +1,12 @@
 ---
 title: "Lab 3 - Probability"
-author: "Enter team name here"
-date: "Enter date here"
+author: "Team name"
+date: "Date of lab session"
 output: 
   html_document: 
-    theme: simplex
+    fig_height: 4
     highlight: pygments
+    theme: spacelab
 ---
 
 ```{r setup, include=FALSE}
@@ -15,15 +16,13 @@ library(dplyr)
 library(ggplot2)
 ```
 
-**Author:** Enter author name here
-
-**Discussants:** Enter discussant names here. Remember, these are other team members present in lab.
-
 * * *
 
-**Load Hot Hand files:**
+## Lab report
+
+#### Load data:
 ```{r}
-load(url("https://stat.duke.edu/~mc301/data/hot_hand.RData")) 
+load(url("https://stat.duke.edu/~mc301/data/hot_hand.RData"))
 ```
 
 ## Exercises:
@@ -31,14 +30,29 @@ load(url("https://stat.duke.edu/~mc301/data/hot_hand.RData"))
 #### Exercise 1: 
 
 
+
 #### Exercise 2: 
+
+
+```{r ex2}
+
+```
 
 
 #### Exercise 3: 
 
 
+```{r ex3}
+
+```
+
+
 #### Exercise 4: 
 
+
+```{r ex4}
+
+```
 
 
 * * *
@@ -48,7 +62,17 @@ load(url("https://stat.duke.edu/~mc301/data/hot_hand.RData"))
 #### 1: 
 
 
+```{r oyo1}
+
+```
+
+
 #### 2: 
+
+
+```{r oyo2}
+
+```
 
 
 #### 3: 
@@ -58,3 +82,22 @@ load(url("https://stat.duke.edu/~mc301/data/hot_hand.RData"))
 
 
 #### 5:
+
+
+* * *
+
+## Teamwork report
+
+<!--
+For each team member, write their name, whether they attended the lab session, 
+whether they were the author for this week, and their contribution to the lab 
+report (as a percentage). The percentages should add up to 100.
+-->
+
+| Team member             | Attendance | Author   | Contribution % |
+|:------------------------|:----------:|:--------:|---------------:|
+| Name of member 1        | Yes / No   | Yes / No | 25%            |
+| Name of member 2        | Yes / No   | Yes / No | 25%            |
+| Name of member 3        | Yes / No   | Yes / No | 25%            |
+| Name of member 4        | Yes / No   | Yes / No | 25%            |
+| Total                   |            |          | 100%           |

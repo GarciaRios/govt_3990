@@ -1,34 +1,31 @@
 ---
-title: "Lab 7 - (More) Inference for numerical data"
-author: "Enter team name here"
-date: "Enter date here"
+title: "Lab 7 - More inference for numerical data"
+author: "Team name"
+date: "Date of lab session"
 output: 
   html_document: 
+    fig_height: 4
     highlight: pygments
+    theme: spacelab
 ---
 
 ```{r setup, include=FALSE}
 # DO NOT ALTER CODE IN THIS CHUNK
-knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(cache = TRUE)
 library(dplyr)
 library(ggplot2)
-library(mosaic)
 ```
-
-**Author:** Enter author name here
-
-**Discussants:** Enter discussant names here. Remember, these are other team members present in lab.
 
 * * *
 
-**Load ACS dataset:**
-```{r}
+## Lab report
+
+#### Load data:
+```{r load-data}
 load(url("https://stat.duke.edu/~mc301/data/acs.RData"))
 ```
 
-**Load inference function:**
-```{r}
+#### Load data:
+```{r load-inference}
 load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
 ```
 
@@ -37,26 +34,57 @@ load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
 
 #### Exercise 1: 
 
+```{r ex1}
+
+```
 
 #### Exercise 2: 
 
 
+```{r ex2}
+
+```
+
+
 #### Exercise 3: 
+
+```{r ex3}
+
+```
 
 
 #### Exercise 4: 
 
 
-#### Exercise 5:
+```{r ex4}
 
+```
+
+
+#### Exercise 5: 
+
+```{r ex5}
+
+```
 
 #### Exercise 6:
 
+```{r ex6}
+
+```
 
 #### Exercise 7:
 
+```{r ex7}
+
+```
 
 #### Exercise 8:
+
+```{r ex8}
+
+```
+
 
 * * *
 
@@ -65,22 +93,68 @@ load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
 #### 1: 
 
 
+```{r oyo1}
+
+```
+
+
 #### 2: 
+
+```{r oyo2}
+
+```
 
 
 #### 3:
+
+```{r oyo 3}
+
+```
 
 
 #### 4:
 
 
-#### 5: 
+```{r oyo4}
 
 
-#### 6: 
+```
 
 
-#### 7: 
+#### 5:
+
+```{r oyo5}
 
 
+```
 
+#### 6:
+
+```{r oyo6}
+
+
+```
+
+
+#### 7:
+
+```{r oyo7}
+
+
+```
+
+## Teamwork report
+
+<!--
+For each team member, write their name, whether they attended the lab session, 
+whether they were the author for this week, and their contribution to the lab 
+report (as a percentage). The percentages should add up to 100.
+-->
+
+| Team member             | Attendance | Author   | Contribution % |
+|:------------------------|:----------:|:--------:|---------------:|
+| Name of member 1        | Yes / No   | Yes / No | 25%            |
+| Name of member 2        | Yes / No   | Yes / No | 25%            |
+| Name of member 3        | Yes / No   | Yes / No | 25%            |
+| Name of member 4        | Yes / No   | Yes / No | 25%            |
+| Total                   |            |          | 100%           |

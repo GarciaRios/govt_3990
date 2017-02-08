@@ -1,29 +1,27 @@
 ---
-title: "Multiple linear regression"
-author: "Enter team name here"
-date: "Enter date here"
+title: "Lab 10 - Multiple linear regression"
+author: "Team name"
+date: "Date of lab session"
 output: 
   html_document: 
+    fig_height: 4
     highlight: pygments
+    theme: spacelab
 ---
 
 ```{r setup, include=FALSE}
 # DO NOT ALTER CODE IN THIS CHUNK
-knitr::opts_chunk$set(echo = TRUE)
 library(dplyr)
 library(ggplot2)
-library(GGally)
 ```
-
-**Author:** Enter author name here
-
-**Discussants:** Enter discussant names here. Remember, these are other team members present in lab.
 
 * * *
 
-**Load evals dataset:**
-```{r}
-load(url("http://www.openintro.org/stat/data/evals.RData"))
+## Lab report
+
+#### Load data:
+```{r load-data}
+load(url("https://stat.duke.edu/~mc301/data/mlb11.RData"))
 ```
 
 
@@ -32,25 +30,34 @@ load(url("http://www.openintro.org/stat/data/evals.RData"))
 #### Exercise 1: 
 
 
+
 #### Exercise 2: 
+
 
 
 #### Exercise 3: 
 
 
+
 #### Exercise 4: 
 
 
-#### Exercise 5:
+
+
+#### Exercise 5: 
+
 
 
 #### Exercise 6:
 
 
+
 #### Exercise 7:
 
 
+
 #### Exercise 8:
+
 
 
 #### Exercise 9:
@@ -84,3 +91,23 @@ load(url("http://www.openintro.org/stat/data/evals.RData"))
 
 
 #### Exercise 19:
+
+
+* * *
+
+
+## Teamwork report
+
+<!--
+For each team member, write their name, whether they attended the lab session, 
+whether they were the author for this week, and their contribution to the lab 
+report (as a percentage). The percentages should add up to 100.
+-->
+
+| Team member             | Attendance | Author   | Contribution % |
+|:------------------------|:----------:|:--------:|---------------:|
+| Name of member 1        | Yes / No   | Yes / No | 25%            |
+| Name of member 2        | Yes / No   | Yes / No | 25%            |
+| Name of member 3        | Yes / No   | Yes / No | 25%            |
+| Name of member 4        | Yes / No   | Yes / No | 25%            |
+| Total                   |            |          | 100%           |

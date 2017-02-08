@@ -2,9 +2,9 @@
 title: "Probability"
 output:
   html_document:
-    theme: simplex
+    theme: cerulean
     highlight: pygments
-    css: ../labs.css
+    css: ../lab.css
 ---
 
 ```{r global_options, include=FALSE}
@@ -38,8 +38,7 @@ everything you expected it to contain.
 **Your reproducible lab report:** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-download("http://stat.duke.edu/courses/Fall15/sta101.002/rmd/lab3.Rmd", 
-         destfile = "lab3.Rmd")
+download.file("http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab3.Rmd", destfile = "lab3.Rmd")
 ```
 </div>
 
@@ -91,13 +90,7 @@ his nine shot attempts in the first quarter:
 
 \[ \textrm{H M | M | H H M | M | M | M} \]
 
-To verify this use the following command:
-
-```{r first9}
-kobe_basket %>%
-  filter(game == 1, quarter == 1) %>%
-  select(shot)
-```
+You can verify this by viewing the first 8 rows of the data in the data viewer.
 
 Within the nine shot attempts, there are six streaks, which are separated by a 
 "|" above. Their lengths are one, zero, two, zero, zero, zero (in order of 
@@ -111,9 +104,7 @@ use the custom function `calc_streak` to calculate them, and store the results
 in a data frame called `kobe_streak` as the `length` variable.
 
 ```{r calc-streak-kobe}
-kobe_streak <- kobe_basket %>%
-  select(shot) %>%
-  calc_streak()
+kobe_streak <- calc_streak(kobe_basket$shot)
 ```
 
 We can then take a look at the distribution of these streak lengths.

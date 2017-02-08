@@ -3,7 +3,7 @@ title: "Inference for categorical data"
 runtime: shiny
 output:
   html_document:
-    css: ~/Desktop/Teaching/Sta101_F15/Labs/lab.css
+    css: www/lab.css
     highlight: pygments
     theme: cerulean
 ---
@@ -19,7 +19,7 @@ library(ggplot2)
 **Your reproducible lab report:** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-download("http://stat.duke.edu/courses/Fall15/sta101.002/rmd/lab8.Rmd", destfile = "lab8.Rmd")
+download("http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab8.Rmd", destfile = "lab8.Rmd")
 ```
 </div>
 
@@ -46,11 +46,11 @@ International, click on the following link:
 
 Take a moment to review the report then address the following questions.
 
-**Ex 1.**  In the first paragraph, several key findings are reported. Do these 
+1.  In the first paragraph, several key findings are reported. Do these 
     percentages appear to be *sample statistics* (derived from the data 
     sample) or *population parameters*? Explain your reasoning.
 
-**Ex 2.**  The title of the report is "Global Index of Religiosity and Atheism". To
+1.  The title of the report is "Global Index of Religiosity and Atheism". To
     generalize the report's findings to the global human population, what must 
     we assume about the sampling method? Does that seem like a reasonable 
     assumption?
@@ -67,7 +67,7 @@ set into R with the following command.
 load(url("https://stat.duke.edu/~mc301/data/atheism.RData"))
 ```
 
-**Ex 3.**  What does each row of Table 6 correspond to? What does each row of 
+1.   What does each row of Table 6 correspond to? What does each row of 
     `atheism` correspond to?
 
 To investigate the link between these two ways of organizing this data, take a 
@@ -75,7 +75,7 @@ look at the estimated proportion of atheists in the United States. Towards
 the bottom of Table 6, we see that this is 5%. We should be able to come to 
 the same number using the `atheism` data.
 
-**Ex 4.**  Using the command below, create a new dataframe called `us12` that contains
+1.  Using the command below, create a new dataframe called `us12` that contains
     only the rows in `atheism` associated with respondents to the 2012 survey 
     from the United States. Next, calculate the proportion of atheist 
     responses. Does it agree with the percentage in Table 6? If not, why?
@@ -98,7 +98,7 @@ The inferential tools for estimating population proportion are analogous to
 those used for means in the last chapter: the confidence interval and the 
 hypothesis test.
 
-**Ex 5.**  Write out the conditions for inference to construct a 95% confidence
+1.  Write out the conditions for inference to construct a 95% confidence
     interval for the proportion of atheists in the United States in 2012.
     Are you confident all conditions are met?
 
@@ -128,10 +128,10 @@ Although formal confidence intervals and hypothesis tests don't show up in the
 report, suggestions of inference appear at the bottom of page 7: "In general, 
 the error margin for surveys of this kind is $\pm$ 3-5% at 95% confidence".
 
-**Ex 6.**  Based on the R output, what is the margin of error for the estimate of the 
+1.  Based on the R output, what is the margin of error for the estimate of the 
     proportion of the proportion of atheists in US in 2012?
 
-**Ex 7.**  Using the `inference` function, calculate confidence intervals for the 
+1.  Using the `inference` function, calculate confidence intervals for the 
     proportion of atheists in 2012 in two other countries of your choice, and 
     report the associated margins of error. Be sure to note whether the 
     conditions for inference are met, and interpet the interval in context of the data.
@@ -181,7 +181,7 @@ qplot(x = p, y = me, data = dd,
       ylab = "Margin of Error", xlab = "Population Proportion")
 ```
 
-**Ex 8.**  Describe the relationship between `p` and `me`. Include the margin of
+1.  Describe the relationship between `p` and `me`. Include the margin of
     error vs. population proportion plot you constructed in your answer. For
     a given sample size, for which value of `p` is margin of error maximized?
 
@@ -235,16 +235,16 @@ renderPlot({
 })
 ```
 
-**Ex 9.**  Describe the sampling distribution of sample proportions at $n = 300$ and 
+1.  Describe the sampling distribution of sample proportions at $n = 300$ and 
     $p = 0.1$. Be sure to note the center, spread, and shape.
 
-**Ex 10.**  Keep $n$ constant and change $p$. How does the shape, center, and spread 
+1.  Keep $n$ constant and change $p$. How does the shape, center, and spread 
     of the sampling distribution vary as $p$ changes. You might want to adjust
     min and max for the x-axis for a better view of the distribution.
     
-**Ex 11.**  Now also change $n$.How does $n$ appear to affect the distribution of $\hat{p}$?
+1.  Now also change $n$.How does $n$ appear to affect the distribution of $\hat{p}$?
 
-**Ex 12.**  If you refer to Table 6, you'll find that Australia has a sample 
+1.  If you refer to Table 6, you'll find that Australia has a sample 
     proportion of 0.1 on a sample size of 1040, and that Ecuador has a sample 
     proportion of 0.02 on 400 subjects. Let's suppose for this exercise that 
     these point estimates are actually the truth. Construct their sampling
@@ -253,6 +253,8 @@ renderPlot({
     report does?
 
 * * *
+
+<div class="oyo">
 
 ## On your own
 
@@ -285,6 +287,8 @@ from 2005 and 2012 for 39 countries.
     guidelines?\
     *Hint:* Refer to your plot of the relationship between $p$ and margin of 
     error. This question does not require using the dataset.
+
+</div>
 
 <div id="license">
 This is a product of OpenIntro that is released under a [Creative Commons 

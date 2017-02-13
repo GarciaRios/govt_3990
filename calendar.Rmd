@@ -72,6 +72,16 @@ In particular, the pace of the course will be adjusted so that we move as possib
 <li><i class="fa-li fa fa-flask"></i>Lab 2 <a href=./Labs/lab2/introduction_to_data.html> Introduction to Data</a>
 </ul>
 ### Week 4
+#### Class
 
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-gears"></i> Reading:  OpenIntro -  Ch 1, Sec 1.6-1.8</a>
+<li><i class="fa-li fa fa-bar-chart"></i> Feb 6 More exploratory data analysis<a href="/lessons/intro-to-r-with-gapminder.html"> Deck 1.2</a>
+</ul>
+#### Lab
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-gears"></i>Feb 8 -  Lab 2 Due</a>
+<li><i class="fa-li fa fa-flask"></i>Lab 2 <a href=./Labs/lab2/introduction_to_data.html> Introduction to Data</a>
+</ul>
 
 ### Week 5

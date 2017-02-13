@@ -2,9 +2,10 @@
 title: "Probability"
 output:
   html_document:
-    theme: cerulean
-    highlight: pygments
-    css: ../lab.css
+    theme: simplex
+    highlight: haddock
+    css: ..\labs.css
+    toc: yes
 ---
 
 ```{r global_options, include=FALSE}
@@ -38,7 +39,7 @@ everything you expected it to contain.
 **Your reproducible lab report:** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-download.file("http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab3.Rmd", destfile = "lab3.Rmd")
+download.file("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab3/lab3.Rmd", destfile = "lab3.Rmd")
 ```
 </div>
 
@@ -67,7 +68,7 @@ commented on how he appeared to show a hot hand. Let's load some necessary files
 that we will need for this lab.
 
 ```{r load-data}
-load(url("https://stat.duke.edu/~mc301/data/hot_hand.RData"))
+load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab3/resources/hot_hand.RData"))
 ```
 
 You should see in your Environment tab that two new objects appear: `kobe_basket` 
@@ -113,9 +114,11 @@ We can then take a look at the distribution of these streak lengths.
 qplot(data = kobe_streak, x = length, geom = "histogram", binwidth = 1)
 ```
 
-2.  Describe the distribution of Kobe's streak lengths from the 2009 NBA finals. 
-    What was his typical streak length? How long was his longest streak of 
-    baskets? Make sure to include the accompanying plot in your answer.
+2.  Describe the distribution of Kobe's streak lengths from the 2009 NBA finals. Look at different games by subsetting your data with `filter`.
+
+    What was his typical streak length? How long was his longest streak of  baskets? 
+    
+    Make sure to include the accompanying plot in your answer.
 
 ## Compared to What?
 
@@ -143,7 +146,7 @@ the probability that he makes his second shot would go up to, let's say, 60%,
 
 \[ P(\textrm{shot 2 = H} \, | \, \textrm{shot 1 = H}) = 0.60 \]
 
-As a result of these increased probabilites, you'd expect Kobe to have longer 
+As a result of these increased probabilities, you'd expect Kobe to have longer 
 streaks. Compare this to the skeptical perspective where Kobe does *not* have a
 hot hand, where each shot is independent of the next. If he hit his first shot,
 the probability that he makes the second is still 0.45.
@@ -230,7 +233,7 @@ set a seed like this:
 ```{r set-seed}
 set.seed(9102015)                 # make sure to change the seed
 ```
-The number above is completely arbitraty. If you need inspiration, you can use your
+The number above is completely arbitrary. If you need inspiration, you can use your
 ID, birthday, or just a random string of numbers. The important thing is that you
 use each seed only once. Remember to do this **before** you sample in the exercise 
 above.
@@ -311,16 +314,11 @@ a hot hand.
     comparison, do you have evidence that the hot hand model fits Kobe's 
     shooting patterns? Explain.
 
--   What concepts from the textbook are covered in this lab? What concepts, if 
-    any, are not covered in the textbook? Have you seen these concepts elsewhere,
-    e.g. class, videos, textbook, previous labs, or homework problems? Be
-    specific in your answer.
+-   Make sure your document includes tables and you reference the information in those table while providing your answers.
 
 </div>
 
 <div id="license">
-This is a product of OpenIntro that is released under a 
-[Creative Commons Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0). 
-This lab was adapted for OpenIntro by Andrew Bray and Mine &Ccedil;etinkaya-Rundel
-from a lab written by Mark Hansen of UCLA Statistics.
+Science should be open! Here at Cornell and everywhere
+[Creative Commons Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0).
 </div>

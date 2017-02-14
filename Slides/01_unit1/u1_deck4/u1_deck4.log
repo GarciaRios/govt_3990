@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  12 FEB 2017 00:14
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  13 FEB 2017 15:03
 entering extended mode
 **./u1_deck4.tex
 (u1_deck4.tex
@@ -1814,7 +1814,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 . Italic/OT:script=latn;language=DFLT;mapping=tex-text;+tnum;+smcp;"
 .................................................
 
-Overfull \vbox (8.63005pt too high) detected at line 189
+Overfull \vbox (8.63005pt too high) detected at line 186
  []
 
 
@@ -1825,7 +1825,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [7
 
 ]
-Overfull \vbox (8.63005pt too high) detected at line 189
+Overfull \vbox (8.63005pt too high) detected at line 186
  []
 
 
@@ -1836,7 +1836,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [8
 
 ]
-Overfull \vbox (8.63005pt too high) detected at line 189
+Overfull \vbox (8.63005pt too high) detected at line 186
  []
 
 
@@ -1847,7 +1847,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [9
 
 ]
-Overfull \vbox (8.63005pt too high) detected at line 189
+Overfull \vbox (8.63005pt too high) detected at line 186
  []
 
 
@@ -1973,13 +1973,13 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [29
 
 ]
-Overfull \hbox (15.4752pt too wide) in paragraph at lines 441--441
+Overfull \hbox (15.4752pt too wide) in paragraph at lines 438--438
  [] 
  []
 
 File: figures/caffeine/caffeinetaps_box.pdf Graphic file (type QTm)
 <use  "figures/caffeine/caffeinetaps_box.pdf" >
-Overfull \vbox (16.77187pt too high) detected at line 441
+Overfull \vbox (16.77187pt too high) detected at line 438
  []
 
 
@@ -2013,7 +2013,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 ]
 File: figures/caffeine/caffeinetaps_mean_ht.pdf Graphic file (type QTm)
  <use  "figures/caffeine/caffeinetaps_mean_ht.pdf" >
-Overfull \vbox (15.8334pt too high) detected at line 519
+Overfull \vbox (15.8334pt too high) detected at line 516
  []
 
 
@@ -2026,7 +2026,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 ]
 File: figures/caffeine/caffeinetaps_mean_ht.pdf Graphic file (type QTm)
  <use  "figures/caffeine/caffeinetaps_mean_ht.pdf" >
-Overfull \vbox (15.8334pt too high) detected at line 519
+Overfull \vbox (15.8334pt too high) detected at line 516
  []
 
 
@@ -2053,7 +2053,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 ]
 File: figures/caffeine/caffeinetaps_median_ht.pdf Graphic file (type QTm)
  <use  "figures/caffeine/caffeinetaps_median_ht.pdf" >
-Overfull \vbox (11.60475pt too high) detected at line 558
+Overfull \vbox (11.60475pt too high) detected at line 555
  []
 
 
@@ -2082,19 +2082,19 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `u1_deck4.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 579.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 579.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 576.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 576.
  (u1_deck4.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 579.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 579.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 579.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 576.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 576.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 576.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 38317 strings out of 428441
- 734499 string characters out of 3157317
- 750762 words of memory out of 3000000
- 41047 multiletter control sequences out of 15000+200000
+ 38318 strings out of 428441
+ 734511 string characters out of 3157317
+ 751633 words of memory out of 3000000
+ 41048 multiletter control sequences out of 15000+200000
  12727 words of font info for 102 fonts, out of 3000000 for 9000
  1314 hyphenation exceptions out of 8191
  63i,14n,90p,10427b,681s stack positions out of 5000i,500n,10000p,200000b,50000s

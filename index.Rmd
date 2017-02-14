@@ -92,11 +92,10 @@ All videos and learning objectives as well as learning supplementary materials t
 
 <div style="padding-left:2em;padding-top:1em;">
 <table style="width:400px;">
-<tr> <td> Attendance & participation + peer evaluation </td> <td> 8% </td></tr>
-<tr> <td> Problem sets              </td> <td> 10% </td></tr>
-<tr> <td> Labs                      </td> <td> 10% </td></tr>
-<tr> <td> Readiness assessments     </td> <td> 10% </td></tr>
-<tr> <td> Performance assessments   </td> <td> 2% </td></tr>
+<tr> <td> Attendance & participation + peer evaluation </td> <td> 5% </td></tr>
+<tr> <td> Problem sets              </td> <td> 15% </td></tr>
+<tr> <td> Labs                      </td> <td> 15% </td></tr>
+<tr> <td> Readiness assessments     </td> <td> 5% </td></tr>
 <tr> <td> Project presentation 1        </td> <td>  5% </td></tr>
 <tr> <td> Project presentation 2        </td> <td> 10% </td></tr>
 <tr> <td> Midterm 1        </td> <td> 10% </td></tr>

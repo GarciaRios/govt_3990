@@ -44,8 +44,10 @@ In particular, the pace of the course will be adjusted so that we move as possib
 ***
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch 1, Sec 1.6-1.8</a>
-<li><i class="fa-li fa fa-gears"></i> <a target="_blank" href=./Labs/lab2/introduction_to_data.html> Performance assessment 1  </a> (Due Feb 22)
-<li><i class="fa-li fa fa-gears"></i> Problem set:   (Due Feb 27)</a>
+<li><i class="fa-li fa fa-gears"></i> Problem set (Due Feb 22)
+  <ul>
+  <li> Chp1:  1.2, 1.6, 1.12, 1.20, 1.32, 1.34, 1.44, 1.56, 1.66, 1.68.  </a>
+  </ul>
 </ul>
 ***
 ***
@@ -65,8 +67,11 @@ In particular, the pace of the course will be adjusted so that we move as possib
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro - Chp 2 - Sec 2.1, 2.2 + Chp 3 - Sec 3.1, 3.2, 3.4</a>
-<li><i class="fa-li fa fa-gears"></i> <a target="_blank" href=./Labs/lab2/introduction_to_data.html> Performance assessment 2  </a> (Due Feb 22)
-<li><i class="fa-li fa fa-gears"></i> Problem set:  </a>
+<li><i class="fa-li fa fa-gears"></i> Problem set (Due Mar 6)
+  <ul> 
+  <li> Chp 2: 2.2, 2.8, 2.18, 2.20, 2.22, 2.26
+  <li> Chp 3: 3.4, 3.6, 3.12, 3.18, 3.26, 3.30, 3.36 </a>
+  </ul>
 </ul>
 ***
 ***
@@ -87,7 +92,6 @@ In particular, the pace of the course will be adjusted so that we move as possib
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch 4, Sec 1.6-1.8</a>
-<li><i class="fa-li fa fa-gears"></i> <a target="_blank" href=./Labs/lab2/introduction_to_data.html> Performance assessment 3 </a> (Due Feb 22)
 <li><i class="fa-li fa fa-gears"></i> Problem set:   
 </ul>
 ***
@@ -114,7 +118,6 @@ Lab 7: (More) inference for numerical data
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch. 5</a>
-<li><i class="fa-li fa fa-gears"></i> <a target="_blank" href=./Labs/lab2/introduction_to_data.html> Performance assessment 4  </a> (Due Feb 22)
 <li><i class="fa-li fa fa-gears"></i> Problem set:   </a>
 </ul>
 

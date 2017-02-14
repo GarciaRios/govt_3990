@@ -78,7 +78,7 @@ The course goals are as follows:
 
 ### Course structure:
 
-The course is divided into seven learning units. For each unit a set of learning objectives and required and suggested readings, videos, etc. will be posted on the course website. You are expected to watch the videos and/or complete the readings and familiarize yourselves with the learning objectives. Slides and other relevant materials for each class and lab will be available on the [calendar](./calendar.html) page before each class. Videos and other relevant prep materials for each unit are also available on that page. Within each unit you will complement your learning with problem sets and labs, and wrap up each unit with a performance assessment.
+The course is divided into seven learning units. For each unit a set of learning objectives and required and suggested readings, videos, etc. will be posted on the course website. You are expected to watch the videos and/or complete the readings and familiarize yourselves with the learning objectives. Slides and other relevant materials for each class and lab will be available on the [calendar](./calendar) page before each class. Videos and other relevant prep materials for each unit are also available on that page. Within each unit you will complement your learning with problem sets and labs, and wrap up each unit with a performance assessment.
 
 * * *
 

@@ -14,7 +14,7 @@
 % Pantone 2015 Fall colors
 % http://iwork3.us/2015/02/18/pantone-2015-fall-fashion-report/
 % update each semester or year
-
+\definecolor{custom_carnelian}{HTML}{b31b1b}
 \xdefinecolor{custom_blue}{rgb}{0, 0.32, 0.48} % FROM SPRING 2016 COLOR PREVIEW
 \xdefinecolor{custom_darkBlue}{rgb}{0.20, 0.20, 0.39} % Reflecting Pond  
 \xdefinecolor{custom_orange}{rgb}{0.96, 0.57, 0.42} % Cadmium Orange
@@ -27,6 +27,8 @@
 %%%%%%%%%%%%%%%%
 % Color text commands
 %%%%%%%%%%%%%%%%
+%carnelian
+\newcommand{\carnelian}[1]{\textit{\textcolor{custom_carnelian}{#1}}}
 
 %orange
 \newcommand{\orange}[1]{\textit{\textcolor{custom_orange}{#1}}}
@@ -55,9 +57,9 @@
 {\color{custom_blue}\normalfont}
 {\color{custom_blue}\thesubsection}{1em}{}
 
-\newcommand{\ttl}[1]{ \textsc{{\LARGE \textbf{{\color{custom_blue} #1} } }}}
+\newcommand{\ttl}[1]{ \textsc{{\LARGE \textbf{{\color{custom_carnelian} #1} } }}}
 
-\newcommand{\tl}[1]{ \textsc{{\large \textbf{{\color{custom_blue} #1} } }}}
+\newcommand{\tl}[1]{ \textsc{{\large \textbf{{\color{custom_carnelian} #1} } }}}
 
 \usepackage[colorlinks=false,pdfborder={0 0 0},urlcolor= custom_orange,colorlinks=true,linkcolor= custom_orange, citecolor= custom_orange,backref=true]{hyperref}
 

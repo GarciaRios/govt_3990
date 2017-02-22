@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  5 FEB 2017 19:03
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  15 FEB 2017 11:29
 entering extended mode
 **./app_style.tex
 (app_style.tex
@@ -144,7 +144,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
 
 ! Undefined control sequence.
 l.18 \xdefinecolor
-                  {custom_blue}{rgb}{0, 0.32, 0.48} % FROM SPRING 2016 COLOR...
+                  {custom_carnelian}{rgb}{70.2, 10.6, 10.6} % Cornell color
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -159,8 +159,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.18 \xdefinecolor{c
-                    ustom_blue}{rgb}{0, 0.32, 0.48} % FROM SPRING 2016 COLOR...
-
+                    ustom_carnelian}{rgb}{70.2, 10.6, 10.6} % Cornell color
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -174,7 +173,7 @@ Missing character: There is no m in font nullfont!
 <inserted text> 
                 $
 l.18 \xdefinecolor{custom_
-                          blue}{rgb}{0, 0.32, 0.48} % FROM SPRING 2016 COLOR...
+                          carnelian}{rgb}{70.2, 10.6, 10.6} % Cornell color
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -183,8 +182,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 18.
 ! Extra }, or forgotten $.
-l.18 \xdefinecolor{custom_blue}
-                               {rgb}{0, 0.32, 0.48} % FROM SPRING 2016 COLOR...
+l.18 \xdefinecolor{custom_carnelian}
+                                    {rgb}{70.2, 10.6, 10.6} % Cornell color
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -193,7 +192,7 @@ deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
 l.19 \xdefinecolor
-                  {custom_darkBlue}{rgb}{0.20, 0.20, 0.39} % Reflecting Pond
+                  {custom_blue}{rgb}{0, 0.32, 0.48} % FROM SPRING 2016 COLOR...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -202,7 +201,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.20 \xdefinecolor
-                  {custom_orange}{rgb}{0.96, 0.57, 0.42} % Cadmium Orange
+                  {custom_darkBlue}{rgb}{0.20, 0.20, 0.39} % Reflecting Pond
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -211,7 +210,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.21 \xdefinecolor
-                  {custom_green}{rgb}{0, 0.47, 0.52} % Biscay Bay
+                  {custom_orange}{rgb}{0.96, 0.57, 0.42} % Cadmium Orange
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -220,6 +219,15 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.22 \xdefinecolor
+                  {custom_green}{rgb}{0, 0.47, 0.52} % Biscay Bay
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.23 \xdefinecolor
                   {custom_red}{rgb}{0.58, 0.32, 0.32} % Marsala
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -230,18 +238,18 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.23 
+l.24 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (633.3568pt too wide) in paragraph at lines 18--23
-[]$[]\OML/cmm/m/it/10 lue[][][][][][][][][][][][][][]$ 
+Overfull \hbox (784.48828pt too wide) in paragraph at lines 18--24
+[]$[]\OML/cmm/m/it/10 arnelian[][][][][][][][][][][][][][][][][]$ 
  []
 
 ! Undefined control sequence.
-l.24 \xdefinecolor
+l.25 \xdefinecolor
                   {custom_lightGray}{rgb}{0.78, 0.80, 0.80} % Glacier Gray
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -256,7 +264,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \xdefinecolor{c
+l.25 \xdefinecolor{c
                     ustom_lightGray}{rgb}{0.78, 0.80, 0.80} % Glacier Gray
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -270,13 +278,13 @@ Missing character: There is no m in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 \xdefinecolor{custom_
+l.25 \xdefinecolor{custom_
                           lightGray}{rgb}{0.78, 0.80, 0.80} % Glacier Gray
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.24 \xdefinecolor{custom_lightGray}
+l.25 \xdefinecolor{custom_lightGray}
                                     {rgb}{0.78, 0.80, 0.80} % Glacier Gray
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -285,7 +293,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.25 \xdefinecolor
+l.26 \xdefinecolor
                   {custom_darkGray}{rgb}{0.35, 0.39, 0.43} % Stormy Weather
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -296,13 +304,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.26 
+l.27 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (292.51514pt too wide) in paragraph at lines 24--26
+Overfull \hbox (292.51514pt too wide) in paragraph at lines 25--27
 []$[]\OML/cmm/m/it/10 ightGray[][][][][]$ 
  []
 
@@ -313,13 +321,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 \usepackage{
+l.53 \usepackage{
                  titlesec}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.51 \titleformat
+l.54 \titleformat
                  {\section}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -328,7 +336,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.51 \titleformat{\section
+l.54 \titleformat{\section
                           }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -337,7 +345,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.52 {\color
+l.55 {\color
             {custom_blue}\normalfont\Large\bfseries}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -352,7 +360,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 {\color{c
+l.55 {\color{c
               ustom_blue}\normalfont\Large\bfseries}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -366,13 +374,13 @@ Missing character: There is no m in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.52 {\color{custom_
+l.55 {\color{custom_
                     blue}\normalfont\Large\bfseries}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.52 {\color{custom_blue}
+l.55 {\color{custom_blue}
                          \normalfont\Large\bfseries}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -381,7 +389,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.52 {\color{custom_blue}\normalfont\Large
+l.55 {\color{custom_blue}\normalfont\Large
                                           \bfseries}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -396,12 +404,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 ...lor{custom_blue}\normalfont\Large\bfseries
+l.55 ...lor{custom_blue}\normalfont\Large\bfseries
                                                   }
 Please use the math alphabet \mathbf instead of the \bfseries command. 
 
 ! Extra }, or forgotten $.
-l.52 ...or{custom_blue}\normalfont\Large\bfseries}
+l.55 ...or{custom_blue}\normalfont\Large\bfseries}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -410,7 +418,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.53 {\color
+l.56 {\color
             {custom_blue}\thesection}{1em}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -419,7 +427,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 {\color{custom_blue}\thesection
+l.56 {\color{custom_blue}\thesection
                                     }{1em}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -428,7 +436,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.54 \titleformat
+l.57 \titleformat
                  {\subsection}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -437,7 +445,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.54 \titleformat{\subsection
+l.57 \titleformat{\subsection
                              }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -446,7 +454,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.55 {\color
+l.58 {\color
             {custom_blue}\normalfont}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -455,7 +463,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.56 {\color
+l.59 {\color
             {custom_blue}\thesubsection}{1em}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -464,7 +472,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.56 {\color{custom_blue}\thesubsection
+l.59 {\color{custom_blue}\thesubsection
                                        }{1em}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -475,13 +483,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.57 
+l.60 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (223.1195pt too wide) in paragraph at lines 52--57
+Overfull \hbox (223.1195pt too wide) in paragraph at lines 55--60
 []$[]\OML/cmm/m/it/10 lue[][][][][][][][]$ 
  []
 
@@ -492,7 +500,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 \usepackage[colorlinks=false,pdfborder={
+l.65 \usepackage[colorlinks=false,pdfborder={
                                              0 0 0},urlcolor= custom_orange,...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -505,7 +513,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 ...ackage[colorlinks=false,pdfborder={0 0 0},
+l.65 ...ackage[colorlinks=false,pdfborder={0 0 0},
                                                   urlcolor= custom_orange,co...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -530,7 +538,7 @@ Missing character: There is no m in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.62 ...=false,pdfborder={0 0 0},urlcolor= custom_
+l.65 ...=false,pdfborder={0 0 0},urlcolor= custom_
                                                   orange,colorlinks=true,lin...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -538,38 +546,38 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.63 
+l.66 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 62--63
+Overfull \hbox (20.0pt too wide) in paragraph at lines 65--66
 []
  []
 
 
-Overfull \hbox (90.13783pt too wide) in paragraph at lines 62--63
+Overfull \hbox (90.13783pt too wide) in paragraph at lines 65--66
 []\OML/cmm/m/it/10 range; colorlinks \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (73.9221pt too wide) in paragraph at lines 62--63
+Overfull \hbox (73.9221pt too wide) in paragraph at lines 65--66
 \OML/cmm/m/it/10 true; linkcolor \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (115.31963pt too wide) in paragraph at lines 62--63
+Overfull \hbox (115.31963pt too wide) in paragraph at lines 65--66
 \OML/cmm/m/it/10 custom[]range; citecolor \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (112.13144pt too wide) in paragraph at lines 62--63
+Overfull \hbox (112.13144pt too wide) in paragraph at lines 65--66
 \OML/cmm/m/it/10 custom[]range; backref \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (62.47707pt too wide) in paragraph at lines 62--63
+Overfull \hbox (62.47707pt too wide) in paragraph at lines 65--66
 \OML/cmm/m/it/10 true\OT1/cmr/m/n/10 ][]$ 
  []
 
@@ -581,11 +589,11 @@ Overfull \hbox (62.47707pt too wide) in paragraph at lines 62--63
 
  
 Here is how much of TeX's memory you used:
- 23 strings out of 428441
- 177 string characters out of 3157317
+ 24 strings out of 428441
+ 186 string characters out of 3157317
  53764 words of memory out of 3000000
- 3507 multiletter control sequences out of 15000+200000
+ 3508 multiletter control sequences out of 15000+200000
  3948 words of font info for 15 fonts, out of 3000000 for 9000
  1314 hyphenation exceptions out of 8191
- 18i,3n,12p,179b,111s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,3n,12p,179b,112s stack positions out of 5000i,500n,10000p,200000b,50000s
 No pages of output.

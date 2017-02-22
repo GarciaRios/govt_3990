@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  5 FEB 2017 21:20
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  22 FEB 2017 10:40
 entering extended mode
 **./u1_deck3.tex
 (u1_deck3.tex
@@ -2023,17 +2023,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (u1_deck3.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 322.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 322.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
  38240 strings out of 428441
  732849 string characters out of 3157317
- 751033 words of memory out of 3000000
+ 751029 words of memory out of 3000000
  40992 multiletter control sequences out of 15000+200000
  11134 words of font info for 90 fonts, out of 3000000 for 9000
  1314 hyphenation exceptions out of 8191

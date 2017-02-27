@@ -1,0 +1,75 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{Housekeeping}{2}{Housekeeping}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\sectionentry {2}{Main ideas}{4}{Main ideas}{0}}
+\headcommand {\beamer@sectionpages {2}{3}}
+\headcommand {\beamer@subsectionpages {2}{3}}
+\headcommand {\slideentry {2}{0}{1}{4/4}{}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{5}{Two types of probability distributions: discrete and continuous}}\headcommand {\beamer@subsectionpages {4}{4}}
+\headcommand {\slideentry {2}{1}{1}{5/5}{Two types of probability distributions: discrete and continuous}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {2}{1}{2}{6/7}{Two types of probability distributions: discrete and continuous}{0}}
+\headcommand {\beamer@framepages {6}{7}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{8}{Normal distribution is unimodal, symmetric, and follows the 68-95-99.7 rule}}\headcommand {\beamer@subsectionpages {5}{7}}
+\headcommand {\slideentry {2}{2}{1}{8/8}{Normal distribution is unimodal, symmetric, and follows the 68-95-99.7 rule}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {2}{2}{2}{9/10}{Normal distribution is unimodal, symmetric, and follows the 68-95-99.7 rule}{0}}
+\headcommand {\beamer@framepages {9}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{11}{Z scores serve as a ruler for any distribution}}\headcommand {\beamer@subsectionpages {8}{10}}
+\headcommand {\slideentry {2}{3}{1}{11/11}{Z scores serve as a ruler for any distribution}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {2}{3}{2}{12/14}{Z scores serve as a ruler for any distribution}{0}}
+\headcommand {\beamer@framepages {12}{14}}
+\headcommand {\slideentry {2}{3}{3}{15/18}{Z scores serve as a ruler for any distribution}{0}}
+\headcommand {\beamer@framepages {15}{18}}
+\headcommand {\slideentry {2}{3}{4}{19/20}{Z scores serve as a ruler for any distribution}{0}}
+\headcommand {\beamer@framepages {19}{20}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{21}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}}\headcommand {\beamer@subsectionpages {11}{20}}
+\headcommand {\slideentry {2}{4}{1}{21/21}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{4}{2}{22/25}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {22}{25}}
+\headcommand {\slideentry {2}{4}{3}{26/30}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {26}{30}}
+\headcommand {\slideentry {2}{4}{4}{31/34}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {31}{34}}
+\headcommand {\slideentry {2}{4}{5}{35/37}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {35}{37}}
+\headcommand {\slideentry {2}{4}{6}{38/39}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {38}{39}}
+\headcommand {\slideentry {2}{4}{7}{40/41}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {40}{41}}
+\headcommand {\slideentry {2}{4}{8}{42/43}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {42}{43}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{44}{Expected value and standard deviation of the binomial can be calculated using its parameters n and p}}\headcommand {\beamer@subsectionpages {21}{43}}
+\headcommand {\slideentry {2}{5}{1}{44/44}{Expected value and standard deviation of the binomial can be calculated using its parameters n and p}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {2}{5}{2}{45/49}{Expected value and standard deviation of the binomial can be calculated using its parameters n and p}{0}}
+\headcommand {\beamer@framepages {45}{49}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{50}{Shape of the binomial distribution approaches normal when the S-F rule is met}}\headcommand {\beamer@subsectionpages {44}{49}}
+\headcommand {\slideentry {2}{6}{1}{50/50}{Shape of the binomial distribution approaches normal when the S-F rule is met}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {2}{6}{2}{51/53}{Shape of the binomial distribution approaches normal when the S-F rule is met}{0}}
+\headcommand {\beamer@framepages {51}{53}}
+\headcommand {\slideentry {2}{6}{3}{54/58}{Shape of the binomial distribution approaches normal when the S-F rule is met}{0}}
+\headcommand {\beamer@framepages {54}{58}}
+\headcommand {\sectionentry {3}{Summary}{59}{Summary}{0}}
+\headcommand {\beamer@sectionpages {4}{58}}
+\headcommand {\beamer@subsectionpages {50}{58}}
+\headcommand {\slideentry {3}{0}{1}{59/59}{}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\slideentry {3}{0}{2}{60/60}{}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\beamer@partpages {1}{60}}
+\headcommand {\beamer@subsectionpages {59}{60}}
+\headcommand {\beamer@sectionpages {59}{60}}
+\headcommand {\beamer@documentpages {60}}
+\headcommand {\def \inserttotalframenumber {17}}

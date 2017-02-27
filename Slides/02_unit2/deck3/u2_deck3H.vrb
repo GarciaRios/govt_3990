@@ -1,0 +1,43 @@
+\frametitle{}
+
+\disc{What is the probability that among a random sample of 1,000 Americans at
+least three-fourths have high-speed broadband connection at home?}
+
+\vspace{-0.5cm}
+\pause
+
+\[ Binom(n = 1000, p = 0.7) \]
+\vspace{-1cm}
+
+\pause
+
+{\small \[ P(K \ge 750) = P(K = 750) + P(K = 751) + P(K = 752) + \cdots + P(K = 1000) \]}
+
+\pause
+
+\begin{enumerate}
+
+\item Using R:
+{\footnotesize
+\begin{Verbatim}[frame=single, formatcom=\color{blue}]
+> sum(dbinom(750:1000, size = 1000, prob = 0.7))
+\end{Verbatim}
+}
+{\footnotesize
+\begin{Verbatim}[frame=single, formatcom=\color{gray}]
+[1] 0.00026
+\end{Verbatim}
+}
+
+\pause
+
+\item Using the normal approximation to the binomial: Since we have at least expected successes
+$(1000 \times 0.7 = 700)$ and 10 expected failures $(1000 \times 0.3 = 300)$,
+
+\begin{align*}
+Binom&(n = 1000, p = 0.7) \sim \\
+&N(\mu = 1000 \times 0.7, \sigma = \sqrt{1000 \times 0.7 \times 0.3})
+\end{align*}
+
+\end{enumerate}
+

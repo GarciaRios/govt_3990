@@ -1,0 +1,58 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{Housekeeping}{2}{Housekeeping}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\sectionentry {2}{Main ideas}{4}{Main ideas}{0}}
+\headcommand {\beamer@sectionpages {2}{3}}
+\headcommand {\beamer@subsectionpages {2}{3}}
+\headcommand {\slideentry {2}{0}{1}{4/4}{}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{5}{Probability trees are useful for conditional probability calculations}}\headcommand {\beamer@subsectionpages {4}{4}}
+\headcommand {\slideentry {2}{1}{1}{5/5}{Probability trees are useful for conditional probability calculations}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {2}{1}{2}{6/6}{Probability trees are useful for conditional probability calculations}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{7}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}}\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\slideentry {2}{2}{1}{7/7}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {2}{2}{2}{8/13}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {8}{13}}
+\headcommand {\slideentry {2}{2}{3}{14/17}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {14}{17}}
+\headcommand {\slideentry {2}{2}{4}{18/20}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {18}{20}}
+\headcommand {\slideentry {2}{2}{5}{21/21}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{2}{6}{22/22}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {2}{2}{7}{23/23}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {2}{2}{8}{24/26}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {24}{26}}
+\headcommand {\slideentry {2}{2}{9}{27/27}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{28}{Posterior probability and p-value do not mean the same thing}}\headcommand {\beamer@subsectionpages {7}{27}}
+\headcommand {\slideentry {2}{3}{1}{28/28}{Posterior probability and p-value do not mean the same thing}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {2}{3}{2}{29/29}{Posterior probability and p-value do not mean the same thing}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {2}{3}{3}{30/30}{Posterior probability and p-value do not mean the same thing}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\sectionentry {3}{Summary}{31}{Summary}{0}}
+\headcommand {\beamer@sectionpages {4}{30}}
+\headcommand {\beamer@subsectionpages {28}{30}}
+\headcommand {\slideentry {3}{0}{1}{31/31}{}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {3}{0}{2}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {31}{32}}
+\headcommand {\beamer@sectionpages {31}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\def \inserttotalframenumber {13}}

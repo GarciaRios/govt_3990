@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Probability trees are useful for conditional probability calculations}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{Posterior probability and p-value do not mean the same thing}{28}{0}{2}
+\beamer@sectionintoc {3}{Summary}{31}{0}{3}

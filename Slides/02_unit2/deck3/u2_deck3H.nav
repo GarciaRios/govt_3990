@@ -1,0 +1,57 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{Housekeeping}{2}{Housekeeping}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\sectionentry {2}{Main ideas}{3}{Main ideas}{0}}
+\headcommand {\beamer@sectionpages {2}{2}}
+\headcommand {\beamer@subsectionpages {2}{2}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{3}{Two types of probability distributions: discrete and continuous}}\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\slideentry {2}{1}{1}{3/3}{Two types of probability distributions: discrete and continuous}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{4}{Normal distribution is unimodal, symmetric, and follows the 68-95-99.7 rule}}\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\slideentry {2}{2}{1}{4/4}{Normal distribution is unimodal, symmetric, and follows the 68-95-99.7 rule}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{5}{Z scores serve as a ruler for any distribution}}\headcommand {\beamer@subsectionpages {4}{4}}
+\headcommand {\slideentry {2}{3}{1}{5/5}{Z scores serve as a ruler for any distribution}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {2}{3}{2}{6/6}{Z scores serve as a ruler for any distribution}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {2}{3}{3}{7/7}{Z scores serve as a ruler for any distribution}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{8}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}}\headcommand {\beamer@subsectionpages {5}{7}}
+\headcommand {\slideentry {2}{4}{1}{8/8}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {2}{4}{2}{9/9}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {2}{4}{3}{10/10}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {2}{4}{4}{11/11}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {2}{4}{5}{12/12}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {2}{4}{6}{13/13}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {2}{4}{7}{14/14}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{15}{Expected value and standard deviation of the binomial can be calculated using its parameters n and p}}\headcommand {\beamer@subsectionpages {8}{14}}
+\headcommand {\slideentry {2}{5}{1}{15/15}{Expected value and standard deviation of the binomial can be calculated using its parameters n and p}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{16}{Shape of the binomial distribution approaches normal when the S-F rule is met}}\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\slideentry {2}{6}{1}{16/16}{Shape of the binomial distribution approaches normal when the S-F rule is met}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@partpages {1}{18}}
+\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\beamer@sectionpages {18}{18}}
+\headcommand {\beamer@documentpages {18}}
+\headcommand {\def \inserttotalframenumber {17}}
+\headcommand {\slideentry {2}{6}{2}{17/17}{Shape of the binomial distribution approaches normal when the S-F rule is met}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\sectionentry {3}{Summary}{18}{Summary}{0}}
+\headcommand {\beamer@sectionpages {3}{17}}
+\headcommand {\beamer@subsectionpages {16}{17}}
+\headcommand {\slideentry {3}{0}{1}{18/18}{}{0}}
+\headcommand {\beamer@framepages {18}{18}}

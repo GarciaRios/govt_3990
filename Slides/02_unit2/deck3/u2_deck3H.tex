@@ -18,6 +18,20 @@
 % Option 2: Handouts, without solutions (post before class)    %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% \documentclass[11pt,containsverbatim,handout,xcolor=xelatex,dvipsnames,table]{beamer}
+%
+% % handout layout
+% \usepackage{pgfpages}
+% \pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
+%
+% % solution stuff
+% \newcommand{\solnMult}[1]{#1}
+% \newcommand{\soln}[1]{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Option 3: Handouts, with solutions (may post after class if need be)    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
  \documentclass[11pt,containsverbatim,handout,xcolor=xelatex,dvipsnames,table]{beamer}
 
  % handout layout
@@ -25,22 +39,8 @@
  \pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
 
  % solution stuff
- \newcommand{\solnMult}[1]{#1}
- \newcommand{\soln}[1]{}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Option 3: Handouts, with solutions (may post after class if need be)    %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \documentclass[11pt,containsverbatim,handout,xcolor=xelatex,dvipsnames,table]{beamer}
-
-% % handout layout
-% \usepackage{pgfpages}
-% \pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
-
-% % solution stuff
-% \newcommand{\solnMult}[1]{\red{\textbf{#1}}}
-% \newcommand{\soln}[1]{\textit{#1}}
+ \newcommand{\solnMult}[1]{\red{\textbf{#1}}}
+ \newcommand{\soln}[1]{\textit{#1}}
 
 %%%%%%%%%%
 % Load style file, defaults  %
@@ -67,7 +67,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\fontspec[Ligatures=TeX]{Helvetica Neue Light}
+%\fontspec[Ligatures=TeX]{Helvetica Neue Light}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -99,17 +99,16 @@
 \item Formatting of problem set submissions:
 \begin{itemize}
 \item Bad: Scanned PDF handwriting, unreadable/too dark, haphazard orientation of pages, out
-of order $\rightarrow$ \red{will result in point deductions if not legible}
-\item Better: Scanned PDF \textbf{neat} handwriting, good scan quality, one file containing
-all pages in order $\rightarrow$ \red{will result in point deductions if not legible}
+of order 
+\item Better: Scanned PDF 
+all pages in order 
 \item Best: Typed using a word processor and PDFed
 \end{itemize}
 
-\item RA 3 on Wednesday
+\item Prelim on Wednesday
 
-\item PS 2 due Friday, PA 2 due Sunday
+\item Lab due Wed
 
-\item Discussion section tomorrow: Normal and binomial distribution problems + any questions regarding Unit 3
 
 \end{itemize}
 

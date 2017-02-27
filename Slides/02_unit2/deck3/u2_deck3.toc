@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Two types of probability distributions: discrete and continuous}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Normal distribution is unimodal, symmetric, and follows the 68-95-99.7 rule}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Z scores serve as a ruler for any distribution}{11}{0}{2}
+\beamer@subsectionintoc {2}{4}{Binomial distribution is used for calculating the probability of exact number of successes for a given number of trials}{21}{0}{2}
+\beamer@subsectionintoc {2}{5}{Expected value and standard deviation of the binomial can be calculated using its parameters n and p}{44}{0}{2}
+\beamer@subsectionintoc {2}{6}{Shape of the binomial distribution approaches normal when the S-F rule is met}{50}{0}{2}
+\beamer@sectionintoc {3}{Summary}{59}{0}{3}

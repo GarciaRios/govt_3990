@@ -2,7 +2,6 @@
 output: 
   html_document:  
     theme: simplex
-    css: styles_B.css
 ---
 ***
 ## Labs

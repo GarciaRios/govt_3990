@@ -20,7 +20,7 @@ output_dir: "."
 output: 
   html_document:  
     theme: simplex
-    css: styles_B.css
+    css: custom_style.css
 
 
      

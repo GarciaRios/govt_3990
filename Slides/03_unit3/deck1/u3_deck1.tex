@@ -5,7 +5,7 @@
 % Option 1: Slides: (comment for handouts)   %
 %%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[slidestop,compress,mathserif,12pt,t,professionalfonts,xcolor=table]{beamer}
+\documentclass[slidestop,compress,mathserif,11pt,t,professionalfonts,xcolor=table]{beamer}
 
 % solution stuff
 \newcommand{\solnMult}[1]{
@@ -67,7 +67,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\fontspec[Ligatures=TeX]{Helvetica Neue Light}
+%\fontspec[Ligatures=TeX]{Helvetica Neue Light}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -96,10 +96,9 @@
 
 \begin{itemize}
 
-\item My Thursday OH moved to 1-2:30pm on Sunday
+\item 
 
-\item If I asked to meet with your team, and you have not yet signed up for a time slot, please come to my Sunday office hours
-
+\item 
 \end{itemize}
 
 \end{frame}
@@ -117,7 +116,7 @@
 
 \begin{frame}
 \frametitle{Sample statistics vary from sample to sample}
-
+\small{
 \begin{itemize}
 
 \item We are often interested in \hl{population parameters}.
@@ -132,7 +131,7 @@
 
 \end{itemize}
 
-\disc{Suppose we randomly sample 1,000 adults from each state in the US. Would you expect the sample means of their ages to be the same, somewhat different, or very different?}
+\disc{Suppose we randomly sample 1,000 adults from each state in the US. Would you expect the sample means of their ages to be the same, somewhat different, or very different?}}
 
 \end{frame}
 
@@ -237,9 +236,9 @@ $\:$ \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[fragile]
-\frametitle{Average number of Duke games attended}
+\frametitle{Average number of Syracuse games attended}
 
-Next let's look at the population data for the number of Duke basketball games attended:
+Next let's look at the population data for the number of Syracuse basketball games attended:
 
 \begin{center}
 \includegraphics[width=0.8\textwidth]{figures/duke_games/hist_duke_games_pop}
@@ -250,63 +249,63 @@ Next let's look at the population data for the number of Duke basketball games a
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}[fragile]
-\frametitle{Average number of Duke games attended (cont.)}
+%\begin{frame}[fragile]
+%\frametitle{Average number of Syracuse games attended (cont.)}
+%\small{
+%Sampling distribution, n = 10:
+%
+%\twocol{0.6}{0.4}{
+%\begin{center}
+%\includegraphics[width=\textwidth]{figures/duke_games/hist_duke_games_sampling10}
+%\end{center}
+%}
+%{
+%\disc{What does each observation in this distribution represent?}
+%\soln{\only<2->{Sample mean, $\bar{x}$, of samples of size $n = 10$.}}
+%\disc{Is the variability of the sampling distribution smaller or larger than the variability of the population distribution?}
+%\soln{\only<3->{Smaller, sample means will vary less than individual observations.}}
+%}
+%}	
+%\end{frame}
 
-Sampling distribution, n = 10:
-
-\twocol{0.6}{0.4}{
-\begin{center}
-\includegraphics[width=\textwidth]{figures/duke_games/hist_duke_games_sampling10}
-\end{center}
-}
-{
-\disc{What does each observation in this distribution represent?}
-\soln{\only<2->{Sample mean, $\bar{x}$, of samples of size $n = 10$.}}
-\disc{Is the variability of the sampling distribution smaller or larger than the variability of the population distribution?}
-\soln{\only<3->{Smaller, sample means will vary less than individual observations.}}
-}
-
-\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{frame}[fragile]
+%\frametitle{Average number of Duke games attended (cont.)}
+%
+%Sampling distribution, n = 30:
+%
+%\twocol{0.6}{0.4}{
+%\begin{center}
+%\includegraphics[width=\textwidth]{figures/duke_games/hist_duke_games_sampling30}
+%\end{center}
+%}
+%{
+%\disc{How did the shape, center, and spread of the sampling distribution change going from $n = 10$ to $n = 30$?}
+%\soln{\only<2->{Shape is more symmetric, center is about the same, spread is smaller.}}
+%}
+%
+%\end{frame}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{frame}[fragile]
+%\frametitle{Average number of Duke games attended (cont.)}
+%
+%Sampling distribution, n = 70:
+%
+%\begin{center}
+%\includegraphics[width=0.6\textwidth]{figures/duke_games/hist_duke_games_sampling70}
+%\end{center}
+%
+%\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[fragile]
-\frametitle{Average number of Duke games attended (cont.)}
+\frametitle{Average number of Syracuse games attended (cont.)}
 
-Sampling distribution, n = 30:
-
-\twocol{0.6}{0.4}{
-\begin{center}
-\includegraphics[width=\textwidth]{figures/duke_games/hist_duke_games_sampling30}
-\end{center}
-}
-{
-\disc{How did the shape, center, and spread of the sampling distribution change going from $n = 10$ to $n = 30$?}
-\soln{\only<2->{Shape is more symmetric, center is about the same, spread is smaller.}}
-}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}[fragile]
-\frametitle{Average number of Duke games attended (cont.)}
-
-Sampling distribution, n = 70:
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{figures/duke_games/hist_duke_games_sampling70}
-\end{center}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}[fragile]
-\frametitle{Average number of Duke games attended (cont.)}
-
-\clicker{The mean of the sampling distribution is 5.75, and the standard deviation of the sampling distribution (also called the \hl{standard error}) is 0.75. Which of the following is the most reasonable guess for the 95\% confidence interval for the true average number of Duke games attended by students?}
+\clicker{The mean of the sampling distribution is 5.75, and the standard deviation of the sampling distribution (also called the \hl{standard error}) is 0.75. Which of the following is the most reasonable guess for the 95\% confidence interval for the true average number of Syracuse games attended by students?}
 
 \begin{enumerate}[(a)]
 \item $5.75 \pm 0.75$

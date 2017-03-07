@@ -1,0 +1,47 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  1 MAR 2017 12:29
+entering extended mode
+**./app_Hist_to_box.tex
+(app_Hist_to_box.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 72 language(s) loaded.
+("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+
+! LaTeX Error: File `../../app_style.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.2 \input{../../app_style.tex}
+                               ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 199 strings out of 428441
+ 2023 string characters out of 3157317
+ 52764 words of memory out of 3000000
+ 3673 multiletter control sequences out of 15000+200000
+ 3938 words of font info for 15 fonts, out of 3000000 for 9000
+ 1314 hyphenation exceptions out of 8191
+ 22i,0n,19p,150b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Caudex');
+
+
+
+.navbar-inverse{background-color:#b31b1b; border-color:#222222}
+
+.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a:focus{background-color:transparent;color:#ffffff}
+
+/*
+*.navbar-fixed-top {
+    height: 95px; }
+    /* Whatever you want. */  
+    
+
+
+
+
+.navbar-brand {
+  font-size: 20px;
+  font-family: 'Caudex', serif;
+}
+
+body{
+color: black;
+font-size: 15px;
+font-family: 'Fira Sans', sans-serif;
+
+}
+
+a {
+font-family: 'Fira Sans', sans-serif;
+}
+i {
+font-family: 'Fira Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6  {font-family: 'Fira Sans', sans-serif;}
+

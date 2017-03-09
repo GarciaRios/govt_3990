@@ -91,7 +91,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 ***
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch 4, Sec 1.6-1.8</a>
+<li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch 4</a>
 <li><i class="fa-li fa fa-gears"></i> Problem set:   
 </ul>
 ***
@@ -103,10 +103,10 @@ In particular, the pace of the course will be adjusted so that we move as possib
 <li><i class="fa-li fa fa-bar-chart"></i>    Mar 20  Inference for numerical data  <a target="_blank" href="./Slides/unit4/deck-1-2.pdf"> Deck 4.1</a>
 <li><i class="fa-li fa fa-flask"></i>        Mar 22  Lab 5 - (Due Mar 29) <a target="_blank" href=./Labs/lab0/lab0.html>Inference for numerical data</a>
 <li><i class="fa-li fa fa-bar-chart"></i>    Mar 27  Power  <a target="_blank" href="./Slides/unit4/deck-1-2.pdf"> Deck 4.2</a>
-<li><i class="fa-li fa fa-bar-chart"></i>    Apr 3-5 No class - Spring Break 
 <li><i class="fa-li fa fa-flask"></i>        Mar 29  Lab 6 - (Due Apr 12) <a target="_blank" href=./Labs/lab0/lab0.html>(More) inference for numerical data</a>
 
-Lab 7: (More) inference for numerical data
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 3-5 No class - Spring Break 
+
 <li><i class="fa-li fa fa-bar-chart"></i>    Apr 10 No class - Work on lab 6 and study for Midterm  
 <li><i class="fa-li fa fa-puzzle-piece"></i> **Apr 12  Midterm 2** </a>
 
@@ -126,3 +126,36 @@ Lab 7: (More) inference for numerical data
 
 <li><i class="fa-li fa fa-puzzle-piece"></i> **May  10  Final Presentation** </a>
 <li><i class="fa-li fa fa-puzzle-piece"></i> **May  15  Final Paper Due** </a>
+
+
+
+### Unit 5
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-bar-chart"></i>    Mar 20  Inference for numerical data  <a target="_blank" href="./Slides/unit4/deck-1-2.pdf"> Deck 4.1</a>
+<li><i class="fa-li fa fa-flask"></i>        Mar 22  Lab 5 - (Due Mar 29) <a target="_blank" href=./Labs/lab0/lab0.html>Inference for numerical data</a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Mar 27  Power  <a target="_blank" href="./Slides/unit4/deck-1-2.pdf"> Deck 4.2</a>
+<li><i class="fa-li fa fa-flask"></i>        Mar 29  Lab 6 - (Due Apr 12) <a target="_blank" href=./Labs/lab0/lab0.html>(More) inference for numerical data</a>
+
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 3-5 No class - Spring Break 
+
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 10 No class - Work on lab 6 and study for Midterm  
+<li><i class="fa-li fa fa-puzzle-piece"></i> **Apr 12  Midterm 2** </a>
+
+
+</ul>
+
+
+***
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch. 5</a>
+<li><i class="fa-li fa fa-gears"></i> Problem set:   </a>
+</ul>
+
+***
+***
+
+<li><i class="fa-li fa fa-puzzle-piece"></i> **May  10  Final Presentation** </a>
+<li><i class="fa-li fa fa-puzzle-piece"></i> **May  15  Final Paper Due** </a>
+

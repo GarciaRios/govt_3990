@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Statistical inference methods based on the CLT depend on the same conditions as the CLT}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Use confidence intervals to estimate population parameters}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{Critical value depends on the confidence level}{10}{0}{2}
+\beamer@subsectionintoc {2}{4}{Calculate the sample size a priori to achieve desired margin of error}{19}{0}{2}
+\beamer@sectionintoc {3}{Summary}{23}{0}{3}

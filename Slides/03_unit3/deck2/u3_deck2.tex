@@ -5,7 +5,7 @@
 % Option 1: Slides: (comment for handouts)   %
 %%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[slidestop,compress,mathserif,12pt,t,professionalfonts,xcolor=table]{beamer}
+\documentclass[slidestop,compress,mathserif,11pt,t,professionalfonts,xcolor=table]{beamer}
 
 % solution stuff
 \newcommand{\solnMult}[1]{
@@ -67,7 +67,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\fontspec[Ligatures=TeX]{Helvetica Neue Light}
+%\fontspec[Ligatures=TeX]{Helvetica Neue Light}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -205,19 +205,19 @@ If the parameter of interest is the population mean, and the point estimate is t
 
 \item \textcolor{gray}{The confidence level of a confidence interval is the
 probability that the true population parameter is in the confidence
-interval you construct for a single sample.} \\
+interval you construct for a single sample.} \\ \pause
 \textit{The confidence level is equal to the proportion of random samples that result
 in confidence intervals that contain the true pop.\ parameter.} \\
 
 \pause
 
-\item \textcolor{gray}{A narrower confidence interval is always better.}\\
+\item \textcolor{gray}{A narrower confidence interval is always better.}\\ \pause
 \textit{This is incorrect since the width is a function of both the confidence level and 
 the standard error.} \\
 
 \pause
 
-\item \textcolor{gray}{A wider interval means less confidence.} \\
+\item \textcolor{gray}{A wider interval means less confidence.} \\ \pause
 
 \textit{This is incorrect since it is possible to make very precise statements with very 
 little confidence.} \\
@@ -241,7 +241,9 @@ little confidence.} \\
 \[ ME = z^\star \frac{s}{\sqrt{n}} \]
 
 So if we know the desired $ME$, and confidence level (and hence $z^\star$),
-and the sample standard deviation, we can solve for $n$.
+and the sample standard deviation, we can solve for $n$.  \pause
+
+\[n =  (\frac {z \star s}{ME})^2 \] 
 
 \vfill
  
@@ -253,7 +255,7 @@ and the sample standard deviation, we can solve for $n$.
 
 \vfill
 
-\app{3.1 Confidence interval for a single mean}{See course website for details.}
+\app{3.1 Confidence interval for a single mean}{}
 
 \vfill
 

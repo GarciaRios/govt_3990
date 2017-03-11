@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{T corrects for uncertainty introduced by plugging in $s$ for $\sigma $}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{When comparing means of two groups, details depend on paired or independent}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{All other details of the inferential framework is the same...}{12}{0}{2}

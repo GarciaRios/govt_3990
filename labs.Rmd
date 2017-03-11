@@ -10,13 +10,15 @@ output:
 <li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab1/intro_to_r.html>1. -- Intro to R </a>
 <li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab2/introduction_to_data.html> 2. -- Introduction to Data</a>
 <li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab3/probability.html>3. -- Probability</a>
-<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab4/Xsampling_distributions.html>4. -- Sampling Distributions</a>
-<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab5/Xconfidence_intervals.html>5. -- Confidence Intervals</a>
-<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab6/Xinf_for_numerical_data.html>6. -- Inference  for Numerical Data</a>
-<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab7/Xmore_inf_for_numerical_data.html>7. -- More Inference  for Numerical Data</a>
-<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab8/Xinf_for_categorical_data>8. -- Inference  for Numerical Data </a>
-<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab9/Xsimple_regression.html>9. -- Intro to Linear Regression</a>
-<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab10//Xmultiple_regression.html>10. -- Multiple Regression</a>
-</ul>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab5/Xconfidence_intervals.html>4. -- Confidence Intervals</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab6/Xinf_for_numerical_data.html>5. -- Inference  for Numerical Data</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab7/Xmore_inf_for_numerical_data.html>6. -- More Inference  for Numerical Data</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab9/Xsimple_regression.html>7. -- Intro to Linear Regression</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab10//Xmultiple_regression.html>8. -- Multiple Regression</a>
 
+
+
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab10//Xmultiple_regression.html>Predicted Probabilities - Visualization</a>
+<li><i class="fa-li fa fa-flask"></i><a target="_blank" href=./Labs/lab10//Xmultiple_regression.html>Case Study</a>
+</ul>
 

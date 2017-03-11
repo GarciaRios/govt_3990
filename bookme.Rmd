@@ -1,16 +1,8 @@
 ***
-## Assignments
 
 
-<ul class="fa-ul">
-<li><i class="fa-li fa fa-microphone"></i> **March 27 Project presentation and paper**
+## Office Hours  
 
-<li><i class="fa-li fa fa-microphone"></i>**May  10  Final Presentation** 
-
-<li><i class="fa-li fa fa-file-text-o"></i> **May  15  Final Paper** 
-
-</ul>
-
-
+**Click on any time to  sign up for office hours or make an appointment.**
 
 <iframe src="https://garciarios.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframegarciarios" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe><script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://garciarios.youcanbook.me"){document.getElementById("ycbmiframegarciarios").style.height = event.data + "px";}}, false);</script>

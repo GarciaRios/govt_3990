@@ -121,7 +121,7 @@ The main point here in relation to the data is that this  data-set is actually t
 
 
 ```{r}
-load("ames.RData")
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/data/ames.RData"))
 ```
 
 - After loading the data, briefly show them the data-set and variables.

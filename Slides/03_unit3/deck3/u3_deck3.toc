@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Use hypothesis tests to make decisions about population parameters}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Hypothesis tests and confidence intervals at equivalent significance/confidence levels should agree}{16}{0}{2}
+\beamer@subsectionintoc {2}{3}{Results that are statistically significant are not necessarily practically significant}{25}{0}{2}
+\beamer@subsectionintoc {2}{4}{Hypothesis tests are prone to decision errors}{34}{0}{2}
+\beamer@sectionintoc {3}{Summary}{41}{0}{3}

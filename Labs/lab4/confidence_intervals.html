@@ -154,7 +154,7 @@ $(document).ready(function () {
 
 <div id="template">
 <p><strong>Your reproducible lab report:</strong> Before you get started, download the R Markdown template for this lab. Remember all of your code and answers go in this document:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co">#download(&quot;https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/lab4.Rmd&quot;,         destfile = &quot;lab4.Rmd&quot;)</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co">#download(&quot;https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/lab4.Rmd&quot;, destfile = &quot;lab4.Rmd&quot;)</span></code></pre></div>
 </div>
 <div id="sampling-from-ames-iowa" class="section level2">
 <h2>Sampling from Ames, Iowa</h2>
@@ -166,7 +166,7 @@ $(document).ready(function () {
 <div id="the-data" class="section level2">
 <h2>The data</h2>
 <p>We consider real estate data from the city of Ames, Iowa. The details of every real estate transaction in Ames is recorded by the City Assessor’s office. Our particular focus for this lab will be all residential home sales in Ames between 2006 and 2010. This collection represents our <strong>population</strong> of interest. Let’s load the data…</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="st">&quot;ames.RData&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="kw">load</span>(<span class="kw">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/data/ames.RData&quot;</span>)</code></pre></div>
 <p>In this lab we’ll start with a simple random sample of size 60 from the population. Specifically, this is a simple random sample of size 60. Note that the data set has information on many housing variables, but for the first portion of the lab we’ll focus on the size of the house, represented by the variable <code>area</code>.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">n &lt;-<span class="st"> </span><span class="dv">60</span>
 samp &lt;-<span class="st"> </span><span class="kw">sample_n</span>(ames, n)</code></pre></div>

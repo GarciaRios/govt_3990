@@ -87,7 +87,7 @@ normTail <- function (m = 0, s = 1, L = NULL, U = NULL, M = NULL, df = 1000,
 **Your reproducible lab report:** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-#download("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/lab4.Rmd",         destfile = "lab4.Rmd")
+#download("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/lab4.Rmd", destfile = "lab4.Rmd")
 ```
 </div>
 
@@ -116,7 +116,9 @@ in Ames between 2006 and 2010.  This collection represents our **population** of
 interest. Let's load the data...
 
 ```{r}
-load("ames.RData")
+load(load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/data/ames.RData")
+
+
 ```
 
 In this lab we'll start with a simple random sample of size 60 from the 

@@ -126,7 +126,7 @@ load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/l
 
 - After loading the data, briefly show them the data-set and variables.
 - We start drawing a simple random sample of size 60 from the 
-population.  (if this doesn't work, it's beacuse they have not loaded `dplyr`)
+population.  (if this doesn't work, it's because they have not loaded `dplyr`)
 
 
 
@@ -144,20 +144,20 @@ samp %>% select(1:7) %>%
   slice(1:15)
 ```  
   
-- At this point read Exercice 1 and give them a couple of minuts to come out with some answers... ask the class what they did but you don't have to get the exact code just get broad ideas of what to do. But hopfully they estimated means if so.. ask around what they got, since they are using different seeds the random sample will be different and their  means will vary.
+- At this point read Exercise 1 and give them a couple of minutes to come out with some answers... ask the class what they did but you don't have to get the exact code just get broad ideas of what to do. But hopefully they estimated means if so.. ask around what they got, since they are using different seeds the random sample will be different and their  means will vary.
 
 1.  Describe the distribution of homes in your sample. What would you say is the
     "typical" size within your sample? Also state precisely what you interpreted 
     "typical" to mean. later
 
-- Skip this excercise they whould be able to fiiguire it out
+- Skip this exercise they would be able to figure it out
 
 1.  Would you expect another classmate's distribution to be identical to yours? 
     Would you expect it to be similar? Why or why not?
 
 ## Confidence intervals
 
- - Go over this section it's importat
+ - Go over this section it's important
 
 
 Return for a moment to the question that first motivated this lab: based on 
@@ -173,7 +173,7 @@ can be quantified using a **confidence interval**.
 A confidence interval for a population mean is of the following form
 \[ \bar{x} + z^\star \frac{s}{\sqrt{n}} \]
 
-- They already knkow this formula but show it again as a reminder
+- They already know this formula but show it again as a reminder
 - Tell them that thy should by now be comfortable with calculating the mean and standard deviation of 
 a sample in R. And we know that the sample size is 60. So the only remaining building
 block is finding the appropriate critical value for a given confidence level.
@@ -207,7 +207,7 @@ z_star_95
 which is roughly equal to the value critical value 1.96 that you're likely
 familiar with by now.
 
-Let's finally calculate the confidence interval (try to explain what this line is doing or better yet ask them to expalin what the line will do beforer they run it)
+Let's finally calculate the confidence interval (try to explain what this line is doing or better yet ask them to explain what the line will do before they run it)
 
 ```{r ci}
 samp %>%
@@ -215,7 +215,7 @@ samp %>%
             upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
 ```
 
-Afetr running that line, for teaching purposes it might be usefull to also estimate the mean right there, Like this
+After running that line, for teaching purposes it might be useful to also estimate the mean right there, Like this
 
 ```{r ci-w.mean}
 samp %>%
@@ -223,7 +223,7 @@ samp %>%
             mean = mean(Lot.Area),
             upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
 ```
- -  You can see that the estimated mean ovbiosily falls right in the middle.. .
+ -  You can see that the estimated mean obviouly falls right in the middle.. .
 
 To recap: even though we don't know what the full population looks like, we're 95% 
 confident that the true average size of houses in Ames lies between the values *lower* 
@@ -302,13 +302,13 @@ ci <- ci %>%
 ```
 
 
-- I don't know if you use `iflelse`... it's not very untuitive so hopefully they get it... This is the firt time they will use it.
+- I don't know if you use `iflelse`... it's not very intuitive so hopefully they get it... This is the first time they will use it.
 
 The `ifelse` function is new. It takes three arguments: first is a logical statement,
 second is the value we want if the logical statement yields a true result, and the
 third is the value we want if the logical statement yields a false result.
 
- - (In this case  we use `mutate` to create a varaible that would have two values: "yes" and "no". The values would be assingned usung `iflese`:  if the lower bound is less than  `mu` AND  the upper bund greater than `mu`, the assigned value would be "yes", OTHERWISE it will be "no")
+ - (In this case  we use `mutate` to create a variable that would have two values: "yes" and "no". The values would be assigned using `iflese`:  if the lower bound is less than  `mu` AND  the upper bound greater than `mu`, the assigned value would be "yes", OTHERWISE it will be "no")
 
 We now have all the information we need to create the plot, but we need to re-organize
 our data a bit for easy plotting. Specifically, we need to organize the data in a new

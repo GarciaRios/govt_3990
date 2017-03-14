@@ -88,7 +88,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 <li><i class="fa-li fa fa-bar-chart"></i>    Mar 6 	Variability in estimates and CLT  <a target="_blank" href="./Slides/unit3/deck-1-2.pdf"> Deck </a>
 <li><i class="fa-li fa fa-bar-chart"></i>    Mar 8 	Confidence intervals  <a target="_blank" href="./Slides/unit3/deck-1-2.pdf"> Deck </a>
 <li><i class="fa-li fa fa-bar-chart"></i>    Mar 13 	 Hypothesis tests  <a target="_blank" href="./Slides/unit3/deck-1-2.pdf"> Deck</a>
-<li><i class="fa-li fa fa-flask"></i>        Mar 15  Lab 4 - (Due Mar 22) <a target="_blank" href=./Labs/lab0/lab0.html>Confidence intervals</a>
+<li><i class="fa-li fa fa-flask"></i>        Mar 15  Lab 4 - (Due Mar 22) <a target="_blank" href=./Labs/lab4/confidence_intervals.html>Confidence intervals</a>
 </ul>
 
 

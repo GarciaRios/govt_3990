@@ -173,7 +173,7 @@ graphics::arrows(-3.7, 0.25, 1.96, 0.25, col = "red", lwd = 3, code = 3)
 text(x = -1.4, y = 0.275, "97.5%", cex = 1.5, col = "red")
 ```
 
-We can find the critical value for a 95% confidence interal using
+We can find the critical value for a 95% confidence interval using
 ```{r z_star_95}
 z_star_95 <- qnorm(0.975)
 z_star_95

@@ -178,10 +178,10 @@ $(document).ready(function () {
 <div id="the-data" class="section level2">
 <h2>The data</h2>
 <p>The main point here in relation to the data is that this data-set is actually the <strong>popuaiton</strong>. We rarely have that luxury.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="st">&quot;ames.RData&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="kw">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/data/ames.RData&quot;</span>))</code></pre></div>
 <ul>
 <li>After loading the data, briefly show them the data-set and variables.</li>
-<li>We start drawing a simple random sample of size 60 from the population. (if this doesn’t work, it’s beacuse they have not loaded <code>dplyr</code>)</li>
+<li>We start drawing a simple random sample of size 60 from the population. (if this doesn’t work, it’s because they have not loaded <code>dplyr</code>)</li>
 </ul>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">n &lt;-<span class="st"> </span><span class="dv">100</span>
 samp &lt;-<span class="st"> </span><span class="kw">sample_n</span>(ames, n)</code></pre></div>
@@ -207,13 +207,13 @@ samp &lt;-<span class="st"> </span><span class="kw">sample_n</span>(ames, n)</co
 ## 14  2685 903236200          45        RM           58     6380   Pave
 ## 15    61 528344070          60        RL           60    17433   Pave</code></pre>
 <ul>
-<li>At this point read Exercice 1 and give them a couple of minuts to come out with some answers… ask the class what they did but you don’t have to get the exact code just get broad ideas of what to do. But hopfully they estimated means if so.. ask around what they got, since they are using different seeds the random sample will be different and their means will vary.</li>
+<li>At this point read Exercise 1 and give them a couple of minutes to come out with some answers… ask the class what they did but you don’t have to get the exact code just get broad ideas of what to do. But hopefully they estimated means if so.. ask around what they got, since they are using different seeds the random sample will be different and their means will vary.</li>
 </ul>
 <ol style="list-style-type: decimal">
 <li>Describe the distribution of homes in your sample. What would you say is the “typical” size within your sample? Also state precisely what you interpreted “typical” to mean. later</li>
 </ol>
 <ul>
-<li>Skip this excercise they whould be able to fiiguire it out</li>
+<li>Skip this exercise they would be able to figure it out</li>
 </ul>
 <ol style="list-style-type: decimal">
 <li>Would you expect another classmate’s distribution to be identical to yours? Would you expect it to be similar? Why or why not?</li>
@@ -222,12 +222,12 @@ samp &lt;-<span class="st"> </span><span class="kw">sample_n</span>(ames, n)</co
 <div id="confidence-intervals" class="section level2">
 <h2>Confidence intervals</h2>
 <ul>
-<li>Go over this section it’s importat</li>
+<li>Go over this section it’s important</li>
 </ul>
 <p>Return for a moment to the question that first motivated this lab: based on this sample, what can we infer about the population? Based only on this single sample, the best estimate of the average living area of houses sold in Ames would be the sample mean, usually denoted as <span class="math inline">\(\bar{x}\)</span> (here we’re calling it <code>x_bar</code>). That serves as a good <strong>point estimate</strong> but it would be useful to also communicate how uncertain we are of that estimate. This uncertainty can be quantified using a <strong>confidence interval</strong>.</p>
 <p>A confidence interval for a population mean is of the following form <span class="math display">\[ \bar{x} + z^\star \frac{s}{\sqrt{n}} \]</span></p>
 <ul>
-<li>They already knkow this formula but show it again as a reminder</li>
+<li>They already know this formula but show it again as a reminder</li>
 <li><p>Tell them that thy should by now be comfortable with calculating the mean and standard deviation of a sample in R. And we know that the sample size is 60. So the only remaining building block is finding the appropriate critical value for a given confidence level.</p></li>
 <li><p>Instead of using the tables they have been using so far, you are going to use the <code>qnorm</code> function for this task, which will give the critical value associated with a given percentile under the normal distribution. Remember that confidence levels and percentiles are not equivalent. For example, a 95% confidence level refers to the middle 95% of the distribution, and the critical value associated with this area will correspond to the 97.5th percentile.</p></li>
 <li><p>Show them this graph to illustrate but they should know already…</p></li>
@@ -238,13 +238,13 @@ samp &lt;-<span class="st"> </span><span class="kw">sample_n</span>(ames, n)</co
 z_star_95</code></pre></div>
 <pre><code>## [1] 1.959964</code></pre>
 <p>which is roughly equal to the value critical value 1.96 that you’re likely familiar with by now.</p>
-<p>Let’s finally calculate the confidence interval (try to explain what this line is doing or better yet ask them to expalin what the line will do beforer they run it)</p>
+<p>Let’s finally calculate the confidence interval (try to explain what this line is doing or better yet ask them to explain what the line will do before they run it)</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">samp %&gt;%
 <span class="st">  </span><span class="kw">summarise</span>(<span class="dt">lower =</span> <span class="kw">mean</span>(Lot.Area) -<span class="st"> </span>z_star_95 *<span class="st"> </span>(<span class="kw">sd</span>(Lot.Area) /<span class="st"> </span><span class="kw">sqrt</span>(n)),
             <span class="dt">upper =</span> <span class="kw">mean</span>(Lot.Area) +<span class="st"> </span>z_star_95 *<span class="st"> </span>(<span class="kw">sd</span>(Lot.Area) /<span class="st"> </span><span class="kw">sqrt</span>(n)))</code></pre></div>
 <pre><code>##    lower    upper
 ## 1 8597.4 11492.58</code></pre>
-<p>Afetr running that line, for teaching purposes it might be usefull to also estimate the mean right there, Like this</p>
+<p>After running that line, for teaching purposes it might be useful to also estimate the mean right there, Like this</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">samp %&gt;%
 <span class="st">  </span><span class="kw">summarise</span>(<span class="dt">lower =</span> <span class="kw">mean</span>(Lot.Area) -<span class="st"> </span>z_star_95 *<span class="st"> </span>(<span class="kw">sd</span>(Lot.Area) /<span class="st"> </span><span class="kw">sqrt</span>(n)),
             <span class="dt">mean =</span> <span class="kw">mean</span>(Lot.Area),
@@ -252,7 +252,7 @@ z_star_95</code></pre></div>
 <pre><code>##    lower     mean    upper
 ## 1 8597.4 10044.99 11492.58</code></pre>
 <ul>
-<li>You can see that the estimated mean ovbiosily falls right in the middle.. .</li>
+<li>You can see that the estimated mean obviouly falls right in the middle.. .</li>
 </ul>
 <p>To recap: even though we don’t know what the full population looks like, we’re 95% confident that the true average size of houses in Ames lies between the values <em>lower</em> and <em>upper</em>. There are a few conditions that must be met for this interval to be valid.</p>
 <ul>
@@ -302,11 +302,11 @@ z_star_95</code></pre></div>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">ci &lt;-<span class="st"> </span>ci %&gt;%
 <span class="st">  </span><span class="kw">mutate</span>(<span class="dt">capture_mu =</span> <span class="kw">ifelse</span>(lower &lt;<span class="st"> </span>params$mu &amp;<span class="st"> </span>upper &gt;<span class="st"> </span>params$mu, <span class="st">&quot;yes&quot;</span>, <span class="st">&quot;no&quot;</span>))</code></pre></div>
 <ul>
-<li>I don’t know if you use <code>iflelse</code>… it’s not very untuitive so hopefully they get it… This is the firt time they will use it.</li>
+<li>I don’t know if you use <code>iflelse</code>… it’s not very intuitive so hopefully they get it… This is the first time they will use it.</li>
 </ul>
 <p>The <code>ifelse</code> function is new. It takes three arguments: first is a logical statement, second is the value we want if the logical statement yields a true result, and the third is the value we want if the logical statement yields a false result.</p>
 <ul>
-<li>(In this case we use <code>mutate</code> to create a varaible that would have two values: “yes” and “no”. The values would be assingned usung <code>iflese</code>: if the lower bound is less than <code>mu</code> AND the upper bund greater than <code>mu</code>, the assigned value would be “yes”, OTHERWISE it will be “no”)</li>
+<li>(In this case we use <code>mutate</code> to create a variable that would have two values: “yes” and “no”. The values would be assigned using <code>iflese</code>: if the lower bound is less than <code>mu</code> AND the upper bound greater than <code>mu</code>, the assigned value would be “yes”, OTHERWISE it will be “no”)</li>
 </ul>
 <p>We now have all the information we need to create the plot, but we need to re-organize our data a bit for easy plotting. Specifically, we need to organize the data in a new data frame where each row represents one bound, as opposed to one interval. So this</p>
 <pre><code>     lower    upper capture_mu

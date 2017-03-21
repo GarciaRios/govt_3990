@@ -7,9 +7,10 @@ output:
     css: ..\labs.css
     toc: yes
 ---
+---
 
 ```{r global_options, include=FALSE}
-knitr::opts_chunk$set(eval = FALSE)
+knitr::opts_chunk$set(eval = TRUE)
 library(dplyr)
 library(ggplot2)
 ```
@@ -35,7 +36,7 @@ observations from this data set.
 Load the `nc` data set into our workspace.
 
 ```{r load-data}
-load("nc.RData")
+load(url("https://stat.duke.edu/~mc301/data/nc.RData"))
 ```
 
 We have observations on 13 different variables, some categorical and some 
@@ -87,7 +88,6 @@ first group the data by the `habit` variable, and then calculate the mean
 nc %>%
   group_by(habit) %>%
   summarise(mean_weight = mean(weight))
-
 ```
 
 There is an observed difference, but is this difference statistically 
@@ -96,13 +96,14 @@ significant? In order to answer this question we will conduct a hypothesis test
 
 ## Inference
 
-3.  Are all conditions necessary for inference satisfied? Comment on each. You can  compute the group sizes using the same `by` command above but replacing `mean(weight)` 
+3.  Are all conditions necessary for inference satisfied? Comment on each. You can 
+compute the group sizes using the same `by` command above but replacing `mean(weight)` 
 with `n()`.
 
 4.  Write the hypotheses for testing if the average weights of babies born to 
 smoking and non-smoking mothers are different.
 
-Next, we introduce a new function, `inference`, whicha was custom made for this class and  we will use it  for conducting
+Next, we introduce a new function, `inference`, that we will use for conducting
 hypothesis tests and constructing confidence intervals. 
 
 First, load the function:
@@ -113,7 +114,7 @@ load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
 
 Then, run the following:
 
-```{r inf-weight-habit-ht, tidy=TRUE}
+```{r inf-weight-habit-ht, tidy=FALSE}
 inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ht", null = 0, 
           alternative = "twosided", method = "theoretical")
 ```

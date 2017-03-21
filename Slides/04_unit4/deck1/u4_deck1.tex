@@ -5,7 +5,7 @@
 % Option 1: Slides: (comment for handouts)   %
 %%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[slidestop,compress,mathserif,12pt,t,professionalfonts,xcolor=table]{beamer}
+\documentclass[t,compress,mathserif,11pt,t,professionalfonts,xcolor=table]{beamer}
 
 % solution stuff
 \newcommand{\solnMult}[1]{
@@ -67,7 +67,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\fontspec[Ligatures=TeX]{Helvetica Neue Light}
+%\fontspec[Ligatures=TeX]{Helvetica Neue Light}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -87,33 +87,33 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Housekeeping}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Announcements}
-
-\begin{itemize}
-
-\item Exams returned at the end of class today
-
-\item MT grades posted on ACES
-
-\item Peer eval due tonight
-
-\item Project proposal due Friday
-\begin{itemize}
-\item Read the project instructions one more time
-\item Work on the proposal before your lab on Thursday
-\item Go to lab with questions
-\end{itemize}
-
-\item MT course feedback due Tuesday night -- anonymous, appreciate feedback
-
-\end{itemize}
-
-\end{frame}
+%\section{Housekeeping}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{frame}
+%\frametitle{Announcements}
+%
+%\begin{itemize}
+%
+%\item Exams returned at the end of class today
+%
+%\item MT grades posted on ACES
+%
+%\item Peer eval due tonight
+%
+%\item Project proposal due Friday
+%\begin{itemize}
+%\item Read the project instructions one more time
+%\item Work on the proposal before your lab on Thursday
+%\item Go to lab with questions
+%\end{itemize}
+%
+%\item MT course feedback due Tuesday night -- anonymous, appreciate feedback
+%
+%\end{itemize}
+%
+%\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -176,7 +176,7 @@ error of the sampling distribution.
 
 \pause
 
-\disc{What happens to shape of the $t$-distribution as $df$ increases?}
+\disc{What happens to shape of the $t$-distribution as $df$ increases?} \pause
 \twocol{0.75}{0.25}{
 \begin{center}
 \includegraphics[width=\textwidth]{figures/tDistConvergeToNormalDist/tDistConvergeToNormalDist}
@@ -195,12 +195,16 @@ error of the sampling distribution.
 \subsection{When comparing means of two groups, details depend on paired or independent}
 \label{mi2}
 
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
 \frametitle{Example 1: Zinc in water}
-
-\disc{Trace metals in drinking water affect the flavor and an unusually high concentration can pose a health hazard. Ten pairs of data were taken measuring zinc concentration in bottom water and surface water at 10 randomly sampled locations.}
+\small{
+\disc{Trace metals in drinking water affect the flavor and an unusually high concentration can pose a health hazard. Ten pairs of data were taken measuring zinc concentration in bottom water and surface water at 10 randomly sampled locations.}}
 
 \twocol{0.5}{0.5}{
 \begin{center}
@@ -233,15 +237,31 @@ Water samples collected at the same location, on the surface and in the bottom, 
 
 \end{frame}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
 \frametitle{Example 2: Gender gap in salaries}
 
-\disc{{\small Since 2005, the American Community Survey\footnote{Aside: Surge of media attention in spring 2012 when the House 
-of Representatives voted to eliminate the survey. Daniel Webster, Republican congressman from Florida: ``in the end this is not a 
-scientific survey. It's a random survey."} polls $\sim$3.5 million households yearly. The following summarizes distribution of salaries of 
-males and females from a random sample of individuals who responded to the 2012 ACS:}}
+\disc{{\small Since 2005, the American Community Survey polls $\sim$3.5 million households yearly...} \pause 
+
+\scriptsize{\textit{Aside: Surge of media attention in spring 2012 when the House 
+of Representatives voted to eliminate the survey. Daniel Webster, Republican congressman from Florida had an interesting opinion:}}}
+
+\begin{center}
+
+\includegraphics<3>[width=.95\textwidth]{figures/random_not_sci/random2}
+\end{center}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Example 2: Gender gap in salaries}
+
+\disc{{\small Since 2005, the American Community Survey polls $\sim$3.5 million households yearly. The following summarizes distribution of salaries of males and females from a random sample of individuals who responded to the 2012 ACS:}}
 
 \begin{center}
 %
@@ -298,7 +318,7 @@ Suppose we want to compare the average zinc concentration levels in the bottom a
 
 \twocol{0.5}{0.5}{
 \begin{center}
-{\scriptsize
+{\tiny
 \begin{tabular}{l | c | c | >{\columncolor[gray]{0.8}} c}
 Location	& bottom	& surface & difference\\
 \hline
@@ -402,7 +422,7 @@ $\:$ \\
 
 \begin{frame}
 \frametitle{3. All other details of the inferential framework is the same...}
-
+\small{
 \[ HT: test~statistic = \frac{point~estimate - null}{SE} \]
 
 \pause
@@ -412,7 +432,7 @@ $\:$ \\
 \pause
 
 $\:$ \\
-
+}
 \threecol{0.25}{0.375}{0.375}
 {
 \hl{One mean:} \\

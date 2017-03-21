@@ -153,7 +153,7 @@ $(document).ready(function () {
 
 <div id="template">
 <p><strong>Your reproducible lab report:</strong> Before you get started, download the R Markdown template for this lab. Remember all of your code and answers go in this document:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">download</span>(<span class="st">&quot;http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab6.Rmd&quot;</span>, <span class="dt">destfile =</span> <span class="st">&quot;lab6.Rmd&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">download</span>(<span class="st">&quot;https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/lab5.Rmd&quot;</span>, <span class="dt">destfile =</span> <span class="st">&quot;lab5.Rmd&quot;</span>)</code></pre></div>
 </div>
 <div id="north-carolina-births" class="section level2">
 <h2>North Carolina births</h2>
@@ -162,7 +162,7 @@ $(document).ready(function () {
 <div id="exploratory-analysis" class="section level2">
 <h2>Exploratory analysis</h2>
 <p>Load the <code>nc</code> data set into our workspace.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="st">&quot;nc.RData&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="kw">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/nc.RData&quot;</span>))</code></pre></div>
 <p>We have observations on 13 different variables, some categorical and some numerical. The meaning of each variable is as follows.</p>
 <table style="width:88%;">
 <colgroup>
@@ -254,7 +254,7 @@ $(document).ready(function () {
 </ol>
 <p>Next, we introduce a new function, <code>inference</code>, whicha was custom made for this class and we will use it for conducting hypothesis tests and constructing confidence intervals.</p>
 <p>First, load the function:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="kw">url</span>(<span class="st">&quot;https://stat.duke.edu/~mc301/R/fun/inference.RData&quot;</span>))</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="kw">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/inference.RData&quot;</span>))</code></pre></div>
 <p>Then, run the following:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">inference</span>(<span class="dt">y =</span> weight, <span class="dt">x =</span> habit, <span class="dt">data =</span> nc, <span class="dt">statistic =</span> <span class="st">&quot;mean&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;ht&quot;</span>, 
     <span class="dt">null =</span> <span class="dv">0</span>, <span class="dt">alternative =</span> <span class="st">&quot;twosided&quot;</span>, <span class="dt">method =</span> <span class="st">&quot;theoretical&quot;</span>)</code></pre></div>
@@ -277,7 +277,7 @@ $(document).ready(function () {
 </ul>
 </div>
 <div id="license">
-<p>This is a product of OpenIntro that is released under a <a href="http://creativecommons.org/licenses/by-sa/3.0">Creative Commons Attribution-ShareAlike 3.0 Unported</a>. This lab was adapted for OpenIntro by Mine Çetinkaya-Rundel from a lab written by the faculty and TAs of UCLA Statistics.</p>
+<p>This is lab is released under a <a href="http://creativecommons.org/licenses/by-sa/3.0">Creative Commons Attribution-ShareAlike 3.0 Unported</a>.</p>
 </div>
 </div>
 

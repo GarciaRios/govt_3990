@@ -2,12 +2,14 @@
 title: 'Inference for numerical data'
 output:
   html_document:
-    theme: simplex
+    theme: spacelab
     highlight: haddock
     css: ..\labs.css
     toc: yes
 ---
----
+
+
+***Again, thanks a lot for doing this. I have added extra code to this document and you will find my comments to you in bullet points*** 
 
 ```{r global_options, include=FALSE}
 knitr::opts_chunk$set(eval = TRUE)
@@ -19,7 +21,7 @@ library(ggplot2)
 **Your reproducible lab report:** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-download("http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab6.Rmd", destfile = "lab6.Rmd")
+download("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5lab5.Rmd", destfile = "lab5.Rmd")
 ```
 </div>
 
@@ -39,6 +41,9 @@ Load the `nc` data set into our workspace.
 load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/nc.RData"))
 ```
 
+- **Please go over the variables at least briefly andm mention what they are because they will have to go back and use other variables from the data set**
+
+
 We have observations on 13 different variables, some categorical and some 
 numerical. The meaning of each variable is as follows.
 
@@ -46,7 +51,7 @@ variable         | description
 ---------------- | ---------------------------------------------
 `fage`           | father's age in years.
 `mage`           | mother's age in years.
-`mature`         | maturity status of mother.
+`mature`         | maturity status of mother.whether mother is `mature` or `youger` according to NC own classification.
 `weeks`          | length of pregnancy in weeks.
 `premie`         | whether the birth was classified as premature (premie) or full-term.
 `visits`         | number of hospital visits during pregnancy.
@@ -79,10 +84,23 @@ questions.
 2.  Make a side-by-side boxplot of `habit` and `weight`. What does the plot 
 highlight about the relationship between these two variables?
 
+- See if they can get the boxplot on their own, then show them the code
+
+```{r boxplot}
+
+ggplot(nc, aes(y = weight, x = habit)) +
+  geom_boxplot()
+
+```
+
+- Ask them what they see in the boxplot... My expectation is that they will notice the median is different but the distribution overlaps a lot, so it is not that easy to determine if the means are statically different just eyeballing it
+
 The box plots show how the medians of the two distributions compare, but we can
 also compare the means of the distributions using the following to 
-first group the data by the `habit` variable, and then calculate the mean
-`weight` in these groups using the `mean` function.
+first group the data by the `habit` variable, and then calculate the mean `weight` in these groups using the `mean` function.
+
+
+
 
 ```{r by-means}
 nc %>%
@@ -91,17 +109,26 @@ nc %>%
 ```
 
 There is an observed difference, but is this difference statistically 
-significant? In order to answer this question we will conduct a hypothesis test
-.
+significant? In order to answer this question we will conduct a hypothesis test.
+
+- While there is a difference in the mean we still want to know of this is **statistically** different. 
 
 ## Inference
-
+- You can skip most of qustion 3 and just show them how to get the counts
 3.  Are all conditions necessary for inference satisfied? Comment on each. You can 
 compute the group sizes using the same `by` command above but replacing `mean(weight)` 
 with `n()`.
 
+- You'd do it like this (bottom line is that there are enough observation in each group):
+```{r}
+nc %>%
+  group_by(habit) %>%
+  summarise(n = n())
+```
 4.  Write the hypotheses for testing if the average weights of babies born to 
 smoking and non-smoking mothers are different.
+
+
 
 Next, we introduce a new function, `inference`, that we will use for conducting
 hypothesis tests and constructing confidence intervals. 
@@ -109,15 +136,37 @@ hypothesis tests and constructing confidence intervals.
 First, load the function:
 
 ```{r load-inference}
-load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/inference.RData"))
 ```
 
 Then, run the following:
 
-```{r inf-weight-habit-ht, tidy=FALSE}
+- Going over  the function will probably be the core of the lab... 
+
+
+- In addition to the information below, you could  go over the outcome of the function.
+  
+    - The output shows the $n$, $mean$ and $sd$ for both groups.
+    - It also shows the null hypothesis and the alternative hypotheses that we chose. 
+        - In this case, since we chose `twosided` the alternative is that the means of these groups are statistically different.
+    - Finally, the output shows the $t$ value and the $p$ value. They should know this but you can remind them that for a 95% confidence interval we want:  
+         - $p < .05$ or $t > 1.96$. 
+    
+- In relation to the graphs the histograms show the distribution of both groups, and the blue bar shows the mean of each group.
+- The plot on the right shows the curve around our chosen `null`,  in this case $0$. The horizontal bar shows the difference in means, in this case $.3156$ 
+  
+    ($7.1443 - 6.8287 = .3156$) 
+ 
+
+```{r inf-weight-habit-ht, tidy=FALSE, warning=FALSE}
 inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ht", null = 0, 
           alternative = "twosided", method = "theoretical")
 ```
+
+
+ 
+ ****
+
 
 Let's pause for a moment to go through the arguments of this custom function. 
 The first argument is `y`, which is the response variable that we are 
@@ -133,6 +182,11 @@ since the null hypothesis sets the two population means equal to each other.
 The `alternative` hypothesis can be `"less"`, `"greater"`, or `"twosided"`. 
 Lastly, the `method` of inference can be `"theoretical"` or `"simulation"` based.
 
+
+
+
+
+
 5.  Change the `type` argument to `"ci"` to construct and record a confidence 
 interval for the difference between the weights of babies born to nonsmoking and 
 smoking mothers, and interpret this interval in context of the data. Note that by 
@@ -141,12 +195,20 @@ confidence level, add a new argument (`conf_level`) which takes on a value
 between 0 and 1. Also note that when doing a confidence interval arguments like
 `null` and `alternative` are not useful, so make sure to remove them.
 
+- Here it is with 95%... This Confidence interval is the interval around the difference ( 0.0508 - .3516 -  0.5803)
+
+```{r}
+inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ci",  method = "theoretical")
+```
+
+
+- Here it is with 98 CI ... notice the CI now
+
 
 ```{r}
 inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ci",  
-          conf_level = .9797595, method = "theoretical")
+          conf_level = .98, method = "theoretical")
 ```
-
 
 By default the function reports an interval for ($\mu_{nonsmoker} - \mu_{smoker}$)
 . We can easily change this order by using the `order` argument:
@@ -154,11 +216,10 @@ By default the function reports an interval for ($\mu_{nonsmoker} - \mu_{smoker}
 ```{r inf-weight-habit-ci, tidy=FALSE}
 inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ci", 
           method = "theoretical", order = c("smoker","nonsmoker"))
-
-
-
-inference(y = weeks, data = nc, type = "ci",  method = "theoretical", statistic = "mean")
 ```
+
+
+- That is all... they should be able to do the rest...
 
 * * *
 
@@ -194,8 +255,5 @@ your project as well.)
 </div>
 
 <div id="license">
-This is a product of OpenIntro that is released under a [Creative Commons 
 Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0).
-This lab was adapted for OpenIntro by Mine &Ccedil;etinkaya-Rundel from a lab 
-written by the faculty and TAs of UCLA Statistics.
 </div>

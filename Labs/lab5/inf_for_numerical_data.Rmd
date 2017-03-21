@@ -18,7 +18,7 @@ library(ggplot2)
 **Your reproducible lab report:** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-download("http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab6.Rmd", destfile = "lab6.Rmd")
+download("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/lab5.Rmd", destfile = "lab5.Rmd")
 ```
 </div>
 
@@ -35,7 +35,7 @@ observations from this data set.
 Load the `nc` data set into our workspace.
 
 ```{r load-data}
-load("nc.RData")
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/nc.RData"))
 ```
 
 We have observations on 13 different variables, some categorical and some 
@@ -108,7 +108,7 @@ hypothesis tests and constructing confidence intervals.
 First, load the function:
 
 ```{r load-inference}
-load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/inference.RData"))
 ```
 
 Then, run the following:
@@ -182,8 +182,7 @@ your project as well.)
 </div>
 
 <div id="license">
-This is a product of OpenIntro that is released under a [Creative Commons 
+This is lab is released under a [Creative Commons 
 Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0).
-This lab was adapted for OpenIntro by Mine &Ccedil;etinkaya-Rundel from a lab 
-written by the faculty and TAs of UCLA Statistics.
+
 </div>

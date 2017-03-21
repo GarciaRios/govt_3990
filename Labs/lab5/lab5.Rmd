@@ -1,6 +1,6 @@
 ---
-title: "Lab 6 - Inference for numerical data"
-author: "Enter team name here"
+title: "Lab 5 - Inference for numerical data"
+author: "Enter  name here"
 date: "Enter date here"
 output: 
   html_document: 
@@ -16,20 +16,17 @@ library(ggplot2)
 library(mosaic)
 ```
 
-**Author:** Enter author name here
-
-**Discussants:** Enter discussant names here. Remember, these are other team members present in lab.
 
 * * *
 
 **Load NC dataset:**
 ```{r}
-load(url("https://stat.duke.edu/~mc301/data/nc.RData"))
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/nc.RData"))
 ```
 
 **Load inference function:**
 ```{r}
-load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/inference.RData"))
 ```
 
 

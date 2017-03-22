@@ -41,7 +41,7 @@ Load the `nc` data set into our workspace.
 load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab5/nc.RData"))
 ```
 
-- **Please go over the variables at least briefly andm mention what they are because they will have to go back and use other variables from the data set**
+- **Please go over the variables at least briefly and mention what they are because they will have to go back and use other variables from the data set**
 
 
 We have observations on 13 different variables, some categorical and some 

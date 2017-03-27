@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Comparing many means requires care}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{ANOVA tests for \emph {some} difference in means of many different groups}{14}{0}{2}
+\beamer@subsectionintoc {2}{3}{ANOVA compares between group variation to within group variation}{17}{0}{2}
+\beamer@subsectionintoc {2}{4}{To identify which means are different, use t-tests and the Bonferroni correction}{23}{0}{2}
+\beamer@sectionintoc {3}{Summary}{26}{0}{3}

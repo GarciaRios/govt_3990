@@ -56,7 +56,7 @@
 %%%%%%%%%%%
 
 \title{Unit 4: Inference for numerical data}
-\subtitle{4. ANOVA}
+\subtitle{2. ANOVA}
 \author{\CourseName}
 \date{}
 \institute{\InstituteName}
@@ -67,7 +67,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\fontspec[Ligatures=TeX]{Helvetica Neue Light}
+%\fontspec[Ligatures=TeX]{Helvetica Neue Light}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -94,15 +94,15 @@
 \begin{frame}
 \frametitle{Announcements}
 
-\begin{itemize}
+%\begin{itemize}
 
-\item PS 4 due Friday
+%\item PS 4 due Friday
+%
+%\item PA 4 due Sunday
+%
+%\item RA 5 Monday after Spring Break
 
-\item PA 4 due Sunday
-
-\item RA 5 Monday after Spring Break
-
-\end{itemize}
+%\end{itemize}
 
 \end{frame}
 
@@ -123,7 +123,8 @@
 \begin{center}
 \textcolor{custom_red}{\Large NEWS FLASH!} \\
 $\:$ $\:$
-\textcolor{custom_red}{Jelly beans rumored to cause acne!!!}
+\textcolor{custom_red}{Jelly beans rumored to cause acne!!!} \pause
+\includegraphics<2>[scale=.5]{figures/green_jelly_bean}
 \end{center}
 
 \pause
@@ -152,20 +153,6 @@ H_A&: \mu_{\textmd{jelly beans}} - \mu_{\textmd{placebo}} \ne 0 \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
-\frametitle{}
-
-\vfill
-  
-\begin{center}
-\webURL{http://imgs.xkcd.com/comics/significant.png}
-\end{center}
-
-\vfill
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
 \frametitle{}
@@ -189,7 +176,7 @@ when it is actually true?}
 
 \begin{frame}
 \frametitle{}
-  
+ \footnotesize{
 \clicker{Suppose we want to test 20 different colors of jelly beans versus a placebo
 with hypotheses like
 {\small
@@ -202,7 +189,7 @@ H_0&: \mu_{\textmd{peach jelly bean}} - \mu_{\textmd{placebo}} = 0 \\
 }
 and we use $\alpha = 0.05$ for each of these tests. What is the probability of making
 at least one Type 1 error in these 20 independent tests?}
-
+}
 \begin{enumerate}[(a)]
 \item 1\%
 \item 5\%
@@ -210,7 +197,7 @@ at least one Type 1 error in these 20 independent tests?}
 \item \solnMult{64\%} \onslide<2>{\soln{\red{$\rightarrow~1 - (1 - 0.05)^{20}$}}}
 \item 95\%
 \end{enumerate}
- 
+
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -222,7 +209,7 @@ at least one Type 1 error in these 20 independent tests?}
 
 \begin{frame}
   \frametitle{ANOVA tests for \emph{some} difference in means of many different groups}
-
+\footnotesize{
 Null hypothesis:
 \[
 H_0: \mu_{\textmd{placebo}} = \mu_{\textmd{purple}} = \mu_{\textmd{brown}} =
@@ -231,13 +218,15 @@ H_0: \mu_{\textmd{placebo}} = \mu_{\textmd{purple}} = \mu_{\textmd{brown}} =
 
 \clicker{Which of the following is a correct statement of the alternative hypothesis?}
 
+
+
 \begin{enumerate}[(a)]
 \item For any two groups, including the placebo group, no two group means are the same.
 \item For any two groups, not including the placebo group, no two group means are the same.
-\item Amongst the jelly bean groups, there are at least two groups that have different group means from each other.
+\item Among the jelly bean groups, there are at least two groups that have different group means from each other.
 \item \solnMult{Amongst all groups, there are at least two groups that have different group means from each other.}
 \end{enumerate}
-
+}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -350,7 +339,7 @@ where $K$ is the total number of pairwise tests
 
 \vfill
 
-\app{4.4 ANOVA}{See the course webpage for details.}
+\app{4.4 ANOVA}{}
 
 \vfill
 

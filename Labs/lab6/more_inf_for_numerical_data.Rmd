@@ -2,10 +2,11 @@
 title: 'Inference for numerical data'
 output:
   html_document:
-    css: ../lab.css
-    highlight: pygments
-    theme: cerulean
-  pdf_document: default
+    theme: simplex
+    highlight: haddock
+    css: ..\labs.css
+    toc: yes
+---
 ---
 
 ```{r global_options, include=FALSE}
@@ -18,7 +19,7 @@ library(ggplot2)
 **Your reproducible lab report:** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-download("http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab7.Rmd", destfile = "lab7.Rmd")
+download("/./lab7.Rmd", destfile = "lab7.Rmd")
 ```
 </div>
 
@@ -30,7 +31,7 @@ dataset once, as part of your application exercise. In this lab you get a chance
 it a little more extensively.
 
 ```{r load-data}
-load(url("https://stat.duke.edu/~mc301/data/acs.RData"))
+load(url("https:/./data/acs.RData"))
 ```
 
 Below is the *codebook* for this dataset:
@@ -85,7 +86,7 @@ already loaded in your console's enviromment from last time, but not that in ord
 fully reproducible lab report you need to load it in your markdown document as well.
 
 ```{r load-inference}
-load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
+load(url("https://.../inference.RData"))
 ```
     
 1.  Construct a 95% confidence interval for the difference between the average incomes of 

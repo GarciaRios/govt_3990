@@ -214,16 +214,13 @@ $(document).ready(function () {
 <p>Again, the <code>ifelse()</code> function has three arguments: a logical test, return values for TRUE elements of test, and return values for FALSE elements of test. In this case, <code>emp_type</code> will be coded as <code>&quot;full time&quot;</code> for observations where <code>hrs_work</code> is greater than or equal to 40, and as <code>&quot;part time&quot;</code> otherwise.</p>
 <p>To find out what percent of the sample is full vs. part time for men and women, we turn to summary statistics:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">acs_emp %&gt;%
-<span class="st">  </span><span class="kw">group_by</span>(emp_type) %&gt;%
-<span class="st">  </span><span class="kw">summarise</span>(<span class="dt">prop =</span> <span class="kw">n</span>() /<span class="st"> </span><span class="kw">nrow</span>(acs_emp))</code></pre></div>
-<p>Here we first grouped the data by the new <code>emp_type</code> variable, and then we calculated proportions of full and part time employees by first counting how many there are in each group (<code>n()</code>) and then dividing this number by the total number of rows of the dataset.</p>
-<ol style="list-style-type: decimal">
-<li><p>Create a bar plot of the distribution of the <code>emp_type</code> variable, and also include the summary statistics you calculated above in your answer. What percent of the sample are full time and what percent are part time employees?</p></li>
-<li><p>Are females more heavily represented among full time employees or part time employees? Answer this question using summary statistics (code provided below) and a visualization (tip: use <code>fill</code> in the ggplot).</p></li>
-</ol>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">acs_emp %&gt;%
 <span class="st">  </span><span class="kw">group_by</span>(emp_type, gender) %&gt;%
 <span class="st">  </span><span class="kw">summarise</span>(<span class="dt">prop =</span> <span class="kw">n</span>() /<span class="st"> </span><span class="kw">nrow</span>(acs_emp))</code></pre></div>
+<p>Here we first grouped the data by the new <code>emp_type</code> variable and <code>gender</code>, then we calculated proportions of full and part time employees by first counting how many there are in each group (<code>n()</code>) and then dividing this number by the total number of rows of the dataset.</p>
+<ol style="list-style-type: decimal">
+<li><p>Create a bar plot of the distribution of the <code>emp_type</code> variable, and also include the summary statistics you calculated above in your answer. What percent of the sample are full time and what percent are part time employees?</p></li>
+<li><p>Are females more heavily represented among full time employees or part time employees?</p></li>
+</ol>
 <hr />
 </div>
 </div>

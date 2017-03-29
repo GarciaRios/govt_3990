@@ -172,11 +172,11 @@ To find out what percent of the sample is full vs. part time for men and women, 
 
 ```{r}
 acs_emp %>%
-  group_by(emp_type) %>%
+  group_by(emp_type, gender) %>%
   summarise(prop = n() / nrow(acs_emp))
 ```
 
-Here we first grouped the data by the new `emp_type`  variable, and then we calculated 
+Here we first grouped the data by the new `emp_type`  variable and `gender`, then we calculated 
 proportions of full and part time employees by first counting how many there are in each group 
 (`n()`) and then dividing this number by the total number of rows of the dataset.
 
@@ -186,24 +186,13 @@ proportions of full and part time employees by first counting how many there are
 
 
 ```{r}
-ggplot(acs_emp, aes(x =  emp_type)) +
-  geom_bar()
+ggplot(acs_emp, aes(x =  emp_type, fill =  gender)) +  geom_bar( position = position_dodge())
          
 ```
 
 
 1.  Are females more heavily represented among full time employees or part time employees?
-    Answer this question using summary statistics (code provided below) and a visualization (tip use `fill`  in the ggplot).
-
-```{r}
-acs_emp %>%
-  group_by(emp_type, gender) %>%
-  summarise(prop = n() / nrow(acs_emp))
-
-
-ggplot(acs_emp, aes(x =  emp_type, fill =  gender)) +  geom_bar( position = position_dodge())
-```
-
+  
 * * *
 
 ## On your own

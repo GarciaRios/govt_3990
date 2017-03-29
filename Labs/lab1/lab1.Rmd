@@ -19,7 +19,7 @@ library(ggplot2)
 
 **Load Arbuthnot's data: **
 ```{r}
-source("http://www.openintro.org/stat/data/arbuthnot.R")
+load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab1/Data/arbuthnot.RData"))
 ```
 
 #### Exercise 1: 
@@ -49,7 +49,7 @@ arbuthnot$girls
 
 **Load present day data: **
 ```{r}
-source("http://www.openintro.org/stat/data/present.R")
+load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab1/Data/present.RData"))
 ```
 
 #### 1:

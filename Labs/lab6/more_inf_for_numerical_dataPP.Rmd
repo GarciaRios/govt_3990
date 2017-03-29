@@ -10,7 +10,7 @@ output:
 
 
 ```{r global_options, include=FALSE}
-knitr::opts_chunk$set(eval = FALSE)
+knitr::opts_chunk$set(eval = TRUE)
 library(dplyr)
 library(ggplot2)
 ```
@@ -52,7 +52,27 @@ Below is the *codebook* for this dataset:
 
 Note that this dataset contains some people who are not in the labor force or not employed. 
 
+
 1.  What percent of the original sample (`acs`) are employed?
+
+```{r}
+# With  base R
+
+prop.table(
+  table(acs$employment, useNA = c("ifany"))
+  )
+
+# With dplyr
+
+acs %>% 
+  group_by(employment) %>%
+  summarise(prop = n()/nrow(acs))
+
+
+#Here we first grouped the data by the employment  variable, and then we calculated  proportions  by first counting how many there are in each group ( n() ) and then dividing this number by the total number of rows of the dataset.
+
+```
+
 
 First, let's subset the dataset for those who are employed. We will call this new dataset 
 `acs_emp`, short for "employed". Remember that we use the `filter` function for subsetting
@@ -97,16 +117,30 @@ load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab5/inferen
 1.  Construct a 95% confidence interval for the difference between the average incomes of males and females using the `inference` function, and interpret this
     interval. 
     
+
+```{r}
+inference(y = income, x = gender, data = acs_emp, type = "ci", method = "theoretical", statistic =   "mean")
+```
+        
+    
 1.  Based on this interval is there a statistically significant difference between the 
     averege incomes of men and women? Why, or why not?
     
 1.  What is the significance level for the equivalent hypthesis test that evaluates whether 
     there is a significant difference between average incomes of men and women.
 
+
+
 1.  Conduct this hypothesis test using the `inference` function, and interpret your results 
     in context of the data and the research question. Do your results from the
     confidence interval and the hypothesis test agree?
-
+    
+    
+```{r}
+inference(y = income, x = gender, data = acs_emp, type = "ht", method = "theoretical", statistic =   "mean", alternative = "twosided", null = 0)
+```
+    
+    
 ### Confounding variables
 
 There is a clear difference between the average salaries of men and women, but could some,
@@ -150,13 +184,24 @@ proportions of full and part time employees by first counting how many there are
     summary statistics you calculated above in your answer. What percent of the sample
     are full time and what percent are part time employees?
 
+
+```{r}
+ggplot(acs_emp, aes(x =  emp_type)) +
+  geom_bar()
+         
+```
+
+
 1.  Are females more heavily represented among full time employees or part time employees?
-    Answer this question using summary statistics (code provided below) and a visualization (tip: use `fill` in the ggplot).
+    Answer this question using summary statistics (code provided below) and a visualization (tip use `fill`  in the ggplot).
 
 ```{r}
 acs_emp %>%
   group_by(emp_type, gender) %>%
   summarise(prop = n() / nrow(acs_emp))
+
+
+ggplot(acs_emp, aes(x =  emp_type, fill =  gender)) +  geom_bar( position = position_dodge())
 ```
 
 * * *

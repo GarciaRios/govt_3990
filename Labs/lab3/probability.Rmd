@@ -2,7 +2,7 @@
 title: "Probability"
 output:
   html_document:
-    theme: cosmo
+    theme: simplex
     highlight: haddock
     css: ..\labs.css
     toc: yes

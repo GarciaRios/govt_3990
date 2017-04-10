@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Modeling numerical variables}{4}{0}{2}
+\beamer@sectionintoc {3}{Main ideas}{6}{0}{3}
+\beamer@subsectionintoc {3}{1}{Correlation coefficient describes the strength and direction of the linear association between two numerical variables}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{Least squares line minimizes squared residuals}{16}{0}{3}
+\beamer@subsectionintoc {3}{3}{Interpreting the least squares line}{18}{0}{3}
+\beamer@subsectionintoc {3}{4}{Predict, but don't extrapolate}{25}{0}{3}
+\beamer@sectionintoc {4}{Summary}{33}{0}{4}

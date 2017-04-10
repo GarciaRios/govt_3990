@@ -8,11 +8,11 @@
 \documentclass[slidestop,compress,mathserif,12pt,t,professionalfonts,xcolor=table]{beamer}
 
 % solution stuff
-%\newcommand{\solnMult}[1]{
-%\only<1>{#1}
-%\only<2->{\red{\textbf{#1}}}
-%}
-%\newcommand{\soln}[1]{\textit{#1}}
+\newcommand{\solnMult}[1]{
+\only<1>{#1}
+\only<2->{\red{\textbf{#1}}}
+}
+\newcommand{\soln}[1]{\textit{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Option 2: Handouts, without solutions (post before class)    %
@@ -25,8 +25,8 @@
 % \pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
 %
 %% % solution stuff
- \newcommand{\solnMult}[1]{#1}
- \newcommand{\soln}[1]{}
+% \newcommand{\solnMult}[1]{#1}
+% \newcommand{\soln}[1]{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Option 3: Handouts, with solutions (may post after class if need be)    %
@@ -67,7 +67,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\fontspec[Ligatures=TeX]{Helvetica Neue Light}
+%\fontspec[Ligatures=TeX]{Helvetica Neue Light}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -89,6 +89,8 @@
 
 \section{Housekeeping}
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
@@ -96,7 +98,7 @@
 
 \begin{itemize}
 
-\item 
+\item  Meetings
 
 \end{itemize}
 
@@ -210,8 +212,6 @@
 
 \vfill
 
-Upload a screen shot to Sakai (EC - Correlation Game) by midnight on April 8
-for extra credit PS 6 (1 pt on the problem set).
 
 \webURL{http://guessthecorrelation.com/}
 
@@ -320,7 +320,7 @@ Remember: correlation does not always imply causation!
 
 \vfill
 
-\app{6.1 Linear model}{See course website for details}
+\app{6.1 Linear model}{}
 
 \vfill
 
@@ -330,7 +330,7 @@ Remember: correlation does not always imply causation!
 
 \begin{frame}
 \frametitle{}
-
+\footnotesize{
 \clicker{What is the interpretation of the slope?}
 
 \soln{\[ \widehat{murders} = -29.91 + 2.56~poverty \]}
@@ -341,7 +341,7 @@ Remember: correlation does not always imply causation!
 \item For each percentage increase in those living in poverty, the number of annual murders per million is expected to be lower by 29.91 on average.
 \item For each percentage increase annual murders per million, the percentage of those living in poverty is expected to be higher by 2.56 on average.
 \end{enumerate}
-
+}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

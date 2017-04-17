@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  11 APR 2017 23:08
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  11 APR 2017 23:09
 entering extended mode
-**./app_Lin_mod_SOL.tex
-(app_Lin_mod_SOL.tex
+**./app_Lin_mod.tex
+(app_Lin_mod.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 72 language(s) loaded.
 ("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -693,8 +693,8 @@ tly
 (rerunfilecheck)             and the loading of the package is aborted.
 )
 \Hy@SectionHShift=\skip57
-)) (app_Lin_mod_SOL.aux)
-\openout1 = `app_Lin_mod_SOL.aux'.
+)) (app_Lin_mod.aux)
+\openout1 = `app_Lin_mod.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
@@ -828,40 +828,37 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
 LaTeX Info: Redefining \nameref on input line 30.
- (app_Lin_mod_SOL.out) (app_Lin_mod_SOL.out)
+ (app_Lin_mod.out) (app_Lin_mod.out)
 \@outlinefile=\write3
-\openout3 = `app_Lin_mod_SOL.out'.
+\openout3 = `app_Lin_mod.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
 LaTeX Font Warning: Font shape `EU1/lmr/bx/sc' undefined
-(Font)              using `EU1/lmr/bx/n' instead on input line 38.
+(Font)              using `EU1/lmr/bx/n' instead on input line 37.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
   
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
   
  []
 
 
-Overfull \hbox (36.0pt too wide) in paragraph at lines 45--45
+Overfull \hbox (36.0pt too wide) in paragraph at lines 44--44
 [][][][][][][] 
  []
 
 File: murder/annual_murders_per_mil_perc_pov.pdf Graphic file (type QTm)
 <use  "murder/annual_murders_per_mil_perc_pov.pdf" >
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 82.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
 
 ("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\se-asci
 i-print.def"
@@ -870,23 +867,23 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ) [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
- (app_Lin_mod_SOL.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 86.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+ (app_Lin_mod.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 85.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
  22562 strings out of 428441
- 396861 string characters out of 3157317
- 425256 words of memory out of 3000000
+ 396805 string characters out of 3157317
+ 425252 words of memory out of 3000000
  25836 multiletter control sequences out of 15000+200000
  7498 words of font info for 38 fonts, out of 3000000 for 9000
  1314 hyphenation exceptions out of 8191
- 38i,9n,35p,10471b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,35p,10467b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on app_Lin_mod_SOL.pdf (1 page).
+Output written on app_Lin_mod.pdf (1 page).

@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  10 APR 2017 14:42
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.11.7)  11 APR 2017 22:52
 entering extended mode
-**./u6_deck1.tex
-(u6_deck1.tex
+**./u7_deck1.tex
+(u7_deck1.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 72 language(s) loaded.
 
@@ -125,8 +125,8 @@ e 348.
 Class beamer Warning: ``mathserif'' is obsolete. Use font theme ``serif'' with 
 option ``onlymath'' on input line 348.
 
-("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 ("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf
 core.sty"
@@ -1589,8 +1589,8 @@ estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count297
-)) (../../definitions_default.tex) (u6_deck1.aux)
-\openout1 = `u6_deck1.aux'.
+)) (../../definitions_default.tex) (u7_deck1.aux)
+\openout1 = `u7_deck1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
@@ -1643,12 +1643,12 @@ LaTeX Font Info:    ... okay on input line 69.
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=14.22636pt
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1664,9 +1664,9 @@ Package hyperref Info: Link coloring OFF on input line 69.
 LaTeX Info: Redefining \ref on input line 69.
 LaTeX Info: Redefining \pageref on input line 69.
 LaTeX Info: Redefining \nameref on input line 69.
- (u6_deck1.out) (u6_deck1.out)
+ (u7_deck1.out) (u7_deck1.out)
 \@outlinefile=\write6
-\openout6 = `u6_deck1.out'.
+\openout6 = `u7_deck1.out'.
 
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
@@ -1743,7 +1743,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 69.
 \c@lstlisting=\count298
- (u6_deck1.nav)
+ (u7_deck1.nav)
 Overfull \hbox (5.0pt too wide) in paragraph at lines 69--69
 [][]| [][]  
  []
@@ -1756,12 +1756,12 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 ("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \vbox (46.57123pt too high) detected at line 86
+Overfull \vbox (44.10132pt too high) detected at line 86
  []
 
 [1
 
-] (u6_deck1.toc) [2
+] (u7_deck1.toc) [2
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
@@ -1770,44 +1770,73 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [3
 
-] (u6_deck1.toc) [4
+] (u7_deck1.toc) [4
+
+] (u7_deck1.toc) [5
+
+]
+\openout4 = `u7_deck1.vrb'.
+
+ (u7_deck1.vrb)
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[6
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
-[5
-
-] (u6_deck1.toc) [6
-
-] (u6_deck1.toc) [7
+[7
 
 ]
-File: figures/murder/annual_murders_per_mil_perc_pov.pdf Graphic file (type QTm
-)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSansLight(1)' created for font 'Fira Sans Light' with
+. options [Ligatures=TeX,ItalicFont={Fira Sans Light Italic},BoldFont={Fira
+. Sans},BoldItalicFont={Fira Sans Italic},Numbers={Monospaced}].
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.: <->"Fira Sans
+. Light/OT:script=latn;language=DFLT;mapping=tex-text;+tnum;"
+. - 'small caps'  (m/sc) with NFSS spec.: <->"Fira Sans
+. Light/OT:script=latn;language=DFLT;mapping=tex-text;+tnum;+smcp;"- 'bold'
+. (bx/n) with NFSS spec.: <->"Fira
+. Sans/OT:script=latn;language=DFLT;mapping=tex-text;+tnum;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Fira
+. Sans/OT:script=latn;language=DFLT;mapping=tex-text;+tnum;+smcp;"- 'italic'
+. (m/it) with NFSS spec.: <->"Fira Sans Light
+. Italic/OT:script=latn;language=DFLT;mapping=tex-text;+tnum;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Fira Sans Light
+. Italic/OT:script=latn;language=DFLT;mapping=tex-text;+tnum;+smcp;"- 'bold
+. italic' (bx/it) with NFSS spec.: <->"Fira Sans
+. Italic/OT:script=latn;language=DFLT;mapping=tex-text;+tnum;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Fira Sans
+. Italic/OT:script=latn;language=DFLT;mapping=tex-text;+tnum;+smcp;"
+.................................................
 
-<use  "figures/murder/annual_murders_per_mil_perc_pov.pdf" >
+
+Class beamer Warning: Frame text is shrunk by a factor of 3.41797 percent inste
+ad of 0 percent on input line 200.
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [8
 
+] (u7_deck1.toc) [9
+
 ]
-File: figures/murder/annual_murders_per_mil_perc_pov.pdf Graphic file (type QTm
-)
- <use  "figures/murder/annual_murders_per_mil_perc_pov.pdf" >
-Overfull \hbox (5.0pt too wide) has occurred while \output is active
-[][]| [][] 
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
  []
 
-[9
 
-]
-File: figures/murder/annual_murders_per_mil_population.pdf Graphic file (type Q
-Tm)
- <use  "figures/murder/annual_murders_per_mil_population.pdf" >
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1815,9 +1844,11 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [10
 
 ]
-File: figures/murder/annual_murders_per_mil_population.pdf Graphic file (type Q
-Tm)
- <use  "figures/murder/annual_murders_per_mil_population.pdf" >
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1825,8 +1856,11 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [11
 
 ]
-File: figures/cor/cor.pdf Graphic file (type QTm)
- <use  "figures/cor/cor.pdf" >
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1834,8 +1868,11 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [12
 
 ]
-File: figures/cor/cor.pdf Graphic file (type QTm)
- <use  "figures/cor/cor.pdf" >
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1843,6 +1880,11 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [13
 
 ]
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1850,20 +1892,32 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [14
 
 ]
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [15
 
-] (u6_deck1.toc) [16
+]
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[16
 
 ]
-File: figures/murder/annual_murders_per_mil_perc_pov_res.pdf Graphic file (type
- QTm)
-
-<use  "figures/murder/annual_murders_per_mil_perc_pov_res.pdf" >
-Overfull \vbox (17.41136pt too high) detected at line 263
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
  []
 
 
@@ -1873,9 +1927,24 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [17
 
-] (u6_deck1.toc) [18
+]
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[18
 
 ]
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1883,8 +1952,11 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [19
 
 ]
-File: figures/mean/mean.pdf Graphic file (type QTm)
- <use  "figures/mean/mean.pdf" >
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1892,8 +1964,11 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [20
 
 ]
-File: figures/mean/mean.pdf Graphic file (type QTm)
- <use  "figures/mean/mean.pdf" >
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1901,6 +1976,11 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [21
 
 ]
+Overfull \hbox (15.2242pt too wide) in paragraph at lines 268--268
+ [][] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1908,7 +1988,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [22
 
 ]
-Overfull \vbox (12.20143pt too high) detected at line 345
+Overfull \vbox (26.55133pt too high) detected at line 318
  []
 
 
@@ -1919,7 +1999,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [23
 
 ]
-Overfull \vbox (12.20143pt too high) detected at line 345
+Overfull \vbox (26.55133pt too high) detected at line 318
  []
 
 
@@ -1929,13 +2009,9 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [24
 
-] (u6_deck1.toc) [25
+] (u7_deck1.toc) [25
 
 ]
-File: figures/murder/annual_murders_per_mil_perc_pov.pdf Graphic file (type QTm
-)
-
-<use  "figures/murder/annual_murders_per_mil_perc_pov.pdf" >
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1943,9 +2019,6 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [26
 
 ]
-File: figures/murder/annual_murders_per_mil_perc_pov.pdf Graphic file (type QTm
-)
- <use  "figures/murder/annual_murders_per_mil_perc_pov.pdf" >
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1953,9 +2026,9 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [27
 
 ]
-File: figures/murder/annual_murders_per_mil_perc_pov_wide.pdf Graphic file (typ
-e QTm)
- <use  "figures/murder/annual_murders_per_mil_perc_pov_wide.pdf" >
+\openout4 = `u7_deck1.vrb'.
+
+ (u7_deck1.vrb)
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1963,86 +2036,321 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [28
 
 ]
-\openout4 = `u6_deck1.vrb'.
-
- (u6_deck1.vrb)
-Overfull \vbox (42.86832pt too high) detected at line 432
- []
-
-
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [29
 
-] (u6_deck1.vrb)
-Overfull \vbox (42.86832pt too high) detected at line 432
- []
-
-
+]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [30
 
-] (u6_deck1.vrb)
-Overfull \vbox (42.86832pt too high) detected at line 432
- []
-
-
+]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [31
 
-] (u6_deck1.vrb)
-Overfull \vbox (42.86832pt too high) detected at line 432
- []
-
-
+]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [32
 
-] (u6_deck1.toc) [33
+]
+\openout4 = `u7_deck1.vrb'.
+
+ (u7_deck1.vrb)
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[33
 
 ]
+\openout4 = `u7_deck1.vrb'.
+
+ (u7_deck1.vrb)
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [34
 
+] (u7_deck1.vrb)
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[35
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 480.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 480.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 480.
+
+(u7_deck1.toc) [36
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[37
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[38
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[39
+
+]
+\openout4 = `u7_deck1.vrb'.
+
+ (u7_deck1.vrb)
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[40
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[41
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[42
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[43
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[44
+
+] (u7_deck1.toc) [45
+
+]
+Overfull \vbox (4.19623pt too high) detected at line 608
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[46
+
+]
+Overfull \vbox (4.19623pt too high) detected at line 608
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[47
+
+]
+Overfull \vbox (4.19623pt too high) detected at line 608
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[48
+
+]
+Overfull \vbox (4.19623pt too high) detected at line 608
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[49
+
+] (u7_deck1.toc) [50
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[51
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[52
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[53
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[54
+
+]
+Overfull \vbox (17.57184pt too high) detected at line 686
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[55
+
+]
+Overfull \vbox (17.57184pt too high) detected at line 686
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[56
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[57
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[58
+
+] (u7_deck1.toc) [59
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[60
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[61
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[62
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[63
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[64
+
+] (u7_deck1.toc) [65
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[66
+
 ]
 \tf@nav=\write7
-\openout7 = `u6_deck1.nav'.
+\openout7 = `u7_deck1.nav'.
 
 \tf@toc=\write8
-\openout8 = `u6_deck1.toc'.
+\openout8 = `u7_deck1.toc'.
 
 \tf@snm=\write9
-\openout9 = `u6_deck1.snm'.
+\openout9 = `u7_deck1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 463.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 463.
- (u6_deck1.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 463.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 463.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 463.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 819.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 819.
+ (u7_deck1.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 819.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 819.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 819.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 38298 strings out of 428441
- 733530 string characters out of 3157317
- 750219 words of memory out of 3000000
- 41030 multiletter control sequences out of 15000+200000
- 12697 words of font info for 98 fonts, out of 3000000 for 9000
+ 38382 strings out of 428441
+ 736009 string characters out of 3157317
+ 762013 words of memory out of 3000000
+ 41103 multiletter control sequences out of 15000+200000
+ 12775 words of font info for 108 fonts, out of 3000000 for 9000
  1314 hyphenation exceptions out of 8191
- 63i,14n,88p,10427b,587s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,14n,98p,10427b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on u6_deck1.pdf (34 pages).
+Output written on u7_deck1.pdf (66 pages).

@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{In MLR everything is conditional on all other variables in the model}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Categorical predictors and slopes for (almost) each level}{9}{0}{2}
+\beamer@subsectionintoc {2}{3}{Inference for MLR: model as a whole + individual slopes}{25}{0}{2}
+\beamer@subsectionintoc {2}{4}{Adjusted $R^2$ applies a penalty for additional variables}{36}{0}{2}
+\beamer@subsectionintoc {2}{5}{Avoid collinearity in MLR}{45}{0}{2}
+\beamer@subsectionintoc {2}{6}{Model selection criterion depends on goal: significance vs. prediction}{50}{0}{2}
+\beamer@subsectionintoc {2}{7}{Conditions for MLR are (almost) the same as conditions for SLR}{59}{0}{2}
+\beamer@sectionintoc {3}{Summary}{65}{0}{3}

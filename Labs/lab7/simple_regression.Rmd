@@ -2,9 +2,10 @@
 title: "Introduction to linear regression"
 output:
   html_document:
-    css: ../lab.css
-    highlight: pygments
-    theme: cerulean
+    theme: simplex
+    highlight: haddock
+    css: ..\labs.css
+    toc: yes
 ---
 
 ```{r global_options, include=FALSE}

@@ -18,7 +18,7 @@ library(ggplot2)
 **Your reproducible lab report:** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-download.file("http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab9.Rmd", destfile = "lab9.Rmd")
+download.file("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab7/lab7.Rmd", destfile = "lab777.Rmd")
 ```
 </div>
 
@@ -43,7 +43,7 @@ us best predict a team's runs scored in a season.
 Let's load up the data for the 2011 season.
 
 ```{r load-data}
-load(url("https://stat.duke.edu/~mc301/data/mlb11.RData"))
+load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab7/mlb11.RData"))
 ```
 
 In addition to runs scored, there are seven traditionally used variables in the 
@@ -58,6 +58,7 @@ work with the three newer variables on your own.
     variable `at_bats` as the predictor. Does the relationship look linear? If 
     you knew a team's `at_bats`, would you be comfortable using a linear model 
     to predict the number of runs?
+
 
 If the relationship looks linear, we can quantify the strength of the
 relationship with the correlation coefficient.
@@ -171,7 +172,8 @@ explained by at-bats.
 Let's create a scatterplot with the least squares line for `m1` laid on top.
 
 ```{r reg-with-line}
-qplot(x = at_bats, y = runs, data = mlb11, geom = "point") +
+ggplot(mlb11, aes(x = at_bats, y = runs)) + 
+  geom_point() + 
   stat_smooth(method = "lm", se = FALSE)
 ```
 
@@ -200,10 +202,11 @@ is linear using a scatterplot. We should also verify this condition with a plot
 of the residuals vs. fitted (predicted) values.
 
 ```{r residuals}
-qplot(x = .fitted, y = .resid, data = m1) +
-  geom_hline(yintercept = 0, linetype = "dashed") +
-  xlab("Fitted values") +
-  ylab("Residuals")
+ggplot(m1, aes(x = .fitted, y = .resid)) +
+        geom_point() + 
+        geom_hline(yintercept = 0, linetype = "dashed") + 
+        xlab("Fitted values") +
+        ylab("Residuals")
 ```
 
 Notice here that our model object `m1` can also serve as a data set because stored within it are the fitted values ($\hat{y}$) and the residuals. Also note that we're getting fancy with the code here. After creating the scatterplot on the first layer (first line of code), we overlay a horizontal dashed line at $y = 0$ (to help us check whether residuals are distributed around 0), and we also adjust the axis labels to be more informative.
@@ -216,19 +219,14 @@ Notice here that our model object `m1` can also serve as a data set because stor
 **Nearly normal residuals**: To check this condition, we can look at a histogram
 
 ```{r hist-res}
-qplot(x = .resid, data = m1, geom = "histogram", binwidth = 25) +
+ggplot(m1, aes(x = .resid)) + 
+  geom_histogram(binwidth = 25) + 
   xlab("Residuals")
 ```
 
-or a normal probability plot of the residuals.
 
-```{r qq-res}
-qplot(sample = .resid, data = m1, stat = "qq")
-```
 
-Note that the syntax for making a normal probability plot is a bit different than what you're used to seeing: we set `sample` equal to the residuals instead of `x`, and we set a statistical method `qq`, which stands for "quantile-quantile", another name commonly used for normal probability plots.
-
-7.  Based on the histogram and the normal probability plot, does the nearly 
+7.  Based on the histogram, does the nearly 
     normal residuals condition appear to be met?
 
 </br>
@@ -271,11 +269,8 @@ Note that the syntax for making a normal probability plot is a bit different tha
 -   Check the model diagnostics for the regression model with the variable you 
     decided was the best predictor for runs.
     
-</div>
-
+ 
 <div id="license">
-This is a product of OpenIntro that is released under a [Creative Commons 
-Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0). 
-This lab was adapted for OpenIntro by Andrew Bray and Mine &Ccedil;etinkaya-Rundel 
-from a lab written by the faculty and TAs of UCLA Statistics.
+Science at Cornell and everywhere should be free and open source! 
+[Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0).
 </div>

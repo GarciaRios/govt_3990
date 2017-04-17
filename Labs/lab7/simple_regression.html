@@ -157,7 +157,7 @@ $(document).ready(function () {
 
 <div id="template">
 <p><strong>Your reproducible lab report:</strong> Before you get started, download the R Markdown template for this lab. Remember all of your code and answers go in this document:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">download.file</span>(<span class="st">&quot;http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab9.Rmd&quot;</span>, <span class="dt">destfile =</span> <span class="st">&quot;lab9.Rmd&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">download.file</span>(<span class="st">&quot;https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab7/lab7.Rmd&quot;</span>, <span class="dt">destfile =</span> <span class="st">&quot;lab777.Rmd&quot;</span>)</code></pre></div>
 </div>
 <div id="batter-up" class="section level2">
 <h2>Batter up</h2>
@@ -167,7 +167,7 @@ $(document).ready(function () {
 <div id="the-data" class="section level2">
 <h2>The data</h2>
 <p>Let’s load up the data for the 2011 season.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="kw">url</span>(<span class="st">&quot;https://stat.duke.edu/~mc301/data/mlb11.RData&quot;</span>))</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="kw">url</span>(<span class="st">&quot;https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab7/mlb11.RData&quot;</span>))</code></pre></div>
 <p>In addition to runs scored, there are seven traditionally used variables in the data set: at-bats, hits, home runs, batting average, strikeouts, stolen bases, and wins. There are also three newer variables: on-base percentage, slugging percentage, and on-base plus slugging. For the first portion of the analysis we’ll consider the seven traditional variables. At the end of the lab, you’ll work with the three newer variables on your own.</p>
 <ol style="list-style-type: decimal">
 <li>What type of plot would you use to display the relationship between <code>runs</code> and one of the other numerical variables? Plot this relationship using the variable <code>at_bats</code> as the predictor. Does the relationship look linear? If you knew a team’s <code>at_bats</code>, would you be comfortable using a linear model to predict the number of runs?</li>
@@ -217,7 +217,8 @@ $(document).ready(function () {
 <div id="prediction-and-prediction-errors" class="section level2">
 <h2>Prediction and prediction errors</h2>
 <p>Let’s create a scatterplot with the least squares line for <code>m1</code> laid on top.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qplot</span>(<span class="dt">x =</span> at_bats, <span class="dt">y =</span> runs, <span class="dt">data =</span> mlb11, <span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>) +
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(mlb11, <span class="kw">aes</span>(<span class="dt">x =</span> at_bats, <span class="dt">y =</span> runs)) +<span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_point</span>() +<span class="st"> </span>
 <span class="st">  </span><span class="kw">stat_smooth</span>(<span class="dt">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="dt">se =</span> <span class="ot">FALSE</span>)</code></pre></div>
 <p>Here we are literally adding a layer on top of our plot. <code>stat_smooth</code> creates the line by fitting a linear model. It can also show us the standard error <code>se</code> associated with our line, but we’ll suppress that for now.</p>
 <p>This line can be used to predict <span class="math inline">\(y\)</span> at any value of <span class="math inline">\(x\)</span>. When predictions are made for values of <span class="math inline">\(x\)</span> that are beyond the range of the observed data, it is referred to as <em>extrapolation</em> and is not usually recommended. However, predictions made within the range of the data are more reliable. They’re also used to compute the residuals.</p>
@@ -229,23 +230,22 @@ $(document).ready(function () {
 <h2>Model diagnostics</h2>
 <p>To assess whether the linear model is reliable, we need to check for (1) linearity, (2) nearly normal residuals, and (3) constant variability.</p>
 <p><strong>Linearity</strong>: You already checked if the relationship between runs and at-bats is linear using a scatterplot. We should also verify this condition with a plot of the residuals vs. fitted (predicted) values.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qplot</span>(<span class="dt">x =</span> .fitted, <span class="dt">y =</span> .resid, <span class="dt">data =</span> m1) +
-<span class="st">  </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>, <span class="dt">linetype =</span> <span class="st">&quot;dashed&quot;</span>) +
-<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Fitted values&quot;</span>) +
-<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Residuals&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(m1, <span class="kw">aes</span>(<span class="dt">x =</span> .fitted, <span class="dt">y =</span> .resid)) +
+<span class="st">        </span><span class="kw">geom_point</span>() +<span class="st"> </span>
+<span class="st">        </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>, <span class="dt">linetype =</span> <span class="st">&quot;dashed&quot;</span>) +<span class="st"> </span>
+<span class="st">        </span><span class="kw">xlab</span>(<span class="st">&quot;Fitted values&quot;</span>) +
+<span class="st">        </span><span class="kw">ylab</span>(<span class="st">&quot;Residuals&quot;</span>)</code></pre></div>
 <p>Notice here that our model object <code>m1</code> can also serve as a data set because stored within it are the fitted values (<span class="math inline">\(\hat{y}\)</span>) and the residuals. Also note that we’re getting fancy with the code here. After creating the scatterplot on the first layer (first line of code), we overlay a horizontal dashed line at <span class="math inline">\(y = 0\)</span> (to help us check whether residuals are distributed around 0), and we also adjust the axis labels to be more informative.</p>
 <ol start="6" style="list-style-type: decimal">
 <li>Is there any apparent pattern in the residuals plot? What does this indicate about the linearity of the relationship between runs and at-bats?</li>
 </ol>
 <p></br></p>
 <p><strong>Nearly normal residuals</strong>: To check this condition, we can look at a histogram</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qplot</span>(<span class="dt">x =</span> .resid, <span class="dt">data =</span> m1, <span class="dt">geom =</span> <span class="st">&quot;histogram&quot;</span>, <span class="dt">binwidth =</span> <span class="dv">25</span>) +
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(m1, <span class="kw">aes</span>(<span class="dt">x =</span> .resid)) +<span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_histogram</span>(<span class="dt">binwidth =</span> <span class="dv">25</span>) +<span class="st"> </span>
 <span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Residuals&quot;</span>)</code></pre></div>
-<p>or a normal probability plot of the residuals.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qplot</span>(<span class="dt">sample =</span> .resid, <span class="dt">data =</span> m1, <span class="dt">stat =</span> <span class="st">&quot;qq&quot;</span>)</code></pre></div>
-<p>Note that the syntax for making a normal probability plot is a bit different than what you’re used to seeing: we set <code>sample</code> equal to the residuals instead of <code>x</code>, and we set a statistical method <code>qq</code>, which stands for “quantile-quantile”, another name commonly used for normal probability plots.</p>
 <ol start="7" style="list-style-type: decimal">
-<li>Based on the histogram and the normal probability plot, does the nearly normal residuals condition appear to be met?</li>
+<li>Based on the histogram, does the nearly normal residuals condition appear to be met?</li>
 </ol>
 <p></br></p>
 <p><strong>Constant variability</strong>:</p>
@@ -257,6 +257,7 @@ $(document).ready(function () {
 <div id="on-your-own" class="section level2">
 <h2>On your own</h2>
 <div class="oyo">
+
 <ul>
 <li><p>Choose another one of the seven traditional variables from <code>mlb11</code> besides <code>at_bats</code> that you think might be a good predictor of <code>runs</code>. Produce a scatterplot of the two variables and fit a linear model. At a glance, does there seem to be a linear relationship?</p></li>
 <li><p>How does this relationship compare to the relationship between <code>runs</code> and <code>at_bats</code>? Use the R<span class="math inline">\(^2\)</span> values from the two model summaries to compare. Does your variable seem to predict <code>runs</code> better than <code>at_bats</code>? How can you tell?</p></li>
@@ -264,9 +265,8 @@ $(document).ready(function () {
 <li><p>Now examine the three newer variables. These are the statistics used by the author of <em>Moneyball</em> to predict a teams success. In general, are they more or less effective at predicting runs that the old variables? Explain using appropriate graphical and numerical evidence. Of all ten variables we’ve analyzed, which seems to be the best predictor of <code>runs</code>? Using the limited (or not so limited) information you know about these baseball statistics, does your result make sense?</p></li>
 <li><p>Check the model diagnostics for the regression model with the variable you decided was the best predictor for runs.</p></li>
 </ul>
-</div>
 <div id="license">
-<p>This is a product of OpenIntro that is released under a <a href="http://creativecommons.org/licenses/by-sa/3.0">Creative Commons Attribution-ShareAlike 3.0 Unported</a>. This lab was adapted for OpenIntro by Andrew Bray and Mine Çetinkaya-Rundel from a lab written by the faculty and TAs of UCLA Statistics.</p>
+<p>Science at Cornell and everywhere should be free and open source! <a href="http://creativecommons.org/licenses/by-sa/3.0">Attribution-ShareAlike 3.0 Unported</a>.</p>
 </div>
 </div>
 

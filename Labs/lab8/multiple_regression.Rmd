@@ -2,14 +2,14 @@
 title: "Multiple linear regression"
 output:
   html_document:
-    css: ../lab.css
-    highlight: pygments
-    theme: cerulean
-  pdf_document: default
+    theme: simplex
+    highlight: haddock
+    css: ..\labs.css
+    toc: yes
   
 references:
 - id: Hamermesh2005
-  title: Beauty in the Classroom - Instructors’ Pulchritude and Putative Pedagogical Productivity
+  title: Beauty in the Classroom - Instructors - Pulchritude and Putative Pedagogical Productivity
   author:
   - family: Hamermesh
     given: Daniel S.
@@ -53,7 +53,7 @@ library(GGally)
 **Your reproducible lab report:** Before you get started, download the R Markdown 
 template for this lab. Remember all of your code and answers go in this document:
 ```{r load-template, eval = FALSE}
-download.file("http://stat.duke.edu/courses/Spring16/sta101.001/rmd/lab10.Rmd", destfile = "lab10.Rmd")
+download.file("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab8/lab8.Rmd", destfile = "lab8.Rmd")
 ```
 </div>
 
@@ -134,18 +134,20 @@ are evaluated more favorably. Let's create a scatterplot to see if this appears
 to be the case:
 
 ```{r scatter-score-bty_avg}
-qplot(data = evals, x = bty_avg, y = score)
+ggplot(evals, aes(x = bty_avg, y = score)) + 
+  geom_point()
 ```
 
 Before we draw conclusions about the trend, compare the number of observations 
 in the data frame with the approximate number of points on the scatterplot. 
 Is anything awry?
 
-4.  Replot the scatterplot, but this time use `geom = "jitter`. What was
+4.  Replot the scatterplot, but this time use `geom_jitter`. What was
     misleading about the initial scatterplot?
 
 ```{r scatter-score-bty_avg-jitter}
-qplot(data = evals, x = bty_avg, y = score, geom = "jitter")
+ggplot(evals, aes(x = bty_avg, y = score)) +  
+  geom_jitter()
 ```
 
 5.  Let's see if the apparent trend in the plot is something more than
@@ -157,7 +159,8 @@ qplot(data = evals, x = bty_avg, y = score, geom = "jitter")
 Add the line of the bet fit model to your plot using the following:
     
 ```{r scatter-score-bty_avg-line-se}
-qplot(data = evals, x = bty_avg, y = score, geom = "jitter") +
+ggplot(evals, aes(x = bty_avg, y = score)) +
+  geom_jitter() +
   geom_smooth(method = "lm")
 ```
 
@@ -169,9 +172,7 @@ qplot(data = evals, x = bty_avg, y = score, geom = "jitter") +
   geom_smooth(method = "lm", se = FALSE)
 ```
 
-6.  Use residual plots to evaluate whether the conditions of least squares
-    regression are reasonable. Provide plots and comments for each one (see
-    the Simple Regression Lab for a reminder of how to make these).
+6. Using `predict`, produce predicted values for a "real world" assessment of what the model might be telling you. 
 
 ## Multiple linear regression
 
@@ -182,7 +183,9 @@ take a look at the relationship between one of these scores and the average
 beauty score.
 
 ```{r bty-rel}
-qplot(data = evals, x = bty_f1lower, y = bty_avg)
+ggplot(evals, aes(x = bty_f1lower, y = bty_avg)) +
+  geom_jitter() 
+
 evals %>% 
   summarise(cor(bty_avg, bty_f1lower))
 ```
@@ -210,9 +213,6 @@ m_bty_gen <- lm(score ~ bty_avg + gender, data = evals)
 summary(m_bty_gen)
 ```
 
-7.  P-values and parameter estimates should only be trusted if the
-    conditions for the regression are reasonable. Verify that the conditions
-    for this model are reasonable using diagnostic plots.
 
 8.  Is `bty_avg` still a significant predictor of `score`? Has the addition
     of `gender` to the model changed the parameter estimate for `bty_avg`?
@@ -302,25 +302,16 @@ summary(m_full)
     answer, just the output for the final model. Also, write out the linear
     model for predicting score based on the final model you settle on.
 
-16. Verify that the conditions for this model are reasonable using diagnostic 
-    plots.
 
-17. The original paper describes how these data were gathered by taking a
-    sample of professors from the University of Texas at Austin and including 
-    all courses that they have taught. Considering that each row represents a 
-    course, could this new information have an impact on any of the conditions 
-    of linear regression?
 
 18. Based on your final model, describe the characteristics of a professor and 
     course at University of Texas at Austin that would be associated with a high
-    evaluation score.
+    evaluation score. In order to do this, predict at least two scenarios and plot the predicted values fro those scenarios
+  
 
 19. Would you be comfortable generalizing your conclusions to apply to professors
     generally (at any university)? Why or why not?
 
-<div id="license">
-This is a product of OpenIntro that is released under a [Creative Commons Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0). This lab was written by 
-Mine &Ccedil;etinkaya-Rundel and Andrew Bray.
-</div>
+
 
 ## References

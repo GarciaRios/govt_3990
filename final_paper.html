@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="custom_style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Cornell-GOVT 3990</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-file-pdf-o fa-2x"></span>
+     
+    Syllabus
+  </a>
+</li>
+<li>
+  <a href="calendar.html">
+    <span class="fa fa-calendar fa-2x"></span>
+     
+    Calendar
+  </a>
+</li>
+<li>
+  <a href="labs.html">
+    <span class="fa fa-file-code-o fa-2x"></span>
+     
+    Labs
+  </a>
+</li>
+<li>
+  <a href="assignments.html">
+    <span class="fa fa-pencil-square-o fa-2x"></span>
+     
+    Assignments
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<hr />
+<div id="final" class="section level2">
+<h2>Final Paper</h2>
+<p>The final paper should be a well-crafted quantitative analysis of a an original research question of 8 to 12 pages.</p>
+<p>It should employ the relevant, but not necessarily all, of the techniques covered in this course—data visualization, descriptive statistics, exploratory data analysis, statistical tests, linear regression—to answer the research question that was posed.</p>
+<p>While the student is encouraged to find interesting and original research questions that could eventually lead larger projects, the final paper will be evaluated on how well it is crafted and the appropriate use of methodologies to answer the research question as it was posed.</p>
+<p>All analysis presented must be reproducible and the manuscript must be formatted according the guidelines.</p>
+<div id="reproducibility-policy" class="section level3">
+<h3>Reproducibility policy</h3>
+<p>All data and code necessary to reproduce the analyses presented in the paper must be submitted along with the paper. The data and analyses should be well documented and understandable to a reader.</p>
+<p>The analysis code must be clean, parsimonious and well-organized, that is, you should submit only the necessary code needed to reproduce what you present in the paper. You are encouraged to use literate programming tools such as R Markdown and knitr.</p>
+</div>
+<div id="main-text" class="section level3">
+<h3>Main Text</h3>
+<p>Your final paper should be between 8 - 12 pages all text (the abstract is text), tables and figures, notes, and references included in the manuscript. Font size must be a standard 12 point serif font. The manuscript must be double spaced for all body text including the references, but text in tables and figures may be single spaced. Page margins must be one inch.</p>
+<p>The submission must include a title page with the title of the paper, the author’s name, date, an abstract of no more than 150 words. The abstract should concisely state the literature to which the paper contributes, the specific topic it addresses, the methodology employed for the analysis, the results of the analysis, and the implications of the findings.</p>
+<p>The manuscript should present its content as efficiently as possible. You do not need to include a literature review; state the research puzzle, your theory, and how it compares to previous approaches. Cite the directly relevant works where necessary to support your argument.</p>
+</div>
+<div id="numbers-tables-and-figures" class="section level3">
+<h3>Numbers, Tables, and Figures</h3>
+<p>Tables and figures should be included where they fall in the text, and not in an appendix. Tables and figures should be formatted for publication. In particular do not use the direct simple output of R. And, of course <strong>do not</strong> take screen-shots of the output. Rather, use packages like <code>starazer</code>, <code>pander</code>, <code>kable</code>, <code>xtable</code>. At the minimum <em>if</em> you end up copy-pasting the simple output make sure to clean it up and format it on the paper. The tables should be clear, readable, and easily understandable.</p>
+<p>Do not use acronyms or computational abbreviations when discussing variables in the text. All variables that appear in tables or figures should be described in appropriate detail in the text. That is, do not use variable names, which only you will understand. For example, instead of using <code>V23TH</code> which was used to describe gender in the original data-set use the name <code>Female</code> which would be understandable even if the reader has never looked at the code-book.</p>
+<p>You are encouraged to use graphics to illustrate your main argument and research findings. If color is used, then it should be used appropriately, following the best practices in data visualization. Make sure to label everything appropriately. Do not leave variables names or part of the coding. For example, legends that read <code>factor(V95M61)</code> should be coded properly beforehand so that the legend in the graph is simply <code>Level of Eduction</code></p>
+<p>Numbers used in the manuscript text, figures, and tables should be reported with no more precision than they are measured with or is substantively meaningful. A good rule of thumb is to use no more than 2 digits unless there is good reason to do so. Do not report more significant digits than the standard errors imply. Variables should be scaled to make the reporting of results as straightforward as possible.</p>
+<p>The uncertainty of estimates is best conveyed by standard errors or confidence intervals. Generally, tables should not routinely report t-statistics or p-values for tests of the null hypothesis that each coefficient is zero Regression tables should report the estimate and standard errors of the coefficients, without stars indicating significance levels. While discouraged, it is acceptable to use asterisks, “stars”, or other symbols to represent varying levels of statistical significance.</p>
+</div>
+<div id="footnotes" class="section level3">
+<h3>Footnotes</h3>
+<p>Explanatory footnotes may be included but should not be used for simple citations. Simple citations should be made in-line in author-year format. Do not use end notes.</p>
+</div>
+<div id="citations-and-references" class="section level3">
+<h3>Citations and References</h3>
+<p>References should be listed in a separate section titled “References.” Citations should be in the author-year format, and references can follow your formats of preference, Chicago, MLA, APA, are some common styles used in the science sciences.</p>
+</div>
+<div id="data-citation" class="section level3">
+<h3>Data citation</h3>
+<p>All data used in the paper must be cited. Citations must include enough information for readers to find the original sources, and for those original sources to be consistently identified in the future. Data citations should appear in the the manuscript’s reference list.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

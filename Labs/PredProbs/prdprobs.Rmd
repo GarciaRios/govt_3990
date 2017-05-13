@@ -1,0 +1,164 @@
+---
+title: "Prdicted Probabilities"
+output:
+  html_document:
+    css: ..\labs.css
+    theme: simplex
+    highlight: haddock
+    toc: yes
+---
+
+
+```{r global_options, include=FALSE}
+library(dplyr)
+library(ggplot2)
+library(GGally)
+library(stargazer)
+library(pander)
+```
+
+
+
+```{r load-data, message=FALSE}
+load(url("http://www.openintro.org/stat/data/evals.RData"))
+```
+
+
+```{r}
+m_gend <- lm(score ~ gender, data = evals)
+
+summary(m_gend)
+```
+```{r}
+evals %>% count(gender) %>% 
+  mutate(pct = prop.table(n)) %>% 
+  pander()
+```
+
+```{r}
+hypdata <- data.frame(gender = c("female", "male"))
+
+
+predict(m_gend, hypdata, interval = "confidence")
+```
+
+
+```{r}
+preds_gen <- predict(m_gend, hypdata, interval = "confidence")
+preds_gen_df <- cbind(preds_gen, hypdata)
+```
+
+```{r}
+
+
+ggplot(preds_gen_df, aes(x= gender, y = fit,
+                         ymin = lwr, ymax = upr)) +
+  geom_pointrange(size = 1) +
+  theme_bw()
+```
+
+
+
+
+```{r}
+summary(evals$age) %>% 
+  pander()
+```
+
+
+
+```{r}
+m_age <- lm(score ~ age, data = evals)
+summary(m_age)
+```
+
+
+```{r}
+hypdata <- data.frame(age = seq(25, 75))
+preds_age<-predict(m_age, hypdata, interval = "confidence")
+
+preds_age_df <- cbind(preds_age, hypdata)
+```
+
+
+```{r}
+ggplot(preds_age_df, aes(x= age, y = fit,
+                         ymin = lwr, ymax = upr)) +
+  geom_line(size = 1) +
+  theme_bw()
+
+ggplot(preds_age_df, aes(x= age, y = fit,
+                         ymin = lwr, ymax = upr)) +
+  geom_ribbon(alpha = .7) +
+  geom_line(size = 1) + 
+    theme_bw()
+```
+
+
+
+
+
+
+
+
+
+```{r}
+m_mult <- lm(score ~ age + bty_avg  + gender, data = evals)
+
+
+hypdata <- evals %>% with(expand.grid(
+                          age = mean(age),
+                          gender = c("female", "male"),
+                          bty_avg = seq(1, 8)
+))
+
+preds_mult<-predict(m_mult, hypdata, interval = "confidence")
+
+preds_mult_df <- cbind(preds_mult, hypdata)
+
+
+ggplot(preds_mult_df, aes(x = bty_avg, y = fit, 
+                          fill = gender,
+                          color = gender,
+                          ymin = lwr, ymax = upr)) +
+  geom_line() +
+  geom_ribbon(alpha = .7) +
+  theme_bw()
+
+
+```
+
+
+```{r}
+m_mult2 <- lm(score ~ age + bty_avg  + gender +  pic_color, data = evals)
+```
+
+```{r, results='asis'}
+stargazer(m_mult2, type = 'html')
+```
+
+```{r}
+hypdata <- evals %>% with(expand.grid(
+                          age = seq(29, 73),
+                          gender = c("female", "male"),
+                          bty_avg = mean(bty_avg),
+                          pic_color = c("black&white", "color")
+))
+
+preds_mult<-predict(m_mult2, hypdata, interval = "confidence")
+
+preds_mult_df <- cbind(preds_mult, hypdata)
+
+
+ggplot(preds_mult_df, aes(x = age, y = fit, 
+                          fill = gender,
+                          color = gender,
+                          ymin = lwr, ymax = upr)) +
+  geom_line() +
+  geom_ribbon(alpha = .7) +
+  facet_wrap(~ pic_color) +
+  theme_bw()
+```
+
+
+

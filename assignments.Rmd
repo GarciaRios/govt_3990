@@ -7,7 +7,7 @@
 
 <li><i class="fa-li fa fa-microphone"></i>**May  10  Final Presentation** 
 
-<li><i class="fa-li fa fa-file-text-o"></i> **May  15  Final Paper** 
+<li><i class="fa-li fa fa-file-text-o"></i>[**May  15  Final Paper**](final_paper.html) 
 
 </ul>
 

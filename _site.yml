@@ -15,7 +15,6 @@ navbar:
     - icon: fa-pencil-square-o fa-2x
       text: "Assignments"
       href: assignments.html
-
 output_dir: "."
 output: 
   html_document:  

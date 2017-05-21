@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Caudex');
-
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
 
 .navbar-inverse{background-color:#b31b1b; border-color:#222222}
@@ -21,16 +21,15 @@
 }
 
 body{
-color: black;
+color: black; 
 font-size: 15px;
 font-family: 'Fira Sans', sans-serif;
-
 }
 
-a {
+a{
 font-family: 'Fira Sans', sans-serif;
 }
-i {
+i{
 font-family: 'Fira Sans', sans-serif;
 }
 h1,h2,h3,h4,h5,h6  {font-family: 'Fira Sans', sans-serif;}

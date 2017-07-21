@@ -15,7 +15,7 @@ In fractious times, we reaffirm core principles.  The Government Department at C
 
 - <i class="fa fa-university fa-lg"></i> White Hall 308 
 - [<i class="fa fa-envelope fa-lg"></i> E-Mail](garcia.rios@cornell.edu)
-- [<i class="fa fa-desktop fa-lg"></i> Web](http://sergiogarciarios.com)
+- [<i class="fa fa-desktop fa-lg"></i> Web](https://www.sergiogarciarios.com)
 - [<i class="fa fa-github-square fa-lg"></i> Github](http://github.com/GarciaRios)
 
 ## Class Meetings

@@ -1,7 +1,7 @@
 name: "Cornell-GOVT 3990"
 navbar:
   title: "Cornell-GOVT 3990"
-  type: inverse
+  #type: inverse
   left:
     - icon: fa-file-pdf-o fa-2x
       href: index.html

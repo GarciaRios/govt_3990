@@ -1,7 +1,7 @@
-\beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{General info}{2}{0}{1}
 \beamer@sectionintoc {2}{Course structure}{6}{0}{2}
-\beamer@sectionintoc {3}{Academic Dishonesty}{18}{0}{3}
-\beamer@sectionintoc {4}{Tips for success}{20}{0}{4}
-\beamer@sectionintoc {5}{To do}{28}{0}{5}
-\beamer@sectionintoc {6}{An Example on the importance of (Good) Data Analysis and Presentation}{30}{0}{6}
+\beamer@sectionintoc {3}{Academic Dishonesty}{25}{0}{3}
+\beamer@sectionintoc {4}{Tips for success}{27}{0}{4}
+\beamer@sectionintoc {5}{To do}{41}{0}{5}
+\beamer@sectionintoc {6}{Let's get familiar with the website}{43}{0}{6}
+\beamer@sectionintoc {7}{An Example on the importance of (Good) Data Analysis and Presentation}{44}{0}{7}

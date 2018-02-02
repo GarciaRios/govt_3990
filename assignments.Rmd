@@ -3,11 +3,11 @@
 
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-microphone"></i> [**March 31 Project presentation and paper**](research_idea.html)
+<li><i class="fa-li fa fa-microphone"></i> [**March 26 Project presentation and paper**](research_idea.html)
 
-<li><i class="fa-li fa fa-microphone"></i>**May  10  Final Presentation** 
+<li><i class="fa-li fa fa-microphone"></i>**May  9  Final Presentation** 
 
-<li><i class="fa-li fa fa-file-text-o"></i>[**May  19  Final Paper**](final_paper.html) 
+<li><i class="fa-li fa fa-file-text-o"></i>[**May  18  Final Paper**](final_paper.html) 
 
 </ul>
 

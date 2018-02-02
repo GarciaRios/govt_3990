@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.29)  30 JAN 2018 22:09
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.29)  31 JAN 2018 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./app_Dist_num_var.tex
-(./app_Dist_num_var.tex
+**./app_Dist_num_var_sol.tex
+(./app_Dist_num_var_sol.tex
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (c:/Program Files (x86)/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -727,8 +727,9 @@ tly
 (rerunfilecheck)             and the loading of the package is aborted.
 )
 \Hy@SectionHShift=\skip57
-)) (./app_Dist_num_var.aux)
-\openout1 = `app_Dist_num_var.aux'.
+))
+No file app_Dist_num_var_sol.aux.
+\openout1 = `app_Dist_num_var_sol.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -748,7 +749,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -854,9 +854,12 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
- (./app_Dist_num_var.out) (./app_Dist_num_var.out)
 \@outlinefile=\write3
-\openout3 = `app_Dist_num_var.out'.
+\openout3 = `app_Dist_num_var_sol.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
@@ -921,23 +924,24 @@ File: figures/histogramsVarOrderABC.png Graphic file (type bmp)
 <figures/histogramsVarOrderABC.png>
 File: figures/histogramsVarOrderDE.png Graphic file (type bmp)
 <figures/histogramsVarOrderDE.png>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
 [2
 
 ]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+ [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
- (./app_Dist_num_var.aux)
+ (./app_Dist_num_var_sol.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 132.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 132.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 19892 strings out of 492998
- 375133 string characters out of 6129451
- 478665 words of memory out of 5000000
+ 19886 strings out of 492998
+ 375035 string characters out of 6129451
+ 478568 words of memory out of 5000000
  23752 multiletter control sequences out of 15000+600000
  534106 words of font info for 43 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 37i,5n,35p,10472b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,35p,10476b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on app_Dist_num_var.pdf (2 pages).
+Output written on app_Dist_num_var_sol.pdf (3 pages).

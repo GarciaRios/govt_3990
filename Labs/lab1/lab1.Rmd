@@ -1,7 +1,7 @@
 ---
 title: "Lab 1 - Intro to R and RStudio"
 author: "Name here"
-date: "Feb 1 2017"
+date: "Feb 7 2018"
 output:
   html_document:
     theme: cosmo
@@ -17,12 +17,30 @@ library(ggplot2)
 
 * * *
 
+# Title
+
+## Subtitle
+
+### Sub subtitle
+
+
 **Load Arbuthnot's data: **
+
+This is how you load the data
 ```{r}
 load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab1/Data/arbuthnot.RData"))
 ```
 
+
+
+
+
+
+
 #### Exercise 1: 
+
+Now these are the exercises
+
 
 ```{r}
 # code for Exercise 1 is already entered below as an example

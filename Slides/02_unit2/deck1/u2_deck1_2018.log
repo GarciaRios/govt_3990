@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.29)  12 FEB 2018 14:25
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.29)  21 FEB 2018 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./u1_deck4.tex
-(./u1_deck4.tex
+**./u2_deck1_2018.tex
+(./u2_deck1_2018.tex
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (c:/Program Files (x86)/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1593,34 +1593,43 @@ ring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count356
-)) (../../definitions_default.tex) (./u1_deck4.aux)
-\openout1 = `u1_deck4.aux'.
+)) (../../definitions_default.tex) (./u2_deck1_2018.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 68.
+LaTeX Warning: Label `mi1' multiply defined.
 
-(c:/Program Files (x86)/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+
+LaTeX Warning: Label `mi2' multiply defined.
+
+
+LaTeX Warning: Label `mi3' multiply defined.
+
+)
+\openout1 = `u2_deck1_2018.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 69.
+ (c:/Program Files (x86)/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    ... okay on input line 69.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1658,56 +1667,57 @@ LaTeX Font Info:    ... okay on input line 68.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box107
-Package hyperref Info: Link coloring OFF on input line 68.
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
- (./u1_deck4.out) (./u1_deck4.out)
+Package hyperref Info: Link coloring OFF on input line 69.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
+ (./u2_deck1_2018.out)
+(./u2_deck1_2018.out)
 \@outlinefile=\write6
-\openout6 = `u1_deck4.out'.
+\openout6 = `u2_deck1_2018.out'.
 
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 68.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 69.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 68.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 68.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 69.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/FiraSansLight(0)/m/n on input line 
-68.
+69.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/FiraSansLight(0)/m/n on input line
- 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 68.
+ 69.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 68.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/m/it on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 68.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/m/it on input line 69.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 68.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 68.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 69.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 68.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 69.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmr/m/it --> TU/lmr/bx/it on input line 68.
+(Font)                  TU/lmr/m/it --> TU/lmr/bx/it on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 68.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmr/bx/n --> TU/lmr/bx/n on input line 68.
+(Font)                  TU/lmr/bx/n --> TU/lmr/bx/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/bx/n on
- input line 68.
+ input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmr/m/it --> TU/lmr/bx/it on input line 68.
+(Font)                  TU/lmr/m/it --> TU/lmr/bx/it on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/FiraMono(0)/m/n --> TU/FiraMono(0)/bx/n on input lin
-e 68.
+e 69.
 
 (c:/Program Files (x86)/texlive/2017/texmf-dist/tex/latex/beamer/translator/dic
 ts/translator-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1737,89 +1747,50 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 \c@lstlisting=\count357
 
-(./u1_deck4.nav)
-Overfull \hbox (5.0pt too wide) in paragraph at lines 68--68
+(./u2_deck1_2018.nav)
+Overfull \hbox (5.0pt too wide) in paragraph at lines 69--69
 [][]| [][]  
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 86.
 (c:/Program Files (x86)/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 
 (c:/Program Files (x86)/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \vbox (44.1013pt too high) detected at line 85
+Overfull \vbox (44.1013pt too high) detected at line 86
  []
 
 [1
 
-] (./u1_deck4.toc) [2
+] (./u2_deck1_2018.toc) [2
+
+] (./u2_deck1_2018.toc) [3
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
-[3
-
-] (./u1_deck4.toc) [4
+[4
 
 ]
-File: figures/yawn/yawn1.png Graphic file (type bmp)
-<figures/yawn/yawn1.png>
-File: figures/yawn/yawn2.png Graphic file (type bmp)
-<figures/yawn/yawn2.png>
-
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [5
 
-]
-File: figures/mythbusters.png Graphic file (type bmp)
-<figures/mythbusters.png>
-
-Overfull \hbox (5.0pt too wide) has occurred while \output is active
-[][]| [][] 
- []
-
-[6
+] (./u2_deck1_2018.toc) [6
 
 ]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FiraSansLight(1)' created for font 'Fira Sans Light' with
-. options [Ligatures=TeX,ItalicFont={Fira Sans Light Italic},BoldFont={Fira
-. Sans},BoldItalicFont={Fira Sans Italic},Numbers={Monospaced}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"Fira Sans
-. Light/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"Fira Sans
-. Light/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
-. - 'bold' (bx/n) with NFSS spec.: <->"Fira
-. Sans/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Fira
-. Sans/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
-. - 'italic' (m/it) with NFSS spec.: <->"Fira Sans Light
-. Italic/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Fira Sans Light
-. Italic/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
-. - 'bold italic' (bx/it) with NFSS spec.: <->"Fira Sans
-. Italic/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Fira Sans
-. Italic/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
-.................................................
-
-Overfull \vbox (8.1014pt too high) detected at line 184
- []
-
+File: figures/venn/venn_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_disjoint.pdf>
+File: figures/venn/venn_non_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_non_disjoint.pdf>
 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
@@ -1828,9 +1799,10 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [7
 
 ]
-Overfull \vbox (8.1014pt too high) detected at line 184
- []
-
+File: figures/venn/venn_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_disjoint.pdf>
+File: figures/venn/venn_non_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_non_disjoint.pdf>
 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
@@ -1839,9 +1811,10 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [8
 
 ]
-Overfull \vbox (8.1014pt too high) detected at line 184
- []
-
+File: figures/venn/venn_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_disjoint.pdf>
+File: figures/venn/venn_non_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_non_disjoint.pdf>
 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
@@ -1849,16 +1822,7 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [9
 
-]
-Overfull \vbox (8.1014pt too high) detected at line 184
- []
-
-
-Overfull \hbox (5.0pt too wide) has occurred while \output is active
-[][]| [][] 
- []
-
-[10
+] (./u2_deck1_2018.toc) [10
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
@@ -1895,7 +1859,12 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [15
 
-] (./u1_deck4.toc) [16
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[16
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
@@ -1912,16 +1881,13 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [18
 
 ]
-File: figures/trial.png Graphic file (type bmp)
-<figures/trial.png>
-
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [19
 
-] (./u1_deck4.toc) [20
+] (./u2_deck1_2018.toc) [20
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
@@ -1930,14 +1896,14 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [21
 
+] (./u2_deck1_2018.toc) [22
+
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
-[22
-
-] (./u1_deck4.toc) [23
+[23
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
@@ -1946,7 +1912,12 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [24
 
-] (./u1_deck4.toc) [25
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[25
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
@@ -1977,17 +1948,6 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [29
 
 ]
-Overfull \hbox (15.4752pt too wide) in paragraph at lines 436--436
- [] 
- []
-
-File: figures/caffeine/caffeinetaps_box.pdf Graphic file (type pdf)
-<use figures/caffeine/caffeinetaps_box.pdf>
-
-Overfull \vbox (16.85355pt too high) detected at line 436
- []
-
-
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -2016,13 +1976,6 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [33
 
 ]
-File: figures/caffeine/caffeinetaps_mean_ht.pdf Graphic file (type pdf)
-<use figures/caffeine/caffeinetaps_mean_ht.pdf>
-
-Overfull \vbox (16.35556pt too high) detected at line 514
- []
-
-
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -2030,13 +1983,6 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [34
 
 ]
-File: figures/caffeine/caffeinetaps_mean_ht.pdf Graphic file (type pdf)
-<use figures/caffeine/caffeinetaps_mean_ht.pdf>
-
-Overfull \vbox (16.35556pt too high) detected at line 514
- []
-
-
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -2051,6 +1997,38 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [36
 
 ]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSansLight(1)' created for font 'Fira Sans Light' with
+. options [Ligatures=TeX,ItalicFont={Fira Sans Light Italic},BoldFont={Fira
+. Sans},BoldItalicFont={Fira Sans Italic},Numbers={Monospaced}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"Fira Sans
+. Light/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: <->"Fira Sans
+. Light/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.: <->"Fira
+. Sans/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Fira
+. Sans/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+. - 'italic' (m/it) with NFSS spec.: <->"Fira Sans Light
+. Italic/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Fira Sans Light
+. Italic/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.: <->"Fira Sans
+. Italic/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Fira Sans
+. Italic/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+.................................................
+
+Overfull \hbox (1.53575pt too wide) in paragraph at lines 412--412
+ [] 
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -2058,10 +2036,15 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [37
 
 ]
-File: figures/caffeine/caffeinetaps_median_ht.pdf Graphic file (type pdf)
-<use figures/caffeine/caffeinetaps_median_ht.pdf>
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
 
-Overfull \vbox (11.37949pt too high) detected at line 553
+[38
+
+]
+Overfull \hbox (11.9365pt too wide) in alignment at lines 466--466
+ [][][] []
  []
 
 
@@ -2069,11 +2052,14 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
-[38
-
-] (./u1_deck4.toc) [39
+[39
 
 ]
+Overfull \hbox (11.9365pt too wide) in alignment at lines 466--466
+ [][][] []
+ []
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -2081,29 +2067,194 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [40
 
 ]
+Overfull \hbox (11.9365pt too wide) in alignment at lines 466--466
+ [][][] []
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[41
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[42
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[43
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[44
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[45
+
+]
+File: figures/test1.pdf Graphic file (type pdf)
+<use figures/test1.pdf>
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[46
+
+]
+File: figures/test1.pdf Graphic file (type pdf)
+<use figures/test1.pdf>
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[47
+
+]
+File: figures/test1.pdf Graphic file (type pdf)
+<use figures/test1.pdf>
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[48
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[49
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[50
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[51
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[52
+
+]
+File: figures/test2.pdf Graphic file (type pdf)
+<use figures/test2.pdf>
+
+Overfull \hbox (21.9pt too wide) in paragraph at lines 586--586
+[][][]  
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[53
+
+]
+File: figures/test2.pdf Graphic file (type pdf)
+<use figures/test2.pdf>
+
+Overfull \hbox (21.9pt too wide) in paragraph at lines 586--586
+[][][][]  
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[54
+
+]
+File: figures/test2.pdf Graphic file (type pdf)
+<use figures/test2.pdf>
+
+Overfull \hbox (21.9pt too wide) in paragraph at lines 586--586
+[][][][][]  
+ []
+
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[55
+
+] (./u2_deck1_2018.toc) [56
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[57
+
+] (./u2_deck1_2018.toc) [58
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[59
+
+]
 \tf@nav=\write7
-\openout7 = `u1_deck4.nav'.
+\openout7 = `u2_deck1_2018.nav'.
 
 \tf@toc=\write8
-\openout8 = `u1_deck4.toc'.
+\openout8 = `u2_deck1_2018.toc'.
 
 \tf@snm=\write9
-\openout9 = `u1_deck4.snm'.
+\openout9 = `u2_deck1_2018.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 574.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 574.
- (./u1_deck4.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 574.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 574.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 652.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 652.
+ (./u2_deck1_2018.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 652.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 652.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 35872 strings out of 492998
- 728760 string characters out of 6129451
- 810719 words of memory out of 5000000
- 39163 multiletter control sequences out of 15000+600000
- 539054 words of font info for 109 fonts, out of 8000000 for 9000
+ 35980 strings out of 492998
+ 731916 string characters out of 6129451
+ 810561 words of memory out of 5000000
+ 39279 multiletter control sequences out of 15000+600000
+ 539038 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,14n,95p,10427b,690s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,97p,10432b,1173s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on u1_deck4.pdf (40 pages).
+Output written on u2_deck1_2018.pdf (59 pages).

@@ -1,0 +1,9 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Main ideas}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Disjoint and independent do not mean the same thing}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Application of the addition rule depends on disjointness of events}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{Bayes' theorem works for all types of events}{10}{0}{1}
+\beamer@subsectionintoc {1}{4}{Probability trees are useful for conditional probability calculations}{20}{0}{1}
+\beamer@subsectionintoc {1}{5}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{22}{0}{1}
+\beamer@subsectionintoc {1}{6}{Posterior probability and p-value do not mean the same thing}{56}{0}{1}
+\beamer@sectionintoc {2}{Summary}{58}{0}{2}

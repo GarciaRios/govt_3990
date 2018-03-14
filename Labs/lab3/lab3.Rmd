@@ -7,6 +7,8 @@ output:
     fig_height: 4
     highlight: pygments
     theme: cosmo
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -28,6 +30,18 @@ load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab3/resourc
 ## Exercises:
 
 #### Exercise 1: 
+
+```{r}
+kobe_streak <- calc_streak(kobe_basket$shot)
+
+game1_data <- kobe_basket %>% filter(game == 1)
+
+
+
+kobe_streak_game1 <- calc_streak(game1_data$shot)
+
+kobe_streak_game1
+```
 
 
 

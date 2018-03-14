@@ -5,7 +5,7 @@
 % Option 1: Slides: (comment for handouts)   %
 %%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[slidestop,compress,mathserif,11pt,t,professionalfonts,xcolor=table]{beamer}
+\documentclass[compress,mathserif,11pt,t,professionalfonts,xcolor=table]{beamer}
 
 % solution stuff
 \newcommand{\solnMult}[1]{
@@ -96,9 +96,9 @@
 
 \begin{itemize}
 
-\item 
+\item Yes Sergio isn't here duh! but he'll be back
 
-\item 
+\item But Claire is your lecturing today so really you just got lucky
 \end{itemize}
 
 \end{frame}
@@ -156,11 +156,26 @@ If we randomly select observations from this data set, which values are most lik
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[fragile]
-\frametitle{}
+\frametitle{Social Media Activity Survey}
+Back in 2015 we surveyed all 146 students of GOVT 111 and asked them, among other things, about their social media activity. For instance, we asked how many social media accounts they had.  \pause
 
+These were their answers:
+
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{figures/no_drinks_drunk/no_drinks_drunk_clean}
+\end{center}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[fragile]
+\frametitle{}
 \begin{itemize}
 
-\item Sample, with replacement, ten student IDs:
+\item Now, lets, sample, with replacement, ten student IDs (the  white cell):
 {\footnotesize
 \begin{Verbatim}[frame=single, formatcom=\color{blue}]
 > sample(1:146, size = 10, replace = TRUE)
@@ -182,7 +197,7 @@ If we randomly select observations from this data set, which values are most lik
 
 \pause
 
-\item Calculate the sample mean: $(8+6+10+4+5+3+5+6+6+6) / 10 = 5.9$
+\item Calculate the sample mean of their answer: $(8+6+10+4+5+3+5+6+6+6) / 10 = 5.9$
 
 \end{itemize}
 
@@ -193,10 +208,10 @@ If we randomly select observations from this data set, which values are most lik
 \begin{frame}[fragile]
 \frametitle{}
 
-\activity{Creating a sampling distribution}{Repeat this in teams, and report your sample mean.}
+\activity{Creating a sampling distribution}{Repeat this, now on your own, and report your sample mean.}
 \begin{enumerate}
 
-\item Sample, with replacement, ten student IDs:
+
 {\footnotesize
 \begin{Verbatim}[frame=single, formatcom=\color{blue}]
 > sample(1:146, size = 10, replace = TRUE)
@@ -209,7 +224,7 @@ If we randomly select observations from this data set, which values are most lik
 \includegraphics[width=0.6\textwidth]{figures/no_drinks_drunk/no_drinks_drunk_clean}
 \end{center}
 
-\item Calculate the sample mean, round it to 2 decimal places, and submit it using your clicker. Submit once per sample!
+\item Calculate the sample mean, round it to 2 decimal places.
 
 \end{enumerate}
 
@@ -233,7 +248,7 @@ $\:$ \\
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[fragile]
 \frametitle{Average number of Syracuse games attended}
@@ -249,56 +264,56 @@ Next let's look at the population data for the number of Syracuse basketball gam
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\begin{frame}[fragile]
-%\frametitle{Average number of Syracuse games attended (cont.)}
-%\small{
-%Sampling distribution, n = 10:
-%
-%\twocol{0.6}{0.4}{
-%\begin{center}
-%\includegraphics[width=\textwidth]{figures/duke_games/hist_duke_games_sampling10}
-%\end{center}
-%}
-%{
-%\disc{What does each observation in this distribution represent?}
-%\soln{\only<2->{Sample mean, $\bar{x}$, of samples of size $n = 10$.}}
-%\disc{Is the variability of the sampling distribution smaller or larger than the variability of the population distribution?}
-%\soln{\only<3->{Smaller, sample means will vary less than individual observations.}}
-%}
-%}	
-%\end{frame}
+\begin{frame}[fragile]
+\frametitle{Average number of Syracuse games attended (cont.)}
+\small{
+Sampling distribution, n = 10:
+
+\twocol{0.6}{0.4}{
+\begin{center}
+\includegraphics[width=\textwidth]{figures/duke_games/hist_duke_games_sampling10}
+\end{center}
+}
+{
+\disc{What does each observation in this distribution represent?}
+\soln{\only<2->{Sample mean, $\bar{x}$, of samples of size $n = 10$.}}
+\disc{Is the variability of the sampling distribution smaller or larger than the variability of the population distribution?}
+\soln{\only<3->{Smaller, sample means will vary less than individual observations.}}
+}
+}	
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%\begin{frame}[fragile]
-%\frametitle{Average number of Duke games attended (cont.)}
-%
-%Sampling distribution, n = 30:
-%
-%\twocol{0.6}{0.4}{
-%\begin{center}
-%\includegraphics[width=\textwidth]{figures/duke_games/hist_duke_games_sampling30}
-%\end{center}
-%}
-%{
-%\disc{How did the shape, center, and spread of the sampling distribution change going from $n = 10$ to $n = 30$?}
-%\soln{\only<2->{Shape is more symmetric, center is about the same, spread is smaller.}}
-%}
-%
-%\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Average number of Syracuse games attended (cont.)}
+
+Sampling distribution, n = 30:
+
+\twocol{0.6}{0.4}{
+\begin{center}
+\includegraphics[width=\textwidth]{figures/duke_games/hist_duke_games_sampling30}
+\end{center}
+}
+{
+\disc{How did the shape, center, and spread of the sampling distribution change going from $n = 10$ to $n = 30$?}
+\soln{\only<2->{Shape is more symmetric, center is about the same, spread is smaller.}}
+}
+
+\end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[fragile]
+\frametitle{Average number of Syracuse games attended (cont.)}
 %
-%\begin{frame}[fragile]
-%\frametitle{Average number of Duke games attended (cont.)}
+Sampling distribution, n = 70:
 %
-%Sampling distribution, n = 70:
+\begin{center}
+\includegraphics[width=0.6\textwidth]{figures/duke_games/hist_duke_games_sampling70}
+\end{center}
 %
-%\begin{center}
-%\includegraphics[width=0.6\textwidth]{figures/duke_games/hist_duke_games_sampling70}
-%\end{center}
-%
-%\end{frame}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -397,6 +412,9 @@ Amongst other things, the central limit theorem is useful for
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\section{Exercises [time permitting]}
+
+
 \begin{frame}
 \frametitle{}
 
@@ -413,34 +431,9 @@ Amongst other things, the central limit theorem is useful for
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Summary}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
-\frametitle{Summary of main ideas}
 
-\vfill
-
-\begin{enumerate}
-
-\item \nameref{mi1}
-
-\item \nameref{mi2}
-
-\item \nameref{mi3}
-
-\end{enumerate}
-
-\vfill
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Exercises [time permitting]}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
 \frametitle{}
@@ -547,5 +540,29 @@ P(\bar{X} > 1.4 ) &=& P\left(Z > \frac{1.4 - 1.3}{0.0387}\right) \\
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Summary}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Summary of main ideas}
+
+\vfill
+
+\begin{enumerate}
+
+\item \nameref{mi1}
+
+\item \nameref{mi2}
+
+\item \nameref{mi3}
+
+\end{enumerate}
+
+\vfill
+
+\end{frame}
+
 
 \end{document}

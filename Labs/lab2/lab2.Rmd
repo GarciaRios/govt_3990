@@ -25,6 +25,67 @@ library(ggplot2)
 load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab2/Data/cdc.RData"))
 ```
 
+
+
+```{r}
+names(cdc)
+str(cdc)
+```
+
+This is  who you plot a histogram
+
+```{r}
+ggplot(cdc, aes(x = age )) +
+  geom_histogram(binwidth = 1)
+
+
+```
+
+```{r}
+cdc %>% summary()
+```
+
+```{r}
+cdc %>% 
+  select(age) %>% 
+  summary()
+```
+
+```{r}
+cdc %>% 
+  select(weight, wtdesire) %>% 
+  summary() 
+
+```
+
+
+```{r}
+cdc %>% 
+  summarise(mean_wt = mean(weight), 
+            sd_wt = sd(weight),
+            mean_ht = mean(height), 
+            sd_ht = sd(height))
+
+
+
+```
+
+
+```{r}
+cdc %>% 
+  select(genhlth) %>% 
+  summary()
+  
+
+
+cdc %>% 
+  select(gender, smoke100) %>% 
+  table() %>% 
+  prop.table(.,2)
+```
+
+
+
 #### Exercise 1: 
 
 

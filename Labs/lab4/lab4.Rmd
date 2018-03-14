@@ -24,7 +24,7 @@ library(mosaic)
 
 #### Load data:
 ```{r load-data}
-load(url("https://stat.duke.edu/~mc301/data/ames.RData"))
+download.file("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/lab4.Rmd", destfile = "lab4.Rmd")
 ```
 
 #### Set a seed:

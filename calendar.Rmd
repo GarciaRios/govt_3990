@@ -61,7 +61,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 <li><i class="fa-li fa fa-bar-chart"></i>    Feb 19  	No class - February Break </a>
 <li><i class="fa-li fa fa-bar-chart"></i>    Feb 21 	Probability and conditional probability <a target="_blank" href="./Slides/02_unit2/deck1/u2_deck1.pdf"> Deck </a>
 <li><i class="fa-li fa fa-bar-chart"></i>    Feb 26  	Normal and binomial distribution <a target="_blank"  href="./Slides/02_unit2/deck3/u2_deck3.pdf"> Deck</a>
-<li><i class="fa-li fa fa-flask"></i>        Feb 28   Lab 3 - (Due Mar 7) <a target="_blank" href=./Labs/lab0/lab0.html>Probability</a>
+<li><i class="fa-li fa fa-flask"></i>        Feb 28   Lab 3 - (Due Mar 7) <a target="_blank" href=./Labs/lab3/probability.html>Probability</a>
 
 
 </ul>

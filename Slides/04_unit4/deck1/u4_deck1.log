@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.29)  19 MAR 2018 13:06
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.29)  22 MAR 2018 01:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2130,22 +2130,18 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `u4_deck1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 475.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 475.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 482.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 482.
  (./u4_deck1.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 475.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 475.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 482.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 482.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 35821 strings out of 492998
- 728085 string characters out of 6129451
- 818717 words of memory out of 5000000
- 39115 multiletter control sequences out of 15000+600000
+ 35824 strings out of 492998
+ 728103 string characters out of 6129451
+ 818774 words of memory out of 5000000
+ 39118 multiletter control sequences out of 15000+600000
  540631 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,14n,95p,10427b,729s stack positions out of 5000i,500n,10000p,200000b,80000s

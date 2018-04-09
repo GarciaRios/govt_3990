@@ -110,10 +110,10 @@ In particular, the pace of the course will be adjusted so that we move as possib
 **Inference**
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-bar-chart"></i>    Mar 21  Inference for numerical data  <a target="_blank" href="./Slides/04_unit4/deck1/u4_deck1.pdfST"> Deck </a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Mar 21  Inference for numerical data  <a target="_blank" href="./Slides/04_unit4/deck1/u4_deck1.pdf"> Deck </a>
 <li><i class="fa-li fa fa-flask"></i>        Mar 26  Lab 5 - (Due Mar 30) <a target="_blank" href=./Labs/lab5/inf_for_numerical_data.html>Inference for numerical data</a>
 
-<li><i class="fa-li fa fa-bar-chart"></i>    Apr 9  More inference  <a target="_blank" href="./Slides/04_unit4/deck4/u4_deck4.pdfST"> Deck</a> 
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 9  More inference  <a target="_blank" href="./Slides/04_unit4/deck4/u4_deck4.pdf"> Deck</a> 
 <li><i class="fa-li fa fa-flask"></i>        Apr 11  Lab 6 - (Due Apr 18) <a target="_blank" href=./Labs/lab6/more_inf_for_numerical_data.html>(More) inference for numerical data</a>
 
 <li><i class="fa-li fa fa-object-ungroup"></i>    Mar 28 No class, WPSA -  Work on lab 5 and problem set  

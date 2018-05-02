@@ -1,9 +1,11 @@
 ---
-title: "Puzzle Solving Case Study:"
-subtitle: "Latinos and Discrimination"
+title: 'Puzzle Solving Case Study:'
 author: "Sergio I Garcia-Rios"
-date: 
+date: "null"
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '6'
   html_document:
     highlight: haddock
     theme: readable
@@ -12,6 +14,9 @@ output:
   word_document:
     toc: yes
     toc_depth: '6'
+subtitle: Latinos and Discrimination
+editor_options:
+  chunk_output_type: console
 ---
 
 ## Preliminary set up
@@ -37,9 +42,6 @@ library(pander)
 library(forcats)
 library(stargazer)
 ```
-
-
-
 
 <!--
 Also, the dafault in R is to use lots of  digits after the decimal point which makes tables hard to read sometimes so I am going to change that to two extra digits
@@ -97,7 +99,10 @@ That's better but we can make it much better if we do some recoding to the `natp
 - Then, we reverse the order with `fct_rev` so that it goes from high to low
 
 ```{r}
-lns <- lns %>% mutate(natprob_r = haven::as_factor(natprob) %>% fct_infreq() %>% fct_rev())
+lns <- lns %>% mutate(natprob_r = 
+                        haven::as_factor(natprob) %>% 
+                        fct_infreq() %>% 
+                        fct_rev())
 ```
 
 Now we can create the graph, notice that I am adding some other elements:
@@ -105,7 +110,10 @@ Now we can create the graph, notice that I am adding some other elements:
 - I added another aesthetic: `fill` and specified that I wanted the bar to be filled with the color blue
 - I also added a new `theme`. I am at point in my life where`theme_minimal` is my favorite but I also had stage in my life where I liked `theme_bw`... things change...  
 ```{r}
-ggplot(lns, aes(x = natprob_r)) + 
+ggplot(lns, aes(x = natprob %>% 
+                  fct_infreq() %>% 
+                        fct_rev()
+                )) + 
   geom_bar( fill = "blue") +  # added blue as the color for the bars
   coord_flip() + # still wnat teh coordinted flipped
   labs(x = "",
@@ -157,6 +165,9 @@ prop.table(table(lns$newgen))
 Now, lets look at both. That is, what Latinos think about their economic chances if they work hard by generation. Notice I am adding a `2` at the end, this makes the `prop.table` show percentages by column.
 
 ```{r}
+
+table(lns$poordisc, lns$newgen)
+
 prop.table(table(lns$poordisc, 
                  lns$newgen), 2)
 ```
@@ -177,7 +188,7 @@ Let's visualize these data, but first we need to do some recoding to the variabl
 
 ```{r}
 lns <- lns %>% mutate(poord_r = 
-                        fct_relevel(poordisc, "strongly disagree", "somewhat disagree", 
+                        fct_relevel(poordisc_r, "strongly disagree", "somewhat disagree", 
                                             "somewhat agree", "strongly agree"))
 ```
 
@@ -186,7 +197,8 @@ Now we create a proportion table like we did with proptable but now we put it in
 
 ```{r}
 poor_can<- lns %>%
-  count(newgen, poord_r) %>%
+  group_by(newgen) %>% 
+  count(poord_r) %>%
   mutate(prop = prop.table(n)) %>% 
   na.omit()
 ```
@@ -243,7 +255,8 @@ lns <- lns %>%  mutate(latdisc_r =  recode(latdisc, 'dk' = NA_character_))
 
 
 latinos_can<- lns %>%
-  count(newgen, latdisc_r) %>%
+  group_by(newgen) %>% 
+  count(latdisc_r) %>%
   mutate(prop = prop.table(n)) %>% 
   na.omit()
 
@@ -259,7 +272,6 @@ ggplot(latinos_can, aes(x = factor(newgen), y = prop,
        fill = "Support") + 
   scale_fill_brewer(palette = "Set2") +
   scale_x_discrete(labels = c("First", "1.5ers", "Second", "Third", "Fourth"))
-
 
 ```
 

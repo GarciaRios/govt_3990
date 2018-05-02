@@ -145,9 +145,9 @@ In particular, the pace of the course will be adjusted so that we move as possib
 
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-bar-chart"></i>    Apr 16  Introduction linear regression  <a target="_blank" href="./Slides/unit4/deck-1-2.pdfST"> Deck</a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 16  Introduction linear regression  <a target="_blank" href="./Slides/unit4/deck-1-2.pdf"> Deck</a>
 <li><i class="fa-li fa fa-flask"></i>        Apr 18  Lab 7 - (Due Apr 26) <a target="_blank" href=./Labs/lab7/simple_regression.html>Linear Regression</a>
-<li><i class="fa-li fa fa-bar-chart"></i>    Apr 23 Multiple linear regression  <a target="_blank" href="./Slides/unit4/deck-1-2.pdfST"> Deck</a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 23 Multiple linear regression  <a target="_blank" href="./Slides/unit4/deck-1-2.pdf"> Deck</a>
 <li><i class="fa-li fa fa-flask"></i>        Apr 25   Lab 8 - (Due May 2) <a target="_blank" href=./Labs/lab8//multiple_regression.html>Multiple Linear Regression Lab</a>
 
 </ul>

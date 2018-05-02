@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -362,11 +364,11 @@ Ch 5: 5.3, 5.4, 5.5, 5.6, 5.12, 5.20, 5.22 </a>
 <p><strong>Regression</strong></p>
 <ul class="fa-ul">
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Apr 16 Introduction linear regression <a target="_blank" href="./Slides/unit4/deck-1-2.pdfST"> Deck</a>
+<i class="fa-li fa fa-bar-chart"></i> Apr 16 Introduction linear regression <a target="_blank" href="./Slides/unit4/deck-1-2.pdf"> Deck</a>
 <li>
 <i class="fa-li fa fa-flask"></i> Apr 18 Lab 7 - (Due Apr 26) <a target="_blank" href=./Labs/lab7/simple_regression.html>Linear Regression</a>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Apr 23 Multiple linear regression <a target="_blank" href="./Slides/unit4/deck-1-2.pdfST"> Deck</a>
+<i class="fa-li fa fa-bar-chart"></i> Apr 23 Multiple linear regression <a target="_blank" href="./Slides/unit4/deck-1-2.pdf"> Deck</a>
 <li>
 <p><i class="fa-li fa fa-flask"></i> Apr 25 Lab 8 - (Due May 2) <a target="_blank" href=./Labs/lab8//multiple_regression.html>Multiple Linear Regression Lab</a></p>
 </ul>

@@ -24,7 +24,7 @@ In fractious times, we reaffirm core principles.  The Government Department at C
 
 |Day  |Time |Place|
 |:---:|:---:|:---:|
-| M & W | 2:55 pm - 4:10 pm | Uris Hall 262|
+| M & W | 10:10 pm - 11:25 pm | White Hall 110|
 
 
 ***
@@ -40,9 +40,9 @@ hours](bookme.html)**
 ### Required materials:
 
 * Textbook: [OpenIntro Statistics](http://openintro.org/os) - Diez, Barr, Çetinkaya-Rundel \\
-   CreateSpace, 3rd Edition, 2015 (ISBN: 978-1943450039) \\
+   CreateSpace, 4th Edition, 2019 (ISBN: 978-1943450077) \\
    
-The textbook is freely [available online](http://openintro.org/os). You're encouraged to read on screen but you can print it out. If you prefer a paperback version you can buy it at the cost of printing (around $10) [on Amazon](http://openintro.org/os). The textbook store will not carry copies of this text.
+The textbook is freely [available online](http://openintro.org/os). You're encouraged to read on screen but you can print it out. If you prefer a paperback version you can buy it at the cost of printing (around $20) [on Amazon](http://openintro.org/os). The Cornell store will also carry copies of this text.
 
 * * *
 
@@ -114,21 +114,20 @@ You are expected to be present at class meeting and actively participate in the 
 
 * * *
 
-### Blackboard
+### Canvas
 
-Throughout the course  you will develop a tool-set to write and produce high quality reports in html and pdf. Please follow the instructions for the specific assignment. However, all work that's meant to be submitted on should be submitted through Blackboard.
-
+Throughout the course  you will develop a tool-set to write and produce high quality reports in html and pdf. Please follow the instructions for the specific assignment. However, all work that's meant to be submitted on should be submitted through Canvas
 
 
 ### Problem sets:
 
-These will be assigned (approximately) weekly on the course webpage and will be comprised of problems from the textbook. Each assignment will list roughly five to seven problems from the book to be turned in for grading.
+These will be assigned (approximately) weekly on the course website and will be comprised of problems from the textbook. Each assignment will list roughly five to seven problems from the book to be turned in for grading.
 
 The objective of the problem sets is to help you develop a more in-depth understanding of the material and help you prepare for exams and projects. Grading will be based on completeness as well as accuracy. In order to receive credit you must show all your work.
 
 You are welcomed, and encouraged, to work with each other on the problems, but you must turn in your own work. If you copy someone else's work, both parties will receive a 0 for the problem set grade as well as being reported to the [Office of Student Conduct]().
 
-**Submission instructions:** You will turn in your problem sets on Blackboard. I strongly recommend working in a word processor of your choice, saving your work as PDF, and submitting that. You are welcome to submit  as Word files as well, however if I cannot open your file you will receive a 0 on the problem set (so it may not be worth taking that risk!). 
+**Submission instructions:** You will turn in your problem sets on Canvas I strongly recommend working in a word processor of your choice, saving your work as PDF, and submitting that. You are welcome to submit  as Word files as well, however if I cannot open your file you will receive a 0 on the problem set (so it may not be worth taking that risk!). 
 
 All assignments will be time stamped and late work will be penalized based on this time stamp (see late work policy below).
 
@@ -141,7 +140,7 @@ The objective of the labs is to give you hands on experience with data analysis 
 
 I will give a brief overview of the lab and learning goals, and guide you through some of the exercises. You will start working on the lab during the class session, but note that the labs are designed to take more than just the class time, so you will work on the lab after class and sub,it it before the due date (which will be the following lab session). In order to get credit for a lab report, you must be in the lab session on the day that lab is introduced.
 
-**Submission instructions:** Always submit the Rmd and the HTML files for your lab.
+**Submission instructions:** Always submit the Rmd and the HTML files for your lab, you might need to create .zip file in order to submit.
 
 
 

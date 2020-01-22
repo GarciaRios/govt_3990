@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -20,9 +20,10 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -31,10 +32,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -69,9 +72,7 @@ h6 {
 
 <link rel="stylesheet" href="custom_style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,13 +86,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -107,7 +113,6 @@ body {
   padding-top: 46px;
   margin-top: -46px;
 }
-
 .section h2 {
   padding-top: 46px;
   margin-top: -46px;
@@ -127,6 +132,43 @@ body {
 .section h6 {
   padding-top: 46px;
   margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -148,19 +190,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -251,8 +348,8 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td align="center">M &amp; W</td>
-<td align="center">2:55 pm - 4:10 pm</td>
-<td align="center">Uris Hall 262</td>
+<td align="center">10:10 pm - 11:25 pm</td>
+<td align="center">White Hall 110</td>
 </tr>
 </tbody>
 </table>
@@ -265,9 +362,9 @@ $(document).ready(function () {
 <div id="required-materials" class="section level3">
 <h3>Required materials:</h3>
 <ul>
-<li>Textbook: <a href="http://openintro.org/os">OpenIntro Statistics</a> - Diez, Barr, Çetinkaya-Rundel \ CreateSpace, 3rd Edition, 2015 (ISBN: 978-1943450039) \</li>
+<li>Textbook: <a href="http://openintro.org/os">OpenIntro Statistics</a> - Diez, Barr, Çetinkaya-Rundel \ CreateSpace, 4th Edition, 2019 (ISBN: 978-1943450077) \</li>
 </ul>
-<p>The textbook is freely <a href="http://openintro.org/os">available online</a>. You’re encouraged to read on screen but you can print it out. If you prefer a paperback version you can buy it at the cost of printing (around $10) <a href="http://openintro.org/os">on Amazon</a>. The textbook store will not carry copies of this text.</p>
+<p>The textbook is freely <a href="http://openintro.org/os">available online</a>. You’re encouraged to read on screen but you can print it out. If you prefer a paperback version you can buy it at the cost of printing (around $20) <a href="http://openintro.org/os">on Amazon</a>. The Cornell store will also carry copies of this text.</p>
 <hr />
 </div>
 <div id="course-goals-objectives" class="section level3">
@@ -385,16 +482,16 @@ Final Paper
 <p>You are expected to be present at class meeting and actively participate in the discussion. Your attendance and participation during class will make up a non-insignificant portion of your grade in this class. While I might sometimes call on you during the class discussion, it is your responsibility to be an active participant without being called on.</p>
 <hr />
 </div>
-<div id="blackboard" class="section level3">
-<h3>Blackboard</h3>
-<p>Throughout the course you will develop a tool-set to write and produce high quality reports in html and pdf. Please follow the instructions for the specific assignment. However, all work that’s meant to be submitted on should be submitted through Blackboard.</p>
+<div id="canvas" class="section level3">
+<h3>Canvas</h3>
+<p>Throughout the course you will develop a tool-set to write and produce high quality reports in html and pdf. Please follow the instructions for the specific assignment. However, all work that’s meant to be submitted on should be submitted through Canvas</p>
 </div>
 <div id="problem-sets" class="section level3">
 <h3>Problem sets:</h3>
-<p>These will be assigned (approximately) weekly on the course webpage and will be comprised of problems from the textbook. Each assignment will list roughly five to seven problems from the book to be turned in for grading.</p>
+<p>These will be assigned (approximately) weekly on the course website and will be comprised of problems from the textbook. Each assignment will list roughly five to seven problems from the book to be turned in for grading.</p>
 <p>The objective of the problem sets is to help you develop a more in-depth understanding of the material and help you prepare for exams and projects. Grading will be based on completeness as well as accuracy. In order to receive credit you must show all your work.</p>
 <p>You are welcomed, and encouraged, to work with each other on the problems, but you must turn in your own work. If you copy someone else’s work, both parties will receive a 0 for the problem set grade as well as being reported to the <a href="">Office of Student Conduct</a>.</p>
-<p><strong>Submission instructions:</strong> You will turn in your problem sets on Blackboard. I strongly recommend working in a word processor of your choice, saving your work as PDF, and submitting that. You are welcome to submit as Word files as well, however if I cannot open your file you will receive a 0 on the problem set (so it may not be worth taking that risk!).</p>
+<p><strong>Submission instructions:</strong> You will turn in your problem sets on Canvas I strongly recommend working in a word processor of your choice, saving your work as PDF, and submitting that. You are welcome to submit as Word files as well, however if I cannot open your file you will receive a 0 on the problem set (so it may not be worth taking that risk!).</p>
 <p>All assignments will be time stamped and late work will be penalized based on this time stamp (see late work policy below).</p>
 <hr />
 </div>
@@ -402,7 +499,7 @@ Final Paper
 <h3>Labs:</h3>
 <p>The objective of the labs is to give you hands on experience with data analysis using modern statistical software. The labs will also provide you with tools that you will need to complete the projects successfully. We will use a statistical analysis package called R Studio, which is a front end for the R statistical language.</p>
 <p>I will give a brief overview of the lab and learning goals, and guide you through some of the exercises. You will start working on the lab during the class session, but note that the labs are designed to take more than just the class time, so you will work on the lab after class and sub,it it before the due date (which will be the following lab session). In order to get credit for a lab report, you must be in the lab session on the day that lab is introduced.</p>
-<p><strong>Submission instructions:</strong> Always submit the Rmd and the HTML files for your lab.</p>
+<p><strong>Submission instructions:</strong> Always submit the Rmd and the HTML files for your lab, you might need to create .zip file in order to submit.</p>
 <hr />
 </div>
 <div id="readiness-assessments" class="section level3">
@@ -460,6 +557,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

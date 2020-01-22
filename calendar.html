@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -22,7 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -71,9 +72,7 @@ h6 {
 
 <link rel="stylesheet" href="custom_style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -87,13 +86,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -109,7 +113,6 @@ body {
   padding-top: 46px;
   margin-top: -46px;
 }
-
 .section h2 {
   padding-top: 46px;
   margin-top: -46px;
@@ -129,6 +132,43 @@ body {
 .section h6 {
   padding-top: 46px;
   margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -150,19 +190,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -230,7 +325,7 @@ $(document).ready(function () {
 <div id="key" class="section level3">
 <h3>Key</h3>
 <p><i class="fa fa-book"></i> Readings</p>
-<p><i class="fa fa-code"></i> Data Camp courses</p>
+<!-- <i class="fa fa-code"></i> Data Camp courses -->
 <p><i class="fa fa-gears"></i> Actions to take</p>
 <p><i class="fa fa-bar-chart"></i> Lessons</p>
 <p><i class="fa fa-puzzle-piece"></i> Exams.</p>
@@ -244,26 +339,28 @@ $(document).ready(function () {
 <p><strong>Introduction</strong></p>
 <ul class="fa-ul">
 <li>
-<i class="fa-li fa fa-flask"></i> Jan 24 Lab 0 - (Due Jan 29) <a target="_blank" href=./Labs/lab0/lab0.html>Introduction to the Course</a>
+<i class="fa-li fa fa-bar-chart"></i> Jan 22 Introduction to the course <a target = "_blank" href="./Slides/00_intro/topic0.pdf">Deck 0</a>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Jan 29 Introduction to the course <a target = "_blank" href="./Slides/00_intro/topic0.pdf">Deck 0</a>
+<i class="fa-li fa fa-flask"></i> Jan 22 Lab 0 - (Due Jan 27) <a target="_blank" href=./Labs/lab0/lab0.html>Introduction to the Course</a>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Jan 31 Data Collection + Observational studies &amp; experiments <a target="_blank" href="./Slides/01_unit1/deck1/deck-1-1.pdf"> Deck</a>
+<i class="fa-li fa fa-bar-chart"></i> Jan 27 Data Collection + Observational studies &amp; experiments <a target="_blank" href="./Slides/01_unit1/deck1/deck-1-1.pdf"> Deck</a>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Feb 5 More exploratory data analysis<a target="_blank" href="./Slides/01_unit1/u1_deck3/u1_deck3.pdf"> Deck</a>
+<p><i class="fa-li fa fa-flask"></i> Jan 29 Lab 1 (Due Feb 5) <a href=./Labs/lab1/intro_to_r.html>Intro to R</a></p>
 <li>
-<p><i class="fa-li fa fa-flask"></i> Feb 7 Lab 1 (Due Feb 14) <a href=./Labs/lab1/intro_to_r.html>Intro to R</a></p>
+<p><i class="fa-li fa fa-bar-chart"></i> Feb 3 No Class Iowa Caucus</p>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Feb 12 Introduction to statistical inference <a target="_blank" href="./Slides/01_unit1/u1_deck4/u1_deck4.pdf"> Deck </a>
+<p><i class="fa-li fa fa-bar-chart"></i> Feb 5 More exploratory data analysis<a target="_blank" href="./Slides/01_unit1/u1_deck3/u1_deck3.pdf"> Deck</a></p>
 <li>
-<i class="fa-li fa fa-flask"></i> Feb 14 Lab 2 (Due Feb 21) <a target="_blank" href=./Labs/lab2/introduction_to_data.html> Introduction to Data</a>
+<p><i class="fa-li fa fa-bar-chart"></i> Feb 10 Introduction to statistical inference <a target="_blank" href="./Slides/01_unit1/u1_deck4/u1_deck4.pdf"> Deck </a></p>
+<li>
+<p><i class="fa-li fa fa-flask"></i> Feb 12 Lab 2 (Due Feb 19) <a target="_blank" href=./Labs/lab2/introduction_to_data.html> Introduction to Data</a></p>
 </ul>
 <hr />
 <ul class="fa-ul">
 <li>
 <i class="fa-li fa fa-book"></i> Reading: OpenIntro - Ch 1, Sec 1.6-1.8</a>
 <li>
-<i class="fa-li fa fa-gears"></i> Problem set (Due Feb 21)
+<i class="fa-li fa fa-gears"></i> Problem set (Due Feb 19)
 <ul>
 <li>
 Ch1: 1.2, 1.6, 1.12, 1.20, 1.32, 1.34, 1.44, 1.56, 1.66, 1.68. </a>
@@ -277,20 +374,20 @@ Ch1: 1.2, 1.6, 1.12, 1.20, 1.32, 1.34, 1.44, 1.56, 1.66, 1.68. </a>
 <p><strong>Probability and Distribuitions</strong></p>
 <ul class="fa-ul">
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Feb 19 No class - February Break </a>
+<i class="fa-li fa fa-bar-chart"></i> Feb 17 No class - February Break </a>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Feb 21 Probability and conditional probability <a target="_blank" href="./Slides/02_unit2/deck1/u2_deck1.pdf"> Deck </a>
+<i class="fa-li fa fa-bar-chart"></i> Feb 19 Probability and conditional probability <a target="_blank" href="./Slides/02_unit2/deck1/u2_deck1.pdf"> Deck </a>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Feb 26 Normal and binomial distribution <a target="_blank"  href="./Slides/02_unit2/deck3/u2_deck3.pdf"> Deck</a>
+<i class="fa-li fa fa-bar-chart"></i> Feb 24 Normal and binomial distribution <a target="_blank"  href="./Slides/02_unit2/deck3/u2_deck3.pdf"> Deck</a>
 <li>
-<p><i class="fa-li fa fa-flask"></i> Feb 28 Lab 3 - (Due Mar 7) <a target="_blank" href=./Labs/lab3/probability.html>Probability</a></p>
+<p><i class="fa-li fa fa-flask"></i> Feb 26 Lab 3 - (Due Mar 4) <a target="_blank" href=./Labs/lab3/probability.html>Probability</a></p>
 </ul>
 <hr />
 <ul class="fa-ul">
 <li>
 <i class="fa-li fa fa-book"></i> Reading: OpenIntro - Ch 2 - Sec 2.1, 2.2 + Ch 3 - Sec 3.1, 3.2, 3.4</a>
 <li>
-<i class="fa-li fa fa-gears"></i> Problem set (Due Mar 5)
+<i class="fa-li fa fa-gears"></i> Problem set (Due Mar 4)
 <ul>
 <li>
 Ch 2: 2.2, 2.8, 2.18, 2.20, 2.22, 2.26
@@ -306,20 +403,20 @@ Ch 3: 3.4, 3.6, 3.12, 3.18, 3.26, 3.30, 3.36 </a>
 <p><strong>Foundations for Inference</strong></p>
 <ul class="fa-ul">
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Mar 5 Variability in estimates and CLT <a target="_blank" href="./Slides/03_unit3/deck1/u3_deck1.pdf"> Deck </a>
+<i class="fa-li fa fa-bar-chart"></i> Mar 2 Variability in estimates and CLT <a target="_blank" href="./Slides/03_unit3/deck1/u3_deck1.pdf"> Deck </a>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Mar 7 Confidence intervals <a target="_blank" href="./Slides/03_unit3/deck2/u3_deck2.pdf"> Deck </a>
+<i class="fa-li fa fa-bar-chart"></i> Mar 4 Confidence intervals <a target="_blank" href="./Slides/03_unit3/deck2/u3_deck2.pdf"> Deck </a>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Mar 12 Hypothesis tests <a target="_blank" href="./Slides/03_unit3/deck3/u3_deck3.pdf"> Deck</a>
+<i class="fa-li fa fa-bar-chart"></i> Mar 9 Hypothesis tests <a target="_blank" href="./Slides/03_unit3/deck3/u3_deck3.pdf"> Deck</a>
 <li>
-<i class="fa-li fa fa-flask"></i> Mar 14 Lab 4 - (Due Mar 21) <a target="_blank" href=./Labs/lab4/confidence_intervals.html>Confidence intervals</a>
+<i class="fa-li fa fa-flask"></i> Mar 11 Lab 4 - (Due Mar 18) <a target="_blank" href=./Labs/lab4/confidence_intervals.html>Confidence intervals</a>
 </ul>
 <hr />
 <ul class="fa-ul">
 <li>
 <i class="fa-li fa fa-book"></i> Reading: OpenIntro - Ch 4</a>
 <li>
-<i class="fa-li fa fa-puzzle-piece"></i> <strong>March 19 Midterm</strong> </a>
+<i class="fa-li fa fa-puzzle-piece"></i> <strong>March 16 Midterm</strong> </a>
 </ul>
 <hr />
 <hr />
@@ -329,26 +426,24 @@ Ch 3: 3.4, 3.6, 3.12, 3.18, 3.26, 3.30, 3.36 </a>
 <p><strong>Inference</strong></p>
 <ul class="fa-ul">
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Mar 21 Inference for numerical data <a target="_blank" href="./Slides/04_unit4/deck1/u4_deck1.pdf"> Deck </a>
+<i class="fa-li fa fa-bar-chart"></i> Mar 18 Inference for numerical data <a target="_blank" href="./Slides/04_unit4/deck1/u4_deck1.pdf"> Deck </a>
 <li>
-<p><i class="fa-li fa fa-flask"></i> Mar 26 Lab 5 - (Due Mar 30) <a target="_blank" href=./Labs/lab5/inf_for_numerical_data.html>Inference for numerical data</a></p>
+<p><i class="fa-li fa fa-flask"></i> Mar 23 Lab 5 - (Due Mar 27) <a target="_blank" href=./Labs/lab5/inf_for_numerical_data.html>Inference for numerical data</a></p>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Apr 9 More inference <a target="_blank" href="./Slides/04_unit4/deck4/u4_deck4.pdf"> Deck</a>
+<i class="fa-li fa fa-bar-chart"></i> Apr 25 More inference <a target="_blank" href="./Slides/04_unit4/deck4/u4_deck4.pdf"> Deck</a>
 <li>
-<p><i class="fa-li fa fa-flask"></i> Apr 11 Lab 6 - (Due Apr 18) <a target="_blank" href=./Labs/lab6/more_inf_for_numerical_data.html>(More) inference for numerical data</a></p>
+<p><i class="fa-li fa fa-flask"></i> Apr 6 Lab 6 - (Due Apr 13) <a target="_blank" href=./Labs/lab6/more_inf_for_numerical_data.html>(More) inference for numerical data</a></p>
 <li>
-<p><i class="fa-li fa fa-object-ungroup"></i> Mar 28 No class, WPSA - Work on lab 5 and problem set</p>
-<li>
-<p><i class="fa-li  fa fa-exclamation"></i> Apr 2-4 No class - Spring Break</p>
+<p><i class="fa-li  fa fa-exclamation"></i> Mar 30- Apr 1 No class - Spring Break</p>
 </ul>
 <hr />
 <ul class="fa-ul">
 <li>
 <i class="fa-li fa fa-book"></i> Reading: OpenIntro - Ch. 5</a>
 <li>
-<i class="fa-li fa fa-microphone"></i> March 26 Project presentation and paper
+<i class="fa-li fa fa-microphone"></i> March 25 Project presentation and paper
 <li>
-<i class="fa-li fa fa-gears"></i> Problem set (Due Apr 16): </a>
+<i class="fa-li fa fa-gears"></i> Problem set (Due Apr 15): </a>
 <ul>
 <li>
 Ch 4: 4.2, 4.8, 4.10, 4.12, 4.16, 4.20
@@ -364,13 +459,15 @@ Ch 5: 5.3, 5.4, 5.5, 5.6, 5.12, 5.20, 5.22 </a>
 <p><strong>Regression</strong></p>
 <ul class="fa-ul">
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Apr 16 Introduction linear regression <a target="_blank" href="./Slides/06_unit6/deck1/u6_deck1.pdf"> Deck</a>
+<i class="fa-li fa fa-bar-chart"></i> Apr 8 Introduction linear regression <a target="_blank" href="./Slides/06_unit6/deck1/u6_deck1.pdf"> Deck</a>
 <li>
-<i class="fa-li fa fa-flask"></i> Apr 18 Lab 7 - (Due Apr 26) <a target="_blank" href=./Labs/lab7/simple_regression.html>Linear Regression</a>
+<i class="fa-li fa fa-flask"></i> Apr 15 Lab 7 - (Due Apr 27) <a target="_blank" href=./Labs/lab7/simple_regression.html>Linear Regression</a>
 <li>
-<i class="fa-li fa fa-bar-chart"></i> Apr 23 Multiple linear regression <a target="_blank" href="./Slides/07_unit7/deck1/u7_deck1.pdf"> Deck</a>
+<i class="fa-li fa fa-bar-chart"></i> Apr 20 Multiple linear regression <a target="_blank" href="./Slides/07_unit7/deck1/u7_deck1.pdf"> Deck</a>
 <li>
-<p><i class="fa-li fa fa-flask"></i> Apr 25 Lab 8 - (Due May 2) <a target="_blank" href=./Labs/lab8//multiple_regression.html>Multiple Linear Regression Lab</a></p>
+<p><i class="fa-li fa fa-flask"></i> Apr 22 Lab 8 - (Due May 2) <a target="_blank" href=./Labs/lab8//multiple_regression.html>Multiple Linear Regression Lab</a></p>
+<li>
+<p><i class="fa-li fa fa-object-ungroup"></i> Apr 13 No class, WPSA - Work on lab 6 and problem set</p>
 </ul>
 <hr />
 <ul class="fa-ul">
@@ -385,11 +482,9 @@ Ch 5: 5.3, 5.4, 5.5, 5.6, 5.12, 5.20, 5.22 </a>
 <p><strong>Presenting results</strong></p>
 <ul class="fa-ul">
 <li>
-<i class="fa-li fa fa-flask"></i> Apr 30 Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Predicted probabilities - Visualizaton </a>
+<i class="fa-li fa fa-flask"></i> Apr 27 Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Predicted probabilities - Visualizaton </a>
 <li>
-<i class="fa-li fa fa-flask"></i> May 2 Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Case study</a>
-<li>
-<i class="fa-li fa"></i> May 7 Project Consulting
+<i class="fa-li fa fa-flask"></i> May 29 Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Case study</a> <!--<li><i class="fa-li fa"></i>        May 7   Project Consulting -->
 </ul>
 <hr />
 <hr />
@@ -398,9 +493,9 @@ Ch 5: 5.3, 5.4, 5.5, 5.6, 5.12, 5.20, 5.22 </a>
 <h3>Final assessment</h3>
 <ul class="fa-ul">
 <li>
-<i class="fa-li fa fa-microphone"></i><strong>May 9 Final Presentation</strong>
+<i class="fa-li fa fa-microphone"></i><strong>May 4, 12 Final Presentation</strong>
 <li>
-<i class="fa-li fa fa-file-text-o"></i> <strong>May 18 Final Paper Due</strong>
+<i class="fa-li fa fa-file-text-o"></i> <strong>May 15 Final Paper Due</strong>
 </ul>
 </div>
 
@@ -421,6 +516,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

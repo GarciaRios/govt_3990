@@ -1,4 +1,3 @@
-\beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Use a sample to make inferences about the population}{3}{0}{1}
 \beamer@sectionintoc {2}{Ideally use a simple random sample, stratify to control for a variable, and cluster to make sampling easier}{13}{0}{2}
 \beamer@sectionintoc {3}{Sampling schemes can suffer from a variety of biases}{20}{0}{3}

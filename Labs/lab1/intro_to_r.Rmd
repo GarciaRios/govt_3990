@@ -6,6 +6,8 @@ output:
     highlight: haddock
     css: ../labs.css
     toc: yes
+editor_options: 
+  chunk_output_type: console
 ---
 
 

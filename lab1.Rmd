@@ -3,12 +3,9 @@ title: "Lab 1 - Intro to R and RStudio"
 author: "SGR"
 date: "Jan 29, 2020"
 output:
-  pdf_document: default
   html_document:
-    highlight: haddock
     theme: cosmo
-editor_options:
-  chunk_output_type: console
+    highlight: haddock
 ---
 
 ```{r setup, include=FALSE}
@@ -42,16 +39,12 @@ load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab1/Data/ar
 
 #### Exercise 1: 
 
-and this is my answer for ex 1
-
-```{r}
-qplot(x = year, y = girls, data = arbuthnot)
-```
+Now these are the exercises
 
 
 ```{r}
 # code for Exercise 1 is already entered below as an example
-
+arbuthnot$girls
 ```
 
 #### Exercise 2:

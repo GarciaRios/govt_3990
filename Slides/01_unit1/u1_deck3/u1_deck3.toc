@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
 \beamer@sectionintoc {2}{Main ideas}{6}{0}{2}
 \beamer@subsectionintoc {2}{1}{Use segmented bar plots or mosaic plots for visualizing relationships between two categorical variables}{7}{0}{2}

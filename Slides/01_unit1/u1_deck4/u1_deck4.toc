@@ -1,8 +1,6 @@
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
-\beamer@sectionintoc {2}{Case study: Is yawning contagious?}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Competing claims}{16}{0}{2}
-\beamer@subsectionintoc {2}{2}{Testing via simulation}{20}{0}{2}
-\beamer@subsectionintoc {2}{3}{Checking for independence}{23}{0}{2}
-\beamer@sectionintoc {3}{Case study: Tapping on caffeine}{25}{0}{3}
-\beamer@sectionintoc {4}{Application exercise}{39}{0}{4}
+\beamer@sectionintoc {2}{Case study: Is yawning contagious?}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Competing claims}{19}{0}{2}
+\beamer@subsectionintoc {2}{2}{Testing via simulation}{23}{0}{2}
+\beamer@subsectionintoc {2}{3}{Checking for independence}{26}{0}{2}

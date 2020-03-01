@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.1)  10 FEB 2020 10:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.1)  17 FEB 2020 09:22
 entering extended mode
-**./u1_deck4.tex
-(u1_deck4.tex
+**./u2_deck1_2019.tex
+(u2_deck1_2019.tex
 LaTeX2e <2019-10-01> patch level 3
 ("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamer.cls"
 Document Class: beamer 2019/09/29 v3.57 A class for typesetting presentations
@@ -1277,32 +1277,37 @@ estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count197
-)) (../../definitions_default.tex) (u1_deck4.aux)
-\openout1 = `u1_deck4.aux'.
+)) (../../definitions_default.tex) (u2_deck1_2019.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Warning: Label `mi1' multiply defined.
+
+
+LaTeX Warning: Label `mi2' multiply defined.
+
+)
+\openout1 = `u2_deck1_2019.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-8.
-
-("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+9.
+ ("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 68.
-
+LaTeX Font Info:    ... okay on input line 69.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1354,13 +1359,13 @@ df.mkii"
 \everyMPtoPDFconversion=\toks52
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box95
-Package hyperref Info: Link coloring OFF on input line 68.
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
- (u1_deck4.out) (u1_deck4.out)
+Package hyperref Info: Link coloring OFF on input line 69.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
+ (u2_deck1_2019.out) (u2_deck1_2019.out)
 \@outlinefile=\write6
-\openout6 = `u1_deck4.out'.
+\openout6 = `u2_deck1_2019.out'.
 
 
 ("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\transla
@@ -1388,37 +1393,38 @@ tor-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count270
- (u1_deck4.nav)
-Overfull \hbox (5.0pt too wide) in paragraph at lines 68--68
+ (u2_deck1_2019.nav)
+Overfull \hbox (5.0pt too wide) in paragraph at lines 69--69
 [][]| [][]  
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
 ("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
 
 ("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \vbox (44.44531pt too high) detected at line 85
+Overfull \vbox (44.44531pt too high) detected at line 86
  []
 
 [1
 
 {C:/Users/sig35/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(u1_deck4.toc) [2
+(u2_deck1_2019.toc) [2
+
+] (u2_deck1_2019.toc) [3
 
 ]
-Overfull \hbox (5.0pt too wide) has occurred while \output is active
-[][]| [][] 
- []
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+144.
 
-[3
-
-]
+("C:\Users\sig35\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmss.fd"
+File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1439,19 +1445,21 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [6
 
-] (u1_deck4.toc) [7
+] (u2_deck1_2019.toc) [7
 
 ]
-<figures/yawn/yawn1.png, id=90, 401.5pt x 301.125pt>
-File: figures/yawn/yawn1.png Graphic file (type png)
-<use figures/yawn/yawn1.png>
-Package pdftex.def Info: figures/yawn/yawn1.png  used on input line 135.
-(pdftex.def)             Requested size: 138.2795pt x 103.70903pt.
-<figures/yawn/yawn2.png, id=91, 401.5pt x 301.125pt>
-File: figures/yawn/yawn2.png Graphic file (type png)
-<use figures/yawn/yawn2.png>
-Package pdftex.def Info: figures/yawn/yawn2.png  used on input line 135.
-(pdftex.def)             Requested size: 138.2795pt x 103.70903pt.
+<figures/venn/venn_disjoint.pdf, id=121, 361.35pt x 216.81pt>
+File: figures/venn/venn_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_disjoint.pdf  used on input line 189
+.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
+<figures/venn/venn_non_disjoint.pdf, id=122, 361.35pt x 216.81pt>
+File: figures/venn/venn_non_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_non_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_non_disjoint.pdf  used on input line
+ 189.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
@@ -1459,12 +1467,17 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [8
 
- <./figures/yawn/yawn1.png (PNG copy)> <./figures/yawn/yawn2.png (PNG copy)>]
-<figures/mythbusters.png, id=97, 673.51625pt x 386.44376pt>
-File: figures/mythbusters.png Graphic file (type png)
-<use figures/mythbusters.png>
-Package pdftex.def Info: figures/mythbusters.png  used on input line 150.
-(pdftex.def)             Requested size: 215.10196pt x 123.41687pt.
+ <./figures/venn/venn_disjoint.pdf> <./figures/venn/venn_non_disjoint.pdf>]
+File: figures/venn/venn_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_disjoint.pdf  used on input line 189
+.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
+File: figures/venn/venn_non_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_non_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_non_disjoint.pdf  used on input line
+ 189.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
@@ -1472,10 +1485,17 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [9
 
- <./figures/mythbusters.png>]
-Overfull \vbox (5.5737pt too high) detected at line 184
- []
-
+]
+File: figures/venn/venn_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_disjoint.pdf  used on input line 189
+.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
+File: figures/venn/venn_non_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_non_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_non_disjoint.pdf  used on input line
+ 189.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
@@ -1484,9 +1504,16 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [10
 
 ]
-Overfull \vbox (5.5737pt too high) detected at line 184
- []
-
+File: figures/venn/venn_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_disjoint.pdf  used on input line 189
+.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
+File: figures/venn/venn_non_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_non_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_non_disjoint.pdf  used on input line
+ 189.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
@@ -1495,9 +1522,16 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [11
 
 ]
-Overfull \vbox (5.5737pt too high) detected at line 184
- []
-
+File: figures/venn/venn_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_disjoint.pdf  used on input line 189
+.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
+File: figures/venn/venn_non_disjoint.pdf Graphic file (type pdf)
+<use figures/venn/venn_non_disjoint.pdf>
+Package pdftex.def Info: figures/venn/venn_non_disjoint.pdf  used on input line
+ 189.
+(pdftex.def)             Requested size: 138.2795pt x 82.96759pt.
 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
@@ -1506,38 +1540,34 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [12
 
 ]
-Overfull \vbox (5.5737pt too high) detected at line 184
- []
-
-
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [13
 
-]
-Overfull \hbox (5.0pt too wide) has occurred while \output is active
-[][]| [][] 
- []
+] (u2_deck1_2019.toc) [14
 
-[14
-
-]
+]pdfTeX warning (ext4): destination with the same identifier (name{mi1}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.275 \end{frame}
+                 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [15
 
-]
-Overfull \hbox (5.0pt too wide) has occurred while \output is active
-[][]| [][] 
- []
+] (u2_deck1_2019.toc) [16
 
-[16
-
-]
+]pdfTeX warning (ext4): destination with the same identifier (name{mi2}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.303 \end{frame}
+                 
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1551,7 +1581,12 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [18
 
-] (u1_deck4.toc) [19
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[19
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
@@ -1568,19 +1603,18 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [21
 
 ]
-<figures/trial.png, id=177, 451.6875pt x 150.5625pt>
-File: figures/trial.png Graphic file (type png)
-<use figures/trial.png>
-Package pdftex.def Info: figures/trial.png  used on input line 261.
-(pdftex.def)             Requested size: 307.28987pt x 102.43626pt.
-
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
 
 [22
 
- <./figures/trial.png>] (u1_deck4.toc) [23
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[23
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
@@ -1596,7 +1630,12 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 
 [25
 
-] (u1_deck4.toc) [26
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[26
 
 ]
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
@@ -1606,68 +1645,169 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [27
 
 ]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[28
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[29
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[30
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[31
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[32
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[33
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[34
+
+]
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[35
+
+]
+<figures/test1.pdf, id=302, 505.89pt x 216.81pt>
+File: figures/test1.pdf Graphic file (type pdf)
+<use figures/test1.pdf>
+Package pdftex.def Info: figures/test1.pdf  used on input line 549.
+(pdftex.def)             Requested size: 307.28987pt x 131.6981pt.
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[36
+
+ <./figures/test1.pdf>]
+File: figures/test1.pdf Graphic file (type pdf)
+<use figures/test1.pdf>
+Package pdftex.def Info: figures/test1.pdf  used on input line 549.
+(pdftex.def)             Requested size: 307.28987pt x 131.6981pt.
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[37
+
+]
+File: figures/test1.pdf Graphic file (type pdf)
+<use figures/test1.pdf>
+Package pdftex.def Info: figures/test1.pdf  used on input line 549.
+(pdftex.def)             Requested size: 307.28987pt x 131.6981pt.
+
+Overfull \hbox (5.0pt too wide) has occurred while \output is active
+[][]| [][] 
+ []
+
+[38
+
+]
 \tf@nav=\write7
-\openout7 = `u1_deck4.nav'.
+\openout7 = `u2_deck1_2019.nav'.
 
 \tf@toc=\write8
-\openout8 = `u1_deck4.toc'.
+\openout8 = `u2_deck1_2019.toc'.
 
 \tf@snm=\write9
-\openout9 = `u1_deck4.snm'.
+\openout9 = `u2_deck1_2019.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
- (u1_deck4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
+ (u2_deck1_2019.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
 
 
-Package rerunfilecheck Warning: File `u1_deck4.out' has changed.
+Package rerunfilecheck Warning: File `u2_deck1_2019.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `u1_deck4.out':
-(rerunfilecheck)             Before: 06A18AAB23596FE978223D4587FCB66B;329
-(rerunfilecheck)             After:  D952B2E554AB379D36268F6A58641E9D;329.
+Package rerunfilecheck Info: Checksums for `u2_deck1_2019.out':
+(rerunfilecheck)             Before: B53236F23EC88273F42B61E450BBD05E;682
+(rerunfilecheck)             After:  E89802A63B08692EA648756A9D7E0D6A;530.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 24337 strings out of 492450
- 474639 string characters out of 3120005
- 556652 words of memory out of 3000000
- 28035 multiletter control sequences out of 15000+200000
- 17009 words of font info for 64 fonts, out of 3000000 for 9000
+ 24409 strings out of 492450
+ 476489 string characters out of 3120005
+ 555089 words of memory out of 3000000
+ 28079 multiletter control sequences out of 15000+200000
+ 17058 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,14n,90p,1837b,695s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Outline0.2.3.24} has been referenced but does not
- exist, replaced by a fixed one
+ 69i,14n,97p,1842b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Navigation48} has been referenced but does not ex
+ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline0.2.2.21} has been referenced but does not e
+pdfTeX warning (dest): name{Navigation46} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.1.5.46} has been referenced but does not e
 xist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline0.2.1.17} has been referenced but does not e
-xist, replaced by a fixed one
-
-<C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sig35/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sig35/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/sig35/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/U
-sers/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-s8.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmss9.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/sig35/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/sig35/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
-sers/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y5.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy9.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/symbols/msam10.pfb>
-Output written on u1_deck4.pdf (27 pages, 1296549 bytes).
+ <C:\Users\sig35\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+ss0900.pk><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sig35/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/sig35/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/
+sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.p
+fb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmss12.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/sig35/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/sig35/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/
+sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.p
+fb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmssi9.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Users/sig35/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/sig35/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on u2_deck1_2019.pdf (38 pages, 369315 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

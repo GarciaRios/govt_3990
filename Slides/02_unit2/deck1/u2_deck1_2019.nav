@@ -1,0 +1,52 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\sectionentry {1}{Main ideas}{2}{Main ideas}{0}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@subsectionpages {2}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Disjoint and independent do not mean the same thing}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{Disjoint and independent do not mean the same thing}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {1}{1}{2}{4/6}{Disjoint and independent do not mean the same thing}{0}}
+\headcommand {\beamer@framepages {4}{6}}
+\headcommand {\beamer@subsectionpages {3}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{7}{Application of the addition rule depends on disjointness of events}}
+\headcommand {\slideentry {1}{2}{1}{7/7}{Application of the addition rule depends on disjointness of events}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{2}{2}{8/12}{Application of the addition rule depends on disjointness of events}{0}}
+\headcommand {\beamer@framepages {8}{12}}
+\headcommand {\slideentry {1}{2}{3}{13/13}{Application of the addition rule depends on disjointness of events}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@subsectionpages {7}{13}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{14}{Probability trees are useful for conditional probability calculations}}
+\headcommand {\slideentry {1}{3}{1}{14/14}{Probability trees are useful for conditional probability calculations}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {1}{3}{2}{15/15}{Probability trees are useful for conditional probability calculations}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@subsectionpages {14}{15}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{16}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}}
+\headcommand {\slideentry {1}{4}{1}{16/16}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {1}{4}{2}{17/22}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {17}{22}}
+\headcommand {\slideentry {1}{4}{3}{23/26}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {23}{26}}
+\headcommand {\slideentry {1}{4}{4}{27/29}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {27}{29}}
+\headcommand {\slideentry {1}{4}{5}{30/30}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\slideentry {1}{4}{6}{31/31}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {1}{4}{7}{32/32}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {1}{4}{8}{33/35}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {33}{35}}
+\headcommand {\slideentry {1}{4}{9}{36/38}{Bayesian inference: start with a prior, collect data, calculate posterior, make a decision or iterate}{0}}
+\headcommand {\beamer@framepages {36}{38}}
+\headcommand {\beamer@partpages {1}{38}}
+\headcommand {\beamer@subsectionpages {16}{38}}
+\headcommand {\beamer@sectionpages {2}{38}}
+\headcommand {\beamer@documentpages {38}}
+\headcommand {\gdef \inserttotalframenumber {12}}

@@ -1,8 +1,8 @@
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
-\beamer@sectionintoc {2}{Main ideas}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Sample statistics vary from sample to sample}{5}{0}{2}
-\beamer@subsectionintoc {2}{2}{CLT describes the shape, center, and spread of sampling distributions}{26}{0}{2}
-\beamer@subsectionintoc {2}{3}{CLT only applies when independence and sample size/skew conditions are met}{29}{0}{2}
-\beamer@sectionintoc {3}{Exercises [time permitting]}{33}{0}{3}
-\beamer@sectionintoc {4}{Summary}{54}{0}{4}
+\beamer@sectionintoc {2}{Main ideas}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Sample statistics vary from sample to sample}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{CLT describes the shape, center, and spread of sampling distributions}{31}{0}{2}
+\beamer@subsectionintoc {2}{3}{CLT only applies when independence and sample size/skew conditions are met}{34}{0}{2}
+\beamer@sectionintoc {3}{Exercises [time permitting]}{38}{0}{3}
+\beamer@sectionintoc {4}{Summary}{59}{0}{4}

@@ -1,5 +1,4 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Main ideas}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Statistical inference methods based on the CLT depend on the same conditions as the CLT}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Use confidence intervals to estimate population parameters}{5}{0}{1}

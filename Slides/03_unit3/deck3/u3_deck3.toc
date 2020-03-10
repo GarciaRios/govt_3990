@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
 \beamer@sectionintoc {2}{Main ideas}{3}{0}{2}
 \beamer@subsectionintoc {2}{1}{Use hypothesis tests to make decisions about population parameters}{4}{0}{2}

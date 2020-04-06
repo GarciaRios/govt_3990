@@ -1,5 +1,6 @@
-\select@language {english}
-\beamer@sectionintoc {1}{Main ideas}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{T corrects for uncertainty introduced by plugging in $s$ for $\sigma $}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{When comparing means of two groups, details depend on paired or independent}{12}{0}{1}
-\beamer@subsectionintoc {1}{3}{All other details of the inferential framework is the same...}{31}{0}{1}
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{T corrects for uncertainty introduced by plugging in $s$ for $\sigma $}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{When comparing means of two groups, details depend on paired or independent}{18}{0}{2}
+\beamer@subsectionintoc {2}{3}{All other details of the inferential framework is the same...}{37}{0}{2}

@@ -99,7 +99,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 <li><i class="fa-li fa fa-bar-chart"></i>    Mar 2 	Variability in estimates and CLT  <a target="_blank" href="./Slides/03_unit3/deck1/u3_deck1.pdf"> Deck </a>
 <li><i class="fa-li fa fa-bar-chart"></i>    Mar 4 	Confidence intervals  <a target="_blank" href="./Slides/03_unit3/deck2/u3_deck2.pdf"> Deck </a>
 <li><i class="fa-li fa fa-bar-chart"></i>    Mar 9 	 Hypothesis tests  <a target="_blank" href="./Slides/03_unit3/deck3/u3_deck3.pdf"> Deck</a>
-<li><i class="fa-li fa fa-flask"></i>        Mar 11  Lab 4 - (Due Mar 18) <a target="_blank" href=./Labs/lab4/confidence_intervals.html>Confidence intervals</a>
+<li><i class="fa-li fa fa-flask"></i>        Mar 11  Lab 4 - (Due Apr 10 [Orig- Mar 18]) <a target="_blank" href=./Labs/lab4/confidence_intervals.html>Confidence intervals</a>
 </ul>
 
 
@@ -107,7 +107,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch 4</a>
-<li><i class="fa-li fa fa-puzzle-piece"></i> **March 16  Midterm** </a>
+<li><i class="fa-li fa fa-puzzle-piece"></i> **Midterm Canceled** </a>
 </ul>
 
 
@@ -119,14 +119,14 @@ In particular, the pace of the course will be adjusted so that we move as possib
 **Inference**
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-bar-chart"></i>    Mar 18  Inference for numerical data  <a target="_blank" href="./Slides/04_unit4/deck1/u4_deck1.pdf"> Deck </a>
-<li><i class="fa-li fa fa-flask"></i>        Mar 23  Lab 5 - (Due Mar 27) <a target="_blank" href=./Labs/lab5/inf_for_numerical_data.html>Inference for numerical data</a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 6  Inference for numerical data  <a target="_blank" href="./Slides/04_unit4/deck1/u4_deck1.pdf"> Deck </a>
+<li><i class="fa-li fa fa-flask"></i>        Apr 8  Lab 5 - (Due Apr 15 [Org - Mar 27]) <a target="_blank" href=./Labs/lab5/inf_for_numerical_data.html>Inference for numerical data</a>
 
-<li><i class="fa-li fa fa-bar-chart"></i>    Apr 25  More inference  <a target="_blank" href="./Slides/04_unit4/deck4/u4_deck4.pdf"> Deck</a> 
-<li><i class="fa-li fa fa-flask"></i>        Apr 6  Lab 6 - (Due Apr 13) <a target="_blank" href=./Labs/lab6/more_inf_for_numerical_data.html>(More) inference for numerical data</a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 13  More inference  <a target="_blank" href="./Slides/04_unit4/deck4/u4_deck4.pdf"> Deck</a> 
+<li><i class="fa-li fa fa-flask"></i>        Apr 15  Lab 6 - (Due Apr 22) <a target="_blank" href=./Labs/lab6/more_inf_for_numerical_data.html>(More) inference for numerical data</a>
 
 
-<li><i class="fa-li  fa fa-exclamation"></i>    Mar 30- Apr 1 No class - Spring Break 
+<li><i class="fa-li  fa fa-exclamation"></i>    Mar 13- Apr 5 classes were canceled + Spring Break 
 
 </ul>
 
@@ -135,8 +135,8 @@ In particular, the pace of the course will be adjusted so that we move as possib
 ***
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch. 5</a>
-<li><i class="fa-li fa fa-microphone"></i> March 25 Project presentation and paper
-<li><i class="fa-li fa fa-gears"></i> Problem set (Due Apr 15):    </a>
+<li><i class="fa-li fa fa-microphone"></i> Apr 22 [Org March 25] Project presentation and paper
+<li><i class="fa-li fa fa-gears"></i> Problem set (Due Apr 22 [Org 15]):    </a>
   <ul> 
   <li> Ch 4: 4.2, 4.8, 4.10, 4.12,  4.16, 4.20
   <li> Ch 5: 5.3, 5.4, 5.5, 5.6, 5.12, 5.20, 5.22 </a>
@@ -153,13 +153,10 @@ In particular, the pace of the course will be adjusted so that we move as possib
 
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-bar-chart"></i>    Apr 8 Introduction linear regression  <a target="_blank" href="./Slides/06_unit6/deck1/u6_deck1.pdf"> Deck</a>
-<li><i class="fa-li fa fa-flask"></i>        Apr 15  Lab 7 - (Due Apr 27) <a target="_blank" href=./Labs/lab7/simple_regression.html>Linear Regression</a>
-<li><i class="fa-li fa fa-bar-chart"></i>    Apr 20 Multiple linear regression  <a target="_blank" href="./Slides/07_unit7/deck1/u7_deck1.pdf"> Deck</a>
-<li><i class="fa-li fa fa-flask"></i>        Apr 22   Lab 8 - (Due May 2) <a target="_blank" href=./Labs/lab8//multiple_regression.html>Multiple Linear Regression Lab</a>
-
-
-<li><i class="fa-li fa fa-object-ungroup"></i> Apr 13 No class, WPSA -  Work on lab 6 and problem set
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 20 Introduction linear regression  <a target="_blank" href="./Slides/06_unit6/deck1/u6_deck1.pdf"> Deck</a>
+<li><i class="fa-li fa fa-flask"></i>        Apr 22  Lab 7 - (Due Apr 29) <a target="_blank" href=./Labs/lab7/simple_regression.html>Linear Regression</a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 27 Multiple linear regression  <a target="_blank" href="./Slides/07_unit7/deck1/u7_deck1.pdf"> Deck</a>
+<li><i class="fa-li fa fa-flask"></i>        Apr 29   Lab 8 - (Due May 6) <a target="_blank" href=./Labs/lab8//multiple_regression.html>Multiple Linear Regression Lab</a>
 
 </ul>
 
@@ -180,9 +177,9 @@ In particular, the pace of the course will be adjusted so that we move as possib
 
 <ul class="fa-ul">
 
-<li><i class="fa-li fa fa-flask"></i>        Apr 27   Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Predicted probabilities -  Visualizaton </a>
-<li><i class="fa-li fa fa-flask"></i>        May 29    Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Case study</a>
-<!--<li><i class="fa-li fa"></i>        May 7   Project Consulting -->
+<li><i class="fa-li fa fa-flask"></i>        May 4   Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Predicted probabilities -  Visualizaton </a>
+<li><i class="fa-li fa fa-flask"></i>        May 6    Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Case study</a>
+<li><i class="fa-li fa"></i>        May 11   Project Consulting
 </ul>
 
 ***
@@ -191,6 +188,6 @@ In particular, the pace of the course will be adjusted so that we move as possib
 ### Final assessment
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-microphone"></i>**May  4, 12  Final Presentation** 
-<li><i class="fa-li fa fa-file-text-o"></i> **May  15  Final Paper Due** 
+<li><i class="fa-li fa fa-microphone"></i>**Final Presentation Canceled** 
+<li><i class="fa-li fa fa-file-text-o"></i> **May  22  Final Paper Due** 
 </ul>

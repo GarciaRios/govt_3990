@@ -6,6 +6,8 @@ output:
     highlight: haddock
     css: ..\labs.css
     toc: yes
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r global_options, include=FALSE}
@@ -63,7 +65,7 @@ Remember that you can answer this question by viewing the data in the data viewe
 by using the following command:
 
 ```{r summary}
-str(nc)
+glimpse(nc)
 ```
 
 As you review the variable summaries, consider which variables are categorical 
@@ -86,24 +88,38 @@ first group the data by the `habit` variable, and then calculate the mean
 ```{r by-means}
 nc %>%
   group_by(habit) %>%
-  summarise(mean_weight = mean(weight))
+  summarise(mean_weight = mean(weight), n())
 
 ```
 
 There is an observed difference, but is this difference statistically 
 significant? In order to answer this question we will conduct a hypothesis test
-.
+
 
 ## Inference
 
-3.  Are all conditions necessary for inference satisfied? Comment on each. You can  compute the group sizes using the same `by` command above but replacing `mean(weight)` 
-with `n()`.
+3.  Are all conditions necessary for inference satisfied? Comment on each. 
+
+You can  compute the group sizes using the `count`, or adding `n()` to the code above.
+
+```{r couunts}
+nc %>%
+  count(habit)
+```
 
 4.  Write the hypotheses for testing if the average weights of babies born to 
 smoking and non-smoking mothers are different.
 
-Next, we introduce a new function, `inference`, whicha was custom made for this class and  we will use it  for conducting
-hypothesis tests and constructing confidence intervals. 
+```{r, echo=FALSE}
+nc %$% t.test(weight ~ habit)
+
+
+```
+
+
+
+
+Next, we introduce a new function, `inference`, which was custom made for this class and  we will use it  for conducting hypothesis tests and constructing confidence intervals. 
 
 First, load the function:
 
@@ -114,7 +130,7 @@ load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/l
 Then, run the following:
 
 ```{r inf-weight-habit-ht, tidy=TRUE}
-inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ht", null = 0, 
+inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ci", null = 0, 
           alternative = "twosided", method = "theoretical")
 ```
 

@@ -13,4 +13,3 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Website
-WebsitePath: C:/Users/sig35/Google Drive/Work/Teaching/Courses/Puzzle Solving w Data/govt_3990

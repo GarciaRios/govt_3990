@@ -130,7 +130,7 @@ load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/l
 Then, run the following:
 
 ```{r inf-weight-habit-ht, tidy=TRUE}
-inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ci", null = 0, 
+inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ht", null = 0, 
           alternative = "twosided", method = "theoretical")
 ```
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.12.16)  13 APR 2020 08:23
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.12.16)  13 APR 2020 10:23
 entering extended mode
 **./u4_deck4.tex
 (u4_deck4.tex
@@ -1835,6 +1835,19 @@ Overfull \hbox (5.0pt too wide) has occurred while \output is active
 ] (u4_deck4.toc) [26
 
 ]
+
+LaTeX Warning: Reference `mi1' on page 27 undefined on input line 373.
+
+
+LaTeX Warning: Reference `mi2' on page 27 undefined on input line 373.
+
+
+LaTeX Warning: Reference `mi3' on page 27 undefined on input line 373.
+
+
+LaTeX Warning: Reference `mi4' on page 27 undefined on input line 373.
+
+
 Overfull \hbox (5.0pt too wide) has occurred while \output is active
 [][]| [][] 
  []
@@ -1856,15 +1869,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
  (u4_deck4.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 377.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
-Package rerunfilecheck Info: File `u4_deck4.out' has not changed.
-(rerunfilecheck)             Checksum: 43D82C158B96A87816B21214F2C15A50.
+
+
+Package rerunfilecheck Warning: File `u4_deck4.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `u4_deck4.out':
+(rerunfilecheck)             Before: 7543DCBB2EDD3B2855894B5D9133765F
+(rerunfilecheck)             After:  43D82C158B96A87816B21214F2C15A50.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  )
 (\end occurred when \ifx on line 164 was incomplete) 
 Here is how much of TeX's memory you used:
- 39081 strings out of 427240
- 772676 string characters out of 3141440
- 885878 words of memory out of 3000000
- 42908 multiletter control sequences out of 15000+200000
+ 39080 strings out of 427240
+ 772664 string characters out of 3141440
+ 884573 words of memory out of 3000000
+ 42907 multiletter control sequences out of 15000+200000
  540968 words of font info for 92 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,15n,88p,1837b,585s stack positions out of 5000i,500n,10000p,200000b,50000s

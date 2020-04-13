@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
 \beamer@sectionintoc {2}{Main ideas}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{Comparing many means requires care}{5}{0}{2}

@@ -6,6 +6,8 @@ output:
     highlight: haddock
     css: ..\labs.css
     toc: yes
+editor_options: 
+  chunk_output_type: console
 ---
 
 
@@ -26,7 +28,7 @@ download.file("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab6/la
 ## American salaries
 
 Since 2005, the American Community Survey polls ~$3.5 million households yearly. We will work 
-with a randon sample of 2000 observations from the 2012 ACS. You have already worked with this 
+with a random sample of 2000 observations from the 2012 ACS. You have already worked with this 
 dataset once, as part of your application exercise. In this lab you get a chance to work with 
 it a little more extensively.
 
@@ -98,9 +100,9 @@ load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab5/inferen
     interval. 
     
 1.  Based on this interval is there a statistically significant difference between the 
-    averege incomes of men and women? Why, or why not?
+    average incomes of men and women? Why, or why not?
     
-1.  What is the significance level for the equivalent hypthesis test that evaluates whether 
+1.  What is the significance level for the equivalent hypothesis test that evaluates whether 
     there is a significant difference between average incomes of men and women.
 
 1.  Conduct this hypothesis test using the `inference` function, and interpret your results 
@@ -126,25 +128,25 @@ respectively. Remember, we create a new variable with the mutate function.
 
 ```{r}
 acs_emp <- acs_emp %>%
-  mutate(emp_type = ifelse(hrs_work >= 40, "full time", "part time"))
+  mutate(emp_type2 = case_when(hrs_work >= 40 ~ "full time", 
+                              TRUE ~ "part time"))
 ```
 
-Again, the `ifelse()` function has three arguments: a logical test, return values for TRUE elements
-of test, and return values for FALSE elements of test. In this case, `emp_type` will be coded 
+Again, the `case_when()` function has three arguments: a logical test for various elements, the value that will assigned when the condition is met, and the values for the remaining elements of test. In this case, `emp_type` will be coded 
 as `"full time"` for observations where `hrs_work` is greater than or equal to 40, and as 
 `"part time"` otherwise.
 
-To find out what percent of the sample is full vs. part time for men and women, we turn to summary statistics:
+To find out what percent of the sample is full vs. part time for men and women, we turn to `count()` and/or `group_by`:
 
 ```{r}
 acs_emp %>%
-  group_by(emp_type, gender) %>%
-  summarise(prop = n() / nrow(acs_emp))
+  group_by(gender) %>%
+  count(emp_type) %>% 
+  mutate(pct = prop.table(n))
+
 ```
 
-Here we first grouped the data by the new `emp_type`  variable and `gender`, then we calculated 
-proportions of full and part time employees by first counting how many there are in each group 
-(`n()`) and then dividing this number by the total number of rows of the dataset.
+Here we first grouped the data by the `gender` variable and generated counts of each employment type using our new variable (`emp_type`), then we calculated proportions of full and part time employees by group, in this case gender using that total count (`n`).
 
 1.  Create a bar plot of the distribution of the `emp_type` variable, and also include the
     summary statistics you calculated above in your answer. What percent of the sample

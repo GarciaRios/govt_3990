@@ -123,7 +123,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 <li><i class="fa-li fa fa-flask"></i>        Apr 8  Lab 5 - (Due Apr 15 [Org - Mar 27]) <a target="_blank" href=./Labs/lab5/inf_for_numerical_data.html>Inference for numerical data</a>
 
 <li><i class="fa-li fa fa-bar-chart"></i>    Apr 13  More inference  <a target="_blank" href="./Slides/04_unit4/deck4/u4_deck4.pdf"> Deck</a> 
-<li><i class="fa-li fa fa-flask"></i>        Apr 15  Lab 6 - (Due Apr 22) <a target="_blank" href=./Labs/lab6/more_inf_for_numerical_data.html>(More) inference for numerical data</a>
+<li><i class="fa-li fa fa-flask"></i>        Apr 15  Lab 6 - (Due Apr 29) <a target="_blank" href=./Labs/lab6/more_inf_for_numerical_data.html>(More) inference for numerical data</a>
 
 
 <li><i class="fa-li  fa fa-exclamation"></i>    Mar 13- Apr 5 classes were canceled + Spring Break 
@@ -154,9 +154,9 @@ In particular, the pace of the course will be adjusted so that we move as possib
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-bar-chart"></i>    Apr 20 Introduction linear regression  <a target="_blank" href="./Slides/06_unit6/deck1/u6_deck1.pdf"> Deck</a>
-<li><i class="fa-li fa fa-flask"></i>        Apr 22  Lab 7 - (Due Apr 29) <a target="_blank" href=./Labs/lab7/simple_regression.html>Linear Regression</a>
+<li><i class="fa-li fa fa-flask"></i>        Apr 22  Lab 7 - (Due May 6) <a target="_blank" href=./Labs/lab7/simple_regression.html>Linear Regression</a>
 <li><i class="fa-li fa fa-bar-chart"></i>    Apr 27 Multiple linear regression  <a target="_blank" href="./Slides/07_unit7/deck1/u7_deck1.pdf"> Deck</a>
-<li><i class="fa-li fa fa-flask"></i>        Apr 29   Lab 8 - (Due May 6) <a target="_blank" href=./Labs/lab8//multiple_regression.html>Multiple Linear Regression Lab</a>
+<li><i class="fa-li fa fa-flask"></i>        Apr 29   Lab 8 - (Optional) <a target="_blank" href=./Labs/lab8//multiple_regression.html>Multiple Linear Regression Lab</a>
 
 </ul>
 

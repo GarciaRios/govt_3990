@@ -1,5 +1,4 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
 \beamer@sectionintoc {2}{Modeling numerical variables}{4}{0}{2}
 \beamer@sectionintoc {3}{Main ideas}{6}{0}{3}

@@ -136,7 +136,7 @@ In particular, the pace of the course will be adjusted so that we move as possib
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch. 5</a>
 <li><i class="fa-li fa fa-microphone"></i> Apr 22 [Org March 25] Project presentation and paper
-<li><i class="fa-li fa fa-gears"></i> Problem set (Due Apr 22 [Org 15]):    </a>
+<li><i class="fa-li fa fa-gears"></i> Problem set (Due Apr 29 [Org 15]):    </a>
   <ul> 
   <li> Ch 4: 4.2, 4.8, 4.10, 4.12,  4.16, 4.20
   <li> Ch 5: 5.3, 5.4, 5.5, 5.6, 5.12, 5.20, 5.22 </a>

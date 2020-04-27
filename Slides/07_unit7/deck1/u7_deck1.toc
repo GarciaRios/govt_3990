@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
 \beamer@sectionintoc {2}{Main ideas}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{In MLR everything is conditional on all other variables in the model}{5}{0}{2}

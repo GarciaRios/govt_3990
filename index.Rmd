@@ -83,7 +83,7 @@ The course is divided into six learning units. For each unit a set of learning o
 
 
 ### Grading:
-
+<!--
 <div style="padding-left:2em;padding-top:1em;">
 <table style="width:400px;">
 <tr> <td> Attendance & participation </td> <td> 5% </td></tr>
@@ -96,6 +96,20 @@ The course is divided into six learning units. For each unit a set of learning o
 <tr> <td> Final Paper               </td> <td> 25% </td></tr>
 </table>
 </div>
+-->
+
+<div style="padding-left:2em;padding-top:1em;">
+<table style="width:400px;">
+<tr> <td> Attendance & participation </td> <td> 5% </td></tr>
+<tr> <td> Problem sets              </td> <td> 25% </td></tr>
+<tr> <td> Labs                      </td> <td> 25% </td></tr>
+<tr> <td> Readiness assessments     </td> <td>  5% </td></tr>
+<tr> <td> Project idea              </td> <td>  10% </td></tr>
+
+<tr> <td> Final Paper               </td> <td> 30% </td></tr>
+</table>
+</div>
+
 
 
 * * *

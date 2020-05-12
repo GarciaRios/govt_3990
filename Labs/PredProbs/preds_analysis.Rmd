@@ -1,0 +1,204 @@
+---
+title: "Predicted Probabilities"
+output:
+  html_document:
+    css: ..\labs.css
+    theme: simplex
+    highlight: haddock
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+```{r global_options, include=FALSE}
+library(tidyverse)
+library(stargazer)
+library(pander)
+library(knitr)
+library(margins)
+library(broom)
+```
+
+
+### Some Descriptive Tables and Graphs 
+
+Here I am adding some text
+
+
+
+```{r load-data, message=FALSE}
+load(url("http://www.openintro.org/stat/data/evals.RData"))
+```
+
+
+```{r descriptives}
+evals %>% 
+  count(gender) %>% 
+  mutate(Pct = prop.table(n)) %>% 
+  pander()
+
+
+dist_gender <- 
+evals %>% 
+  count(gender, rank) %>% 
+  mutate(Pct = prop.table(n)) 
+
+ggplot(dist_gender, aes(x = gender, y = Pct, fill = rank)) +
+  geom_col(position = position_dodge()) +
+  scale_fill_brewer(palette = "Accent", 
+                    labels = c("Teaching ", "Tenuere Track", "Tenured")) +
+  theme_bw() +
+  labs(x = "Gender",  y = "% Frequency", 
+       title = "Distribiution of Rank and Gender",
+       fill = "Rank") +
+  theme(legend.position = "bottom") +
+  ggsave("dist_graph.pdf")
+
+
+
+```
+
+
+
+```{r results='asis'}
+
+
+
+stargazer(evals, type = "html")
+
+
+```
+
+
+
+
+### Models
+
+#### Bivariate Model
+
+
+```{r results='asis'}
+m_gend <- lm(score ~ gender, data = evals)
+
+
+stargazer(m_gend, type = "text", out = "bv_model.txt")
+
+
+
+```
+
+```{r}
+hypx <- data.frame(gender = c("female", "male"))
+
+
+preds_gen <- predict(m_gend, newdata = hypx, interval = "confidence")
+
+
+preds_gen_df <- cbind(preds_gen, hypx)
+
+ggplot(preds_gen_df, aes(x = gender, y = fit, 
+                         color  =gender,
+                         ymin = lwr,
+                         ymax = upr)) + 
+  geom_pointrange(size = 1.5) +
+  scale_color_brewer(palette = "Accent") +
+
+  theme_bw()
+
+
+```
+
+
+
+```{r}
+summary(evals$age) %>% 
+  pander()
+```
+
+
+
+
+```{r}
+m_age <- lm(score ~ age, data = evals)
+summary(m_age)
+```
+
+
+
+```{r}
+hypx_age <- data.frame(age = c(25, 45, 65, 85, 105))
+
+preds_age<- predict(m_age, newdata = hypx_age, interval = "confidence")
+
+
+preds_age_df <- cbind(preds_age, hypx_age)
+
+
+ggplot(preds_age_df, aes(x = age, y = fit,
+                         ymin = lwr,
+                         ymax = upr)) +
+  geom_line() +
+  geom_ribbon(alpha = .3)
+
+
+```
+
+```{r}
+summary(m_mult <- lm(score ~ age + bty_avg  + gender, data = evals))
+
+
+hypdata <- evals %>% with(expand.grid(
+                          age = mean(age),
+                          gender = c("female", "male"),
+                          bty_avg = seq(1, 8)
+))
+
+
+
+preds_mult<-predict(m_mult, hypdata, interval = "confidence")
+
+preds_mult_df <- cbind(preds_mult, hypdata)
+
+```
+
+
+
+
+```{r}
+ggplot(preds_mult_df, aes(x = bty_avg, y = fit,
+                          color = gender,
+                          fill =  gender,
+                           ymin = lwr, ymax = upr)) +
+  geom_line() +
+  geom_ribbon(alpha = .7) +
+  theme_bw()
+  
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

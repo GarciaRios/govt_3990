@@ -1,20 +1,22 @@
 ---
-title: "Prdicted Probabilities"
+title: "Predicted Probabilities"
 output:
   html_document:
     css: ..\labs.css
     theme: simplex
     highlight: haddock
     toc: yes
+editor_options: 
+  chunk_output_type: console
 ---
 
 
 ```{r global_options, include=FALSE}
-library(dplyr)
-library(ggplot2)
-library(GGally)
+library(tidyverse)
 library(stargazer)
 library(pander)
+library(knitr)
+library(margins)
 ```
 
 
@@ -24,16 +26,27 @@ load(url("http://www.openintro.org/stat/data/evals.RData"))
 ```
 
 
+## Some Descriptive Tables and Graphs 
+
+
+```{r descritives, results='asis', warning=FALSE}
+
+stargazer(evals, type = "html")
+
+
+evals %>% count(gender, ) %>% 
+  mutate(pct = prop.table(n)) %>% 
+  kable()
+```
+
+
+
 ```{r}
 m_gend <- lm(score ~ gender, data = evals)
 
 summary(m_gend)
 ```
-```{r}
-evals %>% count(gender) %>% 
-  mutate(pct = prop.table(n)) %>% 
-  pander()
-```
+
 
 ```{r}
 hypdata <- data.frame(gender = c("female", "male"))

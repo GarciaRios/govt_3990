@@ -3,14 +3,14 @@ title: 'Puzzle Solving Case Study:'
 author: "Sergio I Garcia-Rios"
 date: "null"
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '6'
   html_document:
     highlight: haddock
     theme: readable
     toc: yes
     toc_depth: 6
+  pdf_document:
+    toc: yes
+    toc_depth: '6'
   word_document:
     toc: yes
     toc_depth: '6'
@@ -100,7 +100,7 @@ That's better but we can make it much better if we do some recoding to the `natp
 
 ```{r}
 lns <- lns %>% mutate(natprob_r = 
-                        haven::as_factor(natprob) %>% 
+                        as_factor(natprob) %>% 
                         fct_infreq() %>% 
                         fct_rev())
 ```
@@ -110,6 +110,15 @@ Now we can create the graph, notice that I am adding some other elements:
 - I added another aesthetic: `fill` and specified that I wanted the bar to be filled with the color blue
 - I also added a new `theme`. I am at point in my life where`theme_minimal` is my favorite but I also had stage in my life where I liked `theme_bw`... things change...  
 ```{r}
+
+ggplot(lns, aes(x = natprob_r)) + 
+  geom_bar( fill = "blue") +  # added blue as the color for the bars
+  coord_flip() + # still wnat teh coordinted flipped
+  labs(x = "",
+       y = "Main Issue",
+       title= "What is the main problem facing the country") +  # here I can specify labels and titles 
+  theme_minimal()
+
 ggplot(lns, aes(x = natprob %>% 
                   fct_infreq() %>% 
                         fct_rev()
@@ -126,8 +135,6 @@ What about the issues for Latinos? Let's do the same but now, I actually don't r
 
 
 ```{r}
-
-
 
 ggplot(lns, aes(x = 
                   latprob %>% 
@@ -208,7 +215,7 @@ This is what we are doing step by step:
 - In an new object called `poor_can` we
 - go to the lns
 - **then** we generate counts for `newgen` and `pood_r`
-- **then** with `mutate` we create a column called 
+- **then** with `mutate` we create a column called prop
 
 And this is what it looks like:
 ```{r}

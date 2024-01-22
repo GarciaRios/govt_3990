@@ -1,0 +1,154 @@
+---
+title: "Lab 4 - Confidence Intervals"
+author: "Keenan Ashbrook"
+date: "3/11/2020"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(cache = TRUE)
+library(dplyr)
+library(ggplot2)
+library(mosaic)
+```
+
+* * *
+
+## Lab report
+
+#### Load data:
+```{r load-data}
+download.file("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/lab4.Rmd", destfile = "lab4.Rmd")
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/data/ames.RData"))
+```
+
+#### Set a seed:
+```{r set-seed}
+set.seed(9438024)
+```
+
+
+## Exercises:
+
+#### Exercise 1: Describe the distribution of homes in your sample. What would you say is the “typical” size within your sample? Also state precisely what you interpreted “typical” to mean.
+
+I take a sample of size 60 and produce a histogram and summary statistics:
+
+```{r ex1}
+n <- 60
+samp <- sample_n(ames, n)
+summary(samp$Lot.Area)
+ggplot(data = samp, aes(x = Lot.Area)) + geom_histogram(binwidth = 1000)
+
+```
+
+The "typical" lot size could be the mean or median.  The mean is 10069 and the median is 8972, with the median lower due to some large outliers.
+
+
+#### Exercise 2: Would you expect another classmate’s distribution to be identical to yours? Would you expect it to be similar? Why or why not?
+
+Another classmate's distribution should be similar but it will not be identical because everyone is drawing a random sample.
+
+
+#### Exercise 3: For the confidence interval to be valid, the sample mean must be normally distributed and have standard error s/n−−√. What conditions must be met for this to be true?
+
+According to the Central Limit Theorem, the sample means of any population will be normally distributed if 1) the observations in the population are independent and 2) the population is normally distributed OR 3) there are more than 30 observations in a sample of a slightly skewed population OR 4) the sample has many more than 30 observations.
+
+
+#### Exercise 4: What does “95% confidence” mean?
+
+95% confidence, in the context of a sample, means that we can be 95% sure that the real population mean falls within a certain range of values estimated from the sample using critical values.
+
+
+#### Exercise 5: Does your confidence interval capture the true average size of houses in Ames? If you are working on this lab in a classroom, does your neighbor’s interval capture this value?
+
+```{r}
+params <- ames %>%
+  summarise(mu = mean(Lot.Area))
+params
+z_star_95 <- qnorm(0.975)
+samp %>%
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)),
+            mean = mean(Lot.Area),
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+```
+
+The actual population mean is 10147.92.  My 95% CI was 8390.28-11747.99, so my interval did capture the true average home size.
+
+
+#### Exercise 6: Each student should have gotten a slightly different confidence interval. What proportion of those intervals would you expect to capture the true population mean? Why?
+
+I would expect 95% of the intervals to capture the true population mean.  There is a 95% chance that the mean will capture the real value.
+
+
+#### Exercise 7: What proportion of your confidence intervals include the true population mean? Is this proportion exactly equal to the confidence level? If not, explain why. Make sure to include your plot in your answer.
+
+92% (46/50) of the intervals include the true population mean.  This is not exactly equal to the confidence level of 95% but it is fairly close.  Difference is due to random variation.  With an increasing number of samples, the percentage would tend toward 95%.
+
+```{r}
+ci <- do(50) * ames %>%
+                  sample_n(n) %>%  
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)), 
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+
+ci <- ci %>%
+  mutate(capture_mu = ifelse(lower < params$mu & upper > params$mu, "yes", "no"))
+
+ci_data <- data.frame(ci_id = c(1:50, 1:50),
+                      ci_bounds = c(ci$lower, ci$upper),
+                      capture_mu = c(ci$capture_mu, ci$capture_mu))
+
+ggplot(ci_data, aes(x = ci_bounds, y = ci_id,
+      group = ci_id, color = capture_mu)) +
+  geom_point(size = 2) +
+  geom_line() +
+  geom_vline(xintercept = params$mu, color = "darkgray")
+
+46/50
+```
+
+
+* * *
+
+## On your own:
+
+#### 1: Pick a confidence level of your choosing, provided it is not 95%. What is the appropriate critical value?
+
+I will choose 90% confidence.  The appropriate critical value is .95.
+
+
+#### 2: Calculate 50 confidence intervals at the confidence level you chose in the previous question, and plot all intervals on one plot, and calculate the proportion of intervals that include the true population mean. How does this percentage compare to the confidence level selected for the intervals? Make sure to include your plot in your answer.
+
+44 of 50 of my intervals captured the true population mean, or 88%.  This is roughly the same as my confidence interval of 90%.
+
+The following code was used:
+
+```{r}
+z_star_90 <- qnorm(0.95)
+
+ci90 <- do(50) * ames %>%
+                  sample_n(n) %>%  
+  summarise(lower = mean(Lot.Area) - z_star_90 * (sd(Lot.Area) / sqrt(n)), 
+            upper = mean(Lot.Area) + z_star_90 * (sd(Lot.Area) / sqrt(n)))
+
+ci90 <- ci90 %>%
+  mutate(capture_mu = ifelse(lower < params$mu & upper > params$mu, "yes", "no"))
+
+ci90_data <- data.frame(ci_id = c(1:50, 1:50),
+                      ci_bounds = c(ci90$lower, ci90$upper),
+                      capture_mu = c(ci90$capture_mu, ci90$capture_mu))
+
+ggplot(ci90_data, aes(x = ci_bounds, y = ci_id,
+      group = ci_id, color = capture_mu)) +
+  geom_point(size = 2) +
+  geom_line() +
+  geom_vline(xintercept = params$mu, color = "darkgray")
+
+44/50
+```

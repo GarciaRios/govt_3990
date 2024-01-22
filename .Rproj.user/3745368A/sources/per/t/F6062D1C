@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580915756608.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1364179689",
+    "id" : "F6062D1C",
+    "lastKnownWriteTime" : 1580918352,
+    "last_content_update" : 1580918352235,
+    "path" : "G:/My Drive/Work/Teaching/Courses/Puzzle Solving w Data/govt_3990/Labs/lab1/lab1.Rmd",
+    "project_path" : "Labs/lab1/lab1.Rmd",
+    "properties" : {
+        "chunk_output_type" : "console",
+        "cursorPosition" : "47,0",
+        "last_setup_crc32" : "92792433acb88706",
+        "scrollLine" : "37"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

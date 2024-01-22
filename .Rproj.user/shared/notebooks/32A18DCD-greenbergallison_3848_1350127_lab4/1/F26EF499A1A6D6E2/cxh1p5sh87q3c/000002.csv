@@ -1,0 +1,97 @@
+"0","library(dplyr)"
+"2","package ‘dplyr’ was built under R version 3.6.3"
+"2","Registered S3 method overwritten by 'dplyr':
+  method           from
+  print.rowwise_df     
+"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(ggplot2)"
+"2","package ‘ggplot2’ was built under R version 3.6.3"
+"0","library(mosaic)"
+"2","Loading required package: lattice
+"
+"2","package ‘lattice’ was built under R version 3.6.3"
+"2","Loading required package: ggformula
+"
+"2","Loading required package: ggstance
+"
+"2","package ‘ggstance’ was built under R version 3.6.3"
+"2","
+Attaching package: ‘ggstance’
+
+"
+"2","The following objects are masked from ‘package:ggplot2’:
+
+    geom_errorbarh, GeomErrorbarh
+
+"
+"2","
+New to ggformula?  Try the tutorials: 
+	learnr::run_tutorial(""introduction"", package = ""ggformula"")
+	learnr::run_tutorial(""refining"", package = ""ggformula"")
+"
+"2","Loading required package: mosaicData
+"
+"2","package ‘mosaicData’ was built under R version 3.6.3"
+"2","Loading required package: Matrix
+"
+"2","package ‘Matrix’ was built under R version 3.6.3"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"2","Registered S3 method overwritten by 'mosaic':
+  method                           from   
+  fortify.SpatialPolygonsDataFrame ggplot2
+"
+"2","
+The 'mosaic' package masks several functions from core packages in order to add 
+additional features.  The original behavior of these functions should not be affected by this.
+
+Note: If you use the Matrix package, be sure to load it BEFORE loading mosaic.
+
+Have you tried the ggformula package for your plots?
+"
+"2","
+Attaching package: ‘mosaic’
+
+"
+"2","The following object is masked from ‘package:Matrix’:
+
+    mean
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    stat
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    count, do, tally
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    binom.test, cor, cor.test, cov, fivenum, IQR,
+    median, prop.test, quantile, sd, t.test, var
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    max, mean, min, prod, range, sample, sum
+
+"

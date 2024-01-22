@@ -1,0 +1,94 @@
+---
+title: "Lab 1 - Intro to R and RStudio"
+author: "SGR"
+date: "Jan 29, 2020"
+output:
+  pdf_document: default
+  html_document:
+    highlight: haddock
+    theme: cosmo
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+```
+
+* * *
+
+# Title
+
+## Subtitle
+
+### Sub subtitle
+
+
+**Load Arbuthnot's data: **
+
+This is how you load the data
+```{r}
+load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab1/Data/arbuthnot.RData"))
+```
+
+
+
+
+
+
+
+#### Exercise 1: 
+
+and this is my answer for ex 1
+
+```{r}
+qplot(x = year, y = girls, data = arbuthnot)
+```
+
+
+```{r}
+# code for Exercise 1 is already entered below as an example
+
+```
+
+#### Exercise 2:
+
+[Enter your response for Exercise 2 here.]
+
+```{r}
+# enter your code for Exercise 2 here
+```
+
+#### Exercise 3:
+
+```{r}
+# enter your code for Exercise 3 here
+```
+
+* * *
+
+### On your own:
+
+**Load present day data: **
+```{r}
+load(url("https://github.com/GarciaRios/govt_3990/raw/gh-pages/Labs/lab1/Data/present.RData"))
+```
+
+#### 1:
+
+
+#### 2:
+
+
+#### 3:
+
+
+#### 4:
+
+
+
+
+

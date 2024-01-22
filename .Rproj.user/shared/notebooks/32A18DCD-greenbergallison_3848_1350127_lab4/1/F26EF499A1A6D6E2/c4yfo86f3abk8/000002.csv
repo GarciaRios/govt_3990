@@ -1,0 +1,5 @@
+"0","ggplot(ci_data, aes(x = ci_bounds, y = ci_id, "
+"0","      group = ci_id, color = capture_mu)) +"
+"0","  geom_point(size = 2) +  # add points at the ends, size = 2"
+"0","  geom_line() +           # connect with lines"
+"0","  geom_vline(xintercept = params$mu, color = ""darkgray"") # draw vertical line"

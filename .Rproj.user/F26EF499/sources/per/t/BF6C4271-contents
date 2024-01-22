@@ -1,0 +1,250 @@
+---
+title: "Lab 4 - Confidence intervals"
+author: "Allison Greenberg"
+date: "April 10, 2020"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: cosmo
+editor_options: 
+  chunk_output_type: console
+---
+
+
+* * *
+
+## Lab report
+
+
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(mosaic)
+```
+
+
+*****************
+
+Note:
+
+This works fine but sometimes is better to include the option `{r include = FALSE}` which prevents code and results from appearing in the finished file. R Markdown still runs the code in the chunk, and the results can be used by other chunks. That's why your compiled document had all those warning at the beginning, if you notice the template I provide has that option and even says # DO NOT ALTER CODE IN THIS CHUNK
+ 
+**********************
+#### Load data:
+```{r load-data}
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/data/ames.RData"))
+```
+
+#### Set a seed:
+```{r set-seed}
+set.seed(9001)
+```
+
+
+## Exercises:
+
+#### Exercise 1: 
+
+Describe the distribution of homes in your sample. What would you say is the “typical” size within your sample? Also state precisely what you interpreted “typical” to mean.
+
+The distribution of homes in my sample seems normal, for the most part, although the plot below clearly has a right skew. I decided to interpret "typical" as the mean of the sample distribution, so the mean is the 'typical' size within my sample. The mean is a size of 9860.667 (units).
+
+```{r ex1}
+set.seed(9001)
+n <- 60
+samp <- sample_n(ames, n)
+```
+
+
+```{r}
+hist(samp$Lot.Area)
+```
+
+```{r}
+mean(samp$Lot.Area)
+```
+
+
+
+#### Exercise 2: 
+
+Would you expect another classmate’s distribution to be identical to yours? Would you expect it to be similar? Why or why not?
+
+I would expect another classmate's distribution to be similar but not identical. It should be similar because we are sampling from a normal distribution with n = 60 which is large enough to see similar results. However, it should not be identical because we most likely set different seeds and the sampling is random, so we will not see exactly the same results.
+
+
+#### Exercise 3: 
+
+For the confidence interval to be valid, the sample mean must be normally distributed and have standard error s/√n. What conditions must be met for this to be true?
+
+The sampling must be random and indendent with n sufficiently large. Also, conclusions should not be driven by outliers.
+
+```{r ex3}
+z_star_95 <- qnorm(0.975)
+z_star_95
+```
+
+```{r}
+samp %>%
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)),
+            mean = mean(Lot.Area),
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+```
+
+
+#### Exercise 4: 
+
+What does “95% confidence” mean?
+
+"95% confidence" means that we are 95% certain that an interval (constructed with the sample mean) contains the true population mean.
+
+
+#### Exercise 5: 
+
+Does your confidence interval capture the true average size of houses in Ames? If you are working on this lab in a classroom, does your neighbor’s interval capture this value?
+
+Yes, my confidence interval captures the true average size of houses in Ames. The true average size of houses in Ames is 10147.92 which is greater than the lower bound of 8618.732 and the upper bound of 11102.6. I am currently off campus because of COVID19, but if I were working on this lab in a classroom, my neighbor's interval would probably capture this value as well.
+
+```{r ex5}
+params <- ames %>%
+  summarise(mu = mean(Lot.Area))
+params
+```
+
+#### Exercise 6:
+
+Each student should have gotten a slightly different confidence interval. What proportion of those intervals would you expect to capture the true population mean? Why?
+
+I would expect 95% of those intervals to capture the true population mean, because we all calculated 95% confidence intervals - meaning that there is a 95% chance that the true population mean lies within the interval created using the sample mean.
+
+
+#### Exercise 7: 
+
+What proportion of your confidence intervals include the true population mean? Is this proportion exactly equal to the confidence level? If not, explain why. Make sure to include your plot in your answer.
+
+45/50 = 9/10 of my confidence intervals include the true population mean. This proportion is not exactly equal to the confidence level, which would be 19/20. I would guess this is the case because, looking at the histogram in Exercise 1, the distribution seems to be right-skewed. So, the distribution is not 100% normal, and this causes fewer confidence intervals to include the true population mean in our repeated experiment for this exercise.
+
+
+```{r ex7}
+ci <- do(50) * ames %>%
+                  sample_n(n) %>%  
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)), 
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+```
+
+```{r}
+ci %>%
+  slice(1:5)
+```
+
+```{r}
+ci <- ci %>%
+  mutate(capture_mu = ifelse(lower < params$mu & upper > params$mu, "yes", "no"))
+ci
+```
+
+```{r}
+ci_data <- data.frame(ci_id = c(1:50, 1:50),
+                      ci_bounds = c(ci$lower, ci$upper),
+                      capture_mu = c(ci$capture_mu, ci$capture_mu))
+ci_data
+```
+
+******
+
+Note... 
+
+Please include only relevant code in your final compilation, you don’t have to print the whole dataset like you did by printing the `ci_data` or the `params` above
+
+*****
+
+
+
+```{r}
+ggplot(ci_data, aes(x = ci_bounds, y = ci_id, 
+      group = ci_id, color = capture_mu)) +
+  geom_point(size = 2) +  # add points at the ends, size = 2
+  geom_line() +           # connect with lines
+  geom_vline(xintercept = params$mu, color = "darkgray") # draw vertical line
+```
+
+
+
+* * *
+
+## On your own:
+
+#### 1: 
+
+Pick a confidence level of your choosing, provided it is not 95%. What is the appropriate critical value?
+
+Confidence level 99%. The appropriate critical value is 2.58.
+
+```{r}
+z_star_99 <- qnorm(0.995)
+z_star_99
+```
+
+#### 2: 
+
+Calculate 50 confidence intervals at the confidence level you chose in the previous question, and plot all intervals on one plot, and calculate the proportion of intervals that include the true population mean. How does this percentage compare to the confidence level selected for the intervals? Make sure to include your plot in your answer.
+
+The proportion of intervals that include the true population mean is 48/50. Based on this proportion, 96% of the intervals contain the true population mean (although it should technically be 99%). However, I was expecting this to happen since we observed the same thing in Exercise 7 - the true population mean was contained within the interval at a lower rate than what was expected, which (again) suggests that the sample distribution may not be 100% normal.
+
+
+```{r oyo2}
+ci <- do(50) * ames %>%
+                  sample_n(n) %>%  
+  summarise(lower = mean(Lot.Area) - z_star_99 * (sd(Lot.Area) / sqrt(n)), 
+            upper = mean(Lot.Area) + z_star_99 * (sd(Lot.Area) / sqrt(n)))
+```
+
+```{r}
+ci %>%
+  slice(1:5)
+```
+
+```{r}
+ci <- ci %>%
+  mutate(capture_mu = ifelse(lower < params$mu & upper > params$mu, "yes", "no"))
+ci
+```
+
+```{r}
+ci_data <- data.frame(ci_id = c(1:50, 1:50),
+                      ci_bounds = c(ci$lower, ci$upper),
+                      capture_mu = c(ci$capture_mu, ci$capture_mu))
+ci_data
+```
+
+```{r}
+ggplot(ci_data, aes(x = ci_bounds, y = ci_id, 
+      group = ci_id, color = capture_mu)) +
+  geom_point(size = 2) +  # add points at the ends, size = 2
+  geom_line() +           # connect with lines
+  geom_vline(xintercept = params$mu, color = "darkgray") # draw vertical line
+```
+
+
+******
+Interesting that both of your samples produced less captures than expected, random chance!
+
+Most students got very close but of course this is what the seed produced, all code is correct
+******
+
+
+
+Very good job! I am only deducting -1 for the unnecessary lines of code 
+
+
+
+
+
+
+
+
+
+
+

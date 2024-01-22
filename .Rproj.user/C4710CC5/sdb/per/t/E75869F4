@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n@import url('https://fonts.googleapis.com/css?family=Caudex');\n@import url('https://fonts.googleapis.com/css?family=Fira+Sans');\n\n\n.navbar-inverse{background-color:#b31b1b; border-color:#222222}\n\n.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a:focus{background-color:transparent;color:#ffffff}\n\n/*\n*.navbar-fixed-top {\n    height: 95px; }\n    /* Whatever you want. */  \n    \n\n\n\n\n.navbar-brand {\n  font-size: 25px;\n  font-family: 'Caudex', serif;\n}\n\nbody{\ncolor: #525252;  \nfont-size: 15px;\nfont-family: 'Fira Sans', sans-serif;\n\n}\n\na {\nfont-family: 'Fira Sans', sans-serif;\n}\ni {\nfont-family: 'Fira Sans', sans-serif;\n}\nh1,h2,h3,h4,h5,h6  {font-family: 'Fira Sans', sans-serif;}\n\n",
+    "created" : 1495388192279.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2339706316",
+    "id" : "E75869F4",
+    "lastKnownWriteTime" : 1495391604,
+    "last_content_update" : 1495391604,
+    "path" : "C:/Users/sig35/Google Drive/Work/Teaching/Courses/Puzzle Solving w Data/govt_3990/custom_style.css",
+    "project_path" : "custom_style.css",
+    "properties" : {
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "css"
+}

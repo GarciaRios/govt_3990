@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "\n***\n## Labs\n1. **[Lab 1](./Labs/Lab1/lab1.html)**\n2. **[Lab 2](./Labs/Lab2/lab2.html)**",
+    "created" : 1464310291186.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1014176696",
+    "id" : "E18800E",
+    "lastKnownWriteTime" : 1464310503,
+    "last_content_update" : 1464310503558,
+    "path" : "C:/Users/sig35/Google Drive/Work/Teaching/Courses/Puzzle Solving w Data/govt_3990/labs.Rmd",
+    "project_path" : "labs.Rmd",
+    "properties" : {
+        "chunk_rendered_width" : "556",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

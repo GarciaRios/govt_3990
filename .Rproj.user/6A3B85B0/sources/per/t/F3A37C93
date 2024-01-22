@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1525667286087.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F3A37C93",
+    "lastKnownWriteTime" : 7310312468855861095,
+    "last_content_update" : 1525667286087,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D7B7FE2E",
+        "caption" : "GSS",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=GSS&cache_key=D7B7FE2E",
+        "displayedObservations" : 62466,
+        "environment" : "",
+        "object" : "GSS",
+        "preview" : 0,
+        "totalObservations" : 62466,
+        "variables" : 13
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

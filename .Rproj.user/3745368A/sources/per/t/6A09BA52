@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580915432790.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1674147777",
+    "id" : "6A09BA52",
+    "lastKnownWriteTime" : 1580319782,
+    "last_content_update" : 1580319782,
+    "path" : "G:/My Drive/Work/Teaching/Courses/Puzzle Solving w Data/govt_3990/Labs/lab1/intro_to_r.Rmd",
+    "project_path" : "Labs/lab1/intro_to_r.Rmd",
+    "properties" : {
+        "chunk_output_type" : "console",
+        "cursorPosition" : "276,0",
+        "scrollLine" : "267"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

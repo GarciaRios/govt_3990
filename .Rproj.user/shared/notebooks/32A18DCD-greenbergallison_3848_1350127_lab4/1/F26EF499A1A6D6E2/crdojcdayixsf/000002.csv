@@ -1,0 +1,4 @@
+"0","ci_data <- data.frame(ci_id = c(1:50, 1:50),"
+"0","                      ci_bounds = c(ci$lower, ci$upper),"
+"0","                      capture_mu = c(ci$capture_mu, ci$capture_mu))"
+"0","ci_data"

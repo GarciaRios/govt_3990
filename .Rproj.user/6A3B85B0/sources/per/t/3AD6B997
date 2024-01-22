@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1525667124069.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1782846554",
+    "id" : "3AD6B997",
+    "lastKnownWriteTime" : 1525287162,
+    "last_content_update" : 1525287162,
+    "path" : "C:/Users/sig35/Google Drive/Work/Teaching/Courses/Puzzle Solving w Data/students_datasets/2018/jacob/GSS.r",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "34,16",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

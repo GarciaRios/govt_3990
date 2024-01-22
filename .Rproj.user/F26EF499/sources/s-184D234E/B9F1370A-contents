@@ -1,0 +1,207 @@
+---
+title: "Lab 4 - Confidence intervals"
+author: "Rebekah Jones"
+date: "4.10.20"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: cosmo
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(cache = TRUE)
+library(dplyr)
+library(ggplot2)
+library(mosaic)
+```
+
+* * *
+
+## Lab report
+
+#### Load data:
+```{r load-data}
+download.file("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/lab4.Rmd", destfile = "lab4.Rmd")
+```
+
+#### Set a seed:
+```{r set-seed}
+set.seed(9102015) 
+```
+
+```{r}
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/data/ames.RData"))
+```
+
+## Exercises:
+
+```{r}
+n <- 60
+samp <- sample_n(ames, n)
+```
+
+#### Exercise 1: The maximum lot area is 16,659 square feet; the minimum is 2,544. Approximately 50% of the sample’s home areas lie between 12,000 and 7,000 square feet. As seen in the box plot below, the population seems to be skewed. I describe the “average” home to be the mean of the homes, which is 9499.3 square feet.
+
+```{r ex1}
+ggplot(samp, aes(y = Lot.Area)) + 
+  geom_boxplot()
+
+ggplot(samp, aes(x = Lot.Area)) + 
+         geom_histogram(binwidth = 500)
+
+#####
+
+# This graph isn't helpful at all, it would have been much
+# better to leave the defaults or use a much higher binwidth
+-2
+#####
+
+```
+
+```{r}
+samp %>%
+  summarise(mean_LotArea = mean(Lot.Area), sd_LotArea = sd(Lot.Area), min(Lot.Area), max(Lot.Area), IQR(Lot.Area), median(Lot.Area))
+```
+
+#### Exercise 2:  I would expect the data to be similar, but not identical. Considering that these would be two random, representative samples of the same data it would likely be close to the mean statistics. However, considering the fact that we would have different seeds, different samples, different sample means, and sample standard deviattions, they would not likely be identical.
+
+
+```{r ex2}
+z_star_95 <- qnorm(0.975)
+z_star_95
+```
+
+```{r}
+samp %>%
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)),
+            mean = mean(Lot.Area),
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+```
+
+#### Exercise 3: For the confidence interval to be valid, the sample mean must be normally distributed and have a standard error of s/sqrt(n). This is true if the sampled observerations are independent. This is likely consdering that this was a random sample without replacement. Either the population distribution must be normal or n has to be greater than 30. 
+
+#### Exercise 4: We can say with 95% confidence that the true population mean area lies between 8,384 and 10,509 square feet.
+
+
+```{r ex4}
+params <- ames %>%
+  summarise(mu = mean(Lot.Area))
+```
+
+
+#### Exercise 5: mu (population mean of lot areas) = 10,147.92
+
+My confidence interval does capture the true average sizes of houses in Ames. I am not currently working in a lab, but I would predict with 95% confidence (assuming they followed the same process above) that my neighbor’s lab interval would also captures the true average size of houses in Ames.
+
+#### Exercise 6:
+
+I would expect approximately 95% of those confidence intervals to capture the true mean. These random samples would have picked different entries and therefore would produce different confidence intervals. However, under the premise that these were random samples with samples greater than 30, the central limit theorem would hold up, allowing our prediction to be valid.
+
+
+```{r ex7}
+ci <- do(50) * ames %>%
+                  sample_n(n) %>%  
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)), 
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+
+ci %>%
+  slice(1:5)
+```
+
+```{r}
+ci <- ci %>%
+  mutate(capture_mu = ifelse(lower < params$mu & upper > params$mu, "yes", "no"))
+```
+
+```{r}
+ci_data <- data.frame(ci_id = c(1:50, 1:50),
+                      ci_bounds = c(ci$lower, ci$upper),
+                      capture_mu = c(ci$capture_mu, ci$capture_mu))
+```
+
+```{r}
+ggplot(ci_data, aes(x = ci_bounds, y = ci_id, 
+      group = ci_id, color = capture_mu)) +
+  geom_point(size = 2) +  # add points at the ends, size = 2
+  geom_line() +           # connect with lines
+  geom_vline(xintercept = params$mu, color = "darkgray") # draw vertical line
+```
+
+```{r}
+ci %>%
+  select(capture_mu) %>%
+  table() %>% 
+  prop.table()
+```
+
+#### Exercise 7: 94% of my confidence intervals included the true population mean. It is not exactly equal to the confidence level, but it is very close. The CLT holds if either the population distribution is normal of n > 30 and the population distribution is not extremely skewed (the more skewed the distribution, the higher n necessary for the CLT to apply) Considering that the samples do no allign with the population parameters exactly, this leads us to believe that the distribution is skewed. 
+
+
+*****************
+Note:  you do not have to include # # to add text those are usually for titles and subtitles you can just type the test and will look great
+
+For example you can do something like this (which would bold "Exercise 7:" and leave the rest un-formatted, like you in the exercises above
+
+**Exercise 7:** 94% of my confidence intervals included the true population mean. It is not exactly equal to the confidence level, but it is very close. The CLT holds if either the population distribution is normal of n > 30 and the population distribution is not extremely skewed (the more skewed the distribution, the higher n necessary for the CLT to apply) Considering that the samples do no allign with the population parameters exactly, this leads us to believe that the distribution is skewed. 
+
+************
+
+* * *
+
+## On your own:
+
+#### 1: The appropriate critical value is 1.645
+
+```{r oyo1}
+z_star_90 <- qnorm(0.95)
+z_star_90
+```
+
+
+#### 2: In my sample, I found that 86% of samples contained the true population mean. This points to the possibility that there either the poplation is not exactly normal, and potentially skewed as pointed to in the previous sample. 
+
+#####
+
+
+```{r oyo2}
+ci_own <- do(50) * ames %>%
+                  sample_n(n) %>%  
+  summarise(lower = mean(Lot.Area) - z_star_90 * (sd(Lot.Area) / sqrt(n)), 
+            upper = mean(Lot.Area) + z_star_90 * (sd(Lot.Area) / sqrt(n)))
+
+
+ci_own %>%
+  slice(1:5)
+```
+
+```{r}
+ci_own <- ci_own %>%
+  mutate(capture_mu = ifelse(lower < params$mu & upper > params$mu, "yes", "no"))
+```
+
+```{r}
+ci_data_own <- data.frame(ci_id = c(1:50, 1:50),
+                      ci_bounds = c(ci_own$lower, ci_own$upper),
+                      capture_mu = c(ci_own$capture_mu, ci_own$capture_mu))
+```
+
+```{r}
+ggplot(ci_data_own, aes(x = ci_bounds, y = ci_id, 
+      group = ci_id, color = capture_mu)) +
+  geom_point(size = 2) +  # add points at the ends, size = 2
+  geom_line() +           # connect with lines
+  geom_vline(xintercept = params$mu, color = "darkgray") # draw vertical line
+```
+
+```{r}
+ci_own %>%
+  select(capture_mu) %>%
+  table() %>% 
+  prop.table()
+```
+

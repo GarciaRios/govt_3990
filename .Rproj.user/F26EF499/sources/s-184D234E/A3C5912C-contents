@@ -1,0 +1,16 @@
+library(tidyverse)
+
+
+data <- read_csv("Relevant Data_Gender.csv")
+
+glimpse(data)
+
+data %>% count(alcohol)
+
+data<-
+  data%>%
+  mutate(smoking=case_when(Current_cigarette_use == "Yes"~1,
+                           Current_cigarette_use == "No"~0),
+         alcohol=case_when(`Current alcohol use bivariate`== "Yes"~1,
+                           `Current alcohol use bivariate` == "No"~0),
+         risk_index=smoking + alcohol)

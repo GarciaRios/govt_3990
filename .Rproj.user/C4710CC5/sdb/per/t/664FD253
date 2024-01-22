@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "name: \"Cornell-GOVT 3990\"\nnavbar:\n  title: \"Cornell-GOVT 3990\"\n  #type: inverse\n  left:\n    - icon: fa-file-pdf-o fa-2x\n      href: index.html\n      text: \"Syllabus\"\n    - icon: fa-calendar fa-2x\n      text: \"Calendar\"\n      href: calendar.html\n    - icon: fa-file-code-o fa-2x\n      text: \"Labs\"\n      href: labs.html\n    - icon: fa-pencil-square-o fa-2x\n      text: \"Assignments\"\n      href: assignments.html\noutput_dir: \".\"\noutput: \n  html_document:  \n    theme: simplex\n    css: custom_style.css\n\n    \n\n     \n ",
+    "created" : 1495394570840.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3702953911",
+    "id" : "664FD253",
+    "lastKnownWriteTime" : 1500659453,
+    "last_content_update" : 1500659453119,
+    "path" : "C:/Users/sig35/Google Drive/Work/Teaching/Courses/Puzzle Solving w Data/govt_3990/_site.yml",
+    "project_path" : "_site.yml",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

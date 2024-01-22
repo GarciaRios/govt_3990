@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "***\n## Assignments\n\n\n<ul class=\"fa-ul\">\n<li><i class=\"fa-li fa fa-microphone\"></i> [**March 31 Project presentation and paper**](research_idea.html)\n\n<li><i class=\"fa-li fa fa-microphone\"></i>**May  10  Final Presentation** \n\n<li><i class=\"fa-li fa fa-file-text-o\"></i>[**May  19  Final Paper**](final_paper.html) \n\n</ul>\n\n",
+    "created" : 1489366216430.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1334635719",
+    "id" : "5BC67F15",
+    "lastKnownWriteTime" : 1494716932,
+    "last_content_update" : 1494716932848,
+    "path" : "C:/Users/sig35/Google Drive/Work/Teaching/Courses/Puzzle Solving w Data/govt_3990/assignments.Rmd",
+    "project_path" : "assignments.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

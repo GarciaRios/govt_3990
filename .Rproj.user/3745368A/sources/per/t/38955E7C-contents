@@ -1,0 +1,202 @@
+---
+title: Puzzle Solving with Data - GOVT 3990
+---
+***
+##### Statement from Government Department: 
+
+In fractious times, we reaffirm core principles.  The Government Department at Cornell studies and teaches about intolerance, but will not practice it.  We write about xenophobia and bigotry, but will not pretend they only exist elsewhere.  We research racism, homophobia, and misogyny, but will not permit them to pass unchallenged.  Our role as academics has never been inconsistent with our duty as citizens, and we pledge to honor the rich diversity of our students, staff, and faculty.  Those who come to us—as students, co-workers, and colleagues—must be free to learn and live without fear, and we urge the administration to declare—promptly and forcefully—that Cornell is a sanctuary campus.
+
+***
+
+
+## Instructor
+
+ **Sergio I Garcia-Rios**
+
+- <i class="fa fa-university fa-lg"></i> White Hall 308 
+- [<i class="fa fa-envelope fa-lg"></i> E-Mail](garcia.rios@cornell.edu)
+- [<i class="fa fa-desktop fa-lg"></i> Web](https://www.sergiogarciarios.com)
+- [<i class="fa fa-github-square fa-lg"></i> Github](http://github.com/GarciaRios)
+
+## Class Meetings
+
+
+
+|Day  |Time |Place|
+|:---:|:---:|:---:|
+| M & W | 10:10 pm - 11:25 pm | White Hall 110|
+
+
+***
+
+## Office Hours  
+<a href="bookme.html"> <img src= "./images/ycbme.png" style="width: 70px;"/> **[Click here to find available office
+hours](bookme.html)**
+
+***
+
+
+
+### Required materials:
+
+* Textbook: [OpenIntro Statistics](http://openintro.org/os) - Diez, Barr, Çetinkaya-Rundel \\
+   CreateSpace, 4th Edition, 2019 (ISBN: 978-1943450077) \\
+   
+The textbook is freely [available online](http://openintro.org/os). You're encouraged to read on screen but you can print it out. If you prefer a paperback version you can buy it at the cost of printing (around $20) [on Amazon](http://openintro.org/os). The Cornell store will also carry copies of this text.
+
+* * *
+
+
+### Course goals & objectives:
+
+This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the semester, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena.
+
+The course goals are as follows:
+
+1. Recognize the importance of data collection, identify limitations in data collection methods, and determine how they affect the scope of inference.
+2. Use statistical software to summarize data numerically and visually, and to perform data analysis.
+3. Have a conceptual understanding of the unified nature of statistical inference.
+4. Apply estimation and testing methods to analyze single variables or the relationship between two variables in order to understand natural phenomena and make data-based decisions.
+5. Model numerical response variables using a single or multiple explanatory variables.
+6. Interpret results correctly, effectively, and in context without relying on statistical jargon.
+7. Critique data-based claims and evaluate data-based decisions.
+8. Complete one original research project.
+
+* * *
+
+### Tips for success:
+
+* Complete the reading before a new unit begins, and then review again after the unit is over.
+* Be an active participant during class.
+* Ask questions - during class or office hours, or by email. Ask me, and your classmates.
+* Do the problem sets - start early and make sure you attempt and understand all questions.
+* Start your projects early and and allow adequate time to complete them.
+* Give yourself plenty of time time to prepare a good cheat sheet for exams. This requires going through the material and taking the time to review the concepts that you're not comfortable with.
+* Do not procrastinate - don't let a unit go by with unanswered questions as it will just make the following unit's material even more difficult to follow. 
+
+* * *
+
+### Course structure:
+
+The course is divided into six learning units. For each unit a set of learning objectives and required and suggested readings will be posted on the course website. You are expected to complete the readings and familiarize yourselves with the learning objectives. Slides and other relevant materials for each class and lab will be available on the [calendar](./calendar) page before each class. Videos and other relevant prep materials for each unit are also available on that page. Within each unit you will complement your learning with problem sets and labs, and wrap up each unit with a performance assessment.
+
+
+
+### Grading:
+
+<div style="padding-left:2em;padding-top:1em;">
+<table style="width:400px;">
+<tr> <td> Attendance & participation </td> <td> 5% </td></tr>
+<tr> <td> Problem sets              </td> <td> 15% </td></tr>
+<tr> <td> Labs                      </td> <td> 15% </td></tr>
+<tr> <td> Readiness assessments     </td> <td>  5% </td></tr>
+<tr> <td> Project presentation 1    </td> <td>  5% </td></tr>
+<tr> <td> Project presentation 2    </td> <td> 15% </td></tr>
+<tr> <td> Midterm                   </td> <td> 15% </td></tr>
+<tr> <td> Final Paper               </td> <td> 25% </td></tr>
+</table>
+</div>
+
+
+* * *
+
+### Work load:
+
+You are expected to put in about 4-6 hours of work / week outside of class. Some of you will do well with less time than this, and some of you will need more.
+
+* * *
+
+### Attendance and participation:
+
+You are expected to be present at class meeting and actively participate in the discussion. Your attendance and participation during class will make up a non-insignificant portion of your grade in this class. While I might sometimes call on you during the class discussion, it is your responsibility to be an active participant without being called on. 
+
+
+
+* * *
+
+### Canvas
+
+Throughout the course  you will develop a tool-set to write and produce high quality reports in html and pdf. Please follow the instructions for the specific assignment. However, all work that's meant to be submitted on should be submitted through Canvas
+
+
+### Problem sets:
+
+These will be assigned (approximately) weekly on the course website and will be comprised of problems from the textbook. Each assignment will list roughly five to seven problems from the book to be turned in for grading.
+
+The objective of the problem sets is to help you develop a more in-depth understanding of the material and help you prepare for exams and projects. Grading will be based on completeness as well as accuracy. In order to receive credit you must show all your work.
+
+You are welcomed, and encouraged, to work with each other on the problems, but you must turn in your own work. If you copy someone else's work, both parties will receive a 0 for the problem set grade as well as being reported to the [Office of Student Conduct]().
+
+**Submission instructions:** You will turn in your problem sets on Canvas I strongly recommend working in a word processor of your choice, saving your work as PDF, and submitting that. You are welcome to submit  as Word files as well, however if I cannot open your file you will receive a 0 on the problem set (so it may not be worth taking that risk!). 
+
+All assignments will be time stamped and late work will be penalized based on this time stamp (see late work policy below).
+
+
+* * *
+
+### Labs:
+
+The objective of the labs is to give you hands on experience with data analysis using modern statistical software. The labs will also provide you with tools that you will need to complete the projects successfully. We will use a statistical analysis package called R Studio, which is a front end for the R statistical language.
+
+I will give a brief overview of the lab and learning goals, and guide you through some of the exercises. You will start working on the lab during the class session, but note that the labs are designed to take more than just the class time, so you will work on the lab after class and sub,it it before the due date (which will be the following lab session). In order to get credit for a lab report, you must be in the lab session on the day that lab is introduced.
+
+**Submission instructions:** Always submit the Rmd and the HTML files for your lab, you might need to create .zip file in order to submit.
+
+
+
+* * *
+
+### Readiness assessments:
+
+Readiness assessments will be given at the beginning of a unit. These are 10 question multiple choice assessments comprised of conceptual questions addressing the learning objectives of the new unit. You are not expected to master all topics in the unit ahead of time, but you are responsible for completing the reading assignment, understanding how the material fits in the greater framework of the course, and acquire a conceptual understanding of the learning objectives. As described above, you will first take the individual readiness assessment using your clickers, and then re-take the same assessment in teams using scratch off sheets. Your performance on both assessments will factor into your final grade (3/4 individual score, 1/4 team score). In addition, your input during the team portion will factor into your participation grade.
+
+
+
+* * *
+
+### Performance assessments:
+
+Performance assessments will be given at the end of a unit. These are very similar to the readiness assessments in format, however you will be taking them outside of class. Outstanding performance will require mastery of all topics in the unit. 
+
+
+
+* * *
+
+### Projects:
+
+The objective of the projects is to give you independent applied research experience using real data and statistical methods.
+
+* Presentation project 1: For a topic/puzzle of interest to you, you will describe the relevant data to be used, expectations, hypotheses. You will present this in class for feedback from me and your classmates. Finally you are also expected to turn in a a 3-5 pgs report.
+
+* Presentation project 1: You will use all (relevant) techniques learned in this class to finalize your research project and present your findings to your classmates.
+
+Further details on the projects will be provided as due dates approach.
+
+
+* * *
+
+### Exams:
+
+There will be one midterm. See the [calendar](/info/#e) for dates and times of exam. Exam dates cannot be changed and no make-up exams will be given. 
+
+You are allowed to use one sheet of notes ("cheat sheet"). This sheet must be no larger than 8 1/2 x 11, and **must be prepared by you**. You may use both sides of the sheet. 
+
+* * *
+
+
+### License
+
+<a rel="license" href="httpso://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/88x31.png" /></a>
+
+Science should be open, and this course builds up other open licensed material, so unless otherwise noted, all materials for this class are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+The source for the materials of this course including the source for this website is on GitHub at <https://github.com/GarciaRios/govt_3990>.
+
+
+
+
+### References
+
+This course has benefited from numerous open materials, which are listed [here](). 
+
+

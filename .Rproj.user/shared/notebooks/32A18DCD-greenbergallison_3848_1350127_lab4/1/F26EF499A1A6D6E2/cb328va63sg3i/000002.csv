@@ -1,0 +1,3 @@
+"0","params <- ames %>%"
+"0","  summarise(mu = mean(Lot.Area))"
+"0","params"

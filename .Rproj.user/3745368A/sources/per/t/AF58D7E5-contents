@@ -1,0 +1,196 @@
+---
+title: Calendar
+---
+
+***
+
+<i class="fa fa-warning"></i> The following schedule is a *tentative* guideline and will be evolving to meet course needs up to and during the quarter.
+In particular, the pace of the course will be adjusted so that we move as possible conditional on everyone "getting" the material.
+
+***
+
+### Key
+
+<i class="fa fa-book"></i> Readings
+
+<!-- <i class="fa fa-code"></i> Data Camp courses -->
+
+<i class="fa fa-gears"></i> Actions to take
+
+<i class="fa fa-bar-chart"></i> Lessons
+
+<i class="fa fa-puzzle-piece"></i> Exams.
+
+<i class="fa fa-flask"></i> Labs.
+
+*OpenIntro* = *Open Intro Statistics*
+
+***
+***
+### Unit 1
+
+**Introduction**
+
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-bar-chart"></i>    Jan 22 Introduction to the course <a target = "_blank" href="./Slides/00_intro/topic0.pdf">Deck 0</a>
+<li><i class="fa-li fa fa-flask"></i>        Jan 22 Lab 0 - (Due Jan 27) <a target="_blank" href=./Labs/lab0/lab0.html>Introduction to the Course</a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Jan 27 Data Collection + Observational studies & experiments <a target="_blank" href="./Slides/01_unit1/deck1/deck-1-1.pdf"> Deck</a>
+<li><i class="fa-li fa fa-flask"></i>        Jan 29  Lab 1 (Due Feb 5) <a href=./Labs/lab1/intro_to_r.html>Intro to R</a>
+
+<li><i class="fa-li fa fa-bar-chart"></i>    Feb 3 No Class Iowa Caucus
+
+
+<li><i class="fa-li fa fa-bar-chart"></i>    Feb 5  More exploratory data analysis<a target="_blank" href="./Slides/01_unit1/u1_deck3/u1_deck3.pdf"> Deck</a>
+
+<li><i class="fa-li fa fa-bar-chart"></i>    Feb 10 Introduction to statistical inference <a target="_blank" href="./Slides/01_unit1/u1_deck4/u1_deck4.pdf"> Deck </a>
+
+<li><i class="fa-li fa fa-flask"></i>        Feb 12  Lab 2 (Due Feb 19) <a target="_blank" href=./Labs/lab2/introduction_to_data.html> Introduction to Data</a> 
+
+
+</ul>
+***
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch 2, Sec 2.1-2.3</a>
+<li><i class="fa-li fa fa-gears"></i> Problem set (Due Feb 19)
+  <ul>
+  <li> Ch1:  1.2, 1.6, 1.16, 1.22, 1.30, 1.34, 2.15, 2.22, 2.24, 2.27.  </a>
+  </ul>
+</ul>
+***
+***
+
+###  Unit 2
+
+**Probability and Distribuitions**
+
+<ul class="fa-ul">
+
+<li><i class="fa-li fa fa-bar-chart"></i>    Feb 17 	Probability and conditional probability <a target="_blank" href="./Slides/02_unit2/deck1/u2_deck1.pdf"> Deck </a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Feb 19  	Normal and binomial distribution <a target="_blank"  href="./Slides/02_unit2/deck3/u2_deck3.pdf"> Deck</a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Feb 24  	No class - February Break </a>
+
+<li><i class="fa-li fa fa-flask"></i>        Feb 26   Lab 3 - (Due Mar 4) <a target="_blank" href=./Labs/lab3/probability.html>Probability</a>
+
+
+</ul>
+
+
+***
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro - Ch 3 - Sec 3.1, 3.2 + Ch 4 - Sec 4.1, 4.4</a>
+<li><i class="fa-li fa fa-gears"></i> Problem set (Due Mar 4)
+  <ul> 
+  <li> Ch 2: 2.2, 2.8, 2.18, 2.20, 2.22, 2.26
+  <li> Ch 3: 3.4, 3.6, 3.12, 3.18, 3.26, 3.30, 3.36 </a>
+  </ul>
+</ul>
+***
+***
+
+
+
+### Unit 3
+
+**Foundations for Inference** 
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-bar-chart"></i>    Mar 2 	Variability in estimates and CLT  <a target="_blank" href="./Slides/03_unit3/deck1/u3_deck1.pdf"> Deck </a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Mar 4 	Confidence intervals  <a target="_blank" href="./Slides/03_unit3/deck2/u3_deck2.pdf"> Deck </a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Mar 9 	 Hypothesis tests  <a target="_blank" href="./Slides/03_unit3/deck3/u3_deck3.pdf"> Deck</a>
+<li><i class="fa-li fa fa-flask"></i>        Mar 11  Lab 4 - (Due Mar 18) <a target="_blank" href=./Labs/lab4/confidence_intervals.html>Confidence intervals</a>
+</ul>
+
+
+***
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch 4</a>
+<li><i class="fa-li fa fa-puzzle-piece"></i> **March 16  Midterm** </a>
+</ul>
+
+
+***
+***
+
+### Unit 4
+
+**Inference**
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-bar-chart"></i>    Mar 18  Inference for numerical data  <a target="_blank" href="./Slides/04_unit4/deck1/u4_deck1.pdf"> Deck </a>
+<li><i class="fa-li fa fa-flask"></i>        Mar 23  Lab 5 - (Due Mar 27) <a target="_blank" href=./Labs/lab5/inf_for_numerical_data.html>Inference for numerical data</a>
+
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 25  More inference  <a target="_blank" href="./Slides/04_unit4/deck4/u4_deck4.pdf"> Deck</a> 
+<li><i class="fa-li fa fa-flask"></i>        Apr 6  Lab 6 - (Due Apr 13) <a target="_blank" href=./Labs/lab6/more_inf_for_numerical_data.html>(More) inference for numerical data</a>
+
+
+<li><i class="fa-li  fa fa-exclamation"></i>    Mar 30- Apr 1 No class - Spring Break 
+
+</ul>
+
+
+
+***
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro -  Ch. 5</a>
+<li><i class="fa-li fa fa-microphone"></i> March 25 Project presentation and paper
+<li><i class="fa-li fa fa-gears"></i> Problem set (Due Apr 15):    </a>
+  <ul> 
+  <li> Ch 4: 4.2, 4.8, 4.10, 4.12,  4.16, 4.20
+  <li> Ch 5: 5.3, 5.4, 5.5, 5.6, 5.12, 5.20, 5.22 </a>
+  </ul>
+</ul>
+
+***
+***
+
+
+
+### Unit 5
+**Regression**
+
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 8 Introduction linear regression  <a target="_blank" href="./Slides/06_unit6/deck1/u6_deck1.pdf"> Deck</a>
+<li><i class="fa-li fa fa-flask"></i>        Apr 15  Lab 7 - (Due Apr 27) <a target="_blank" href=./Labs/lab7/simple_regression.html>Linear Regression</a>
+<li><i class="fa-li fa fa-bar-chart"></i>    Apr 20 Multiple linear regression  <a target="_blank" href="./Slides/07_unit7/deck1/u7_deck1.pdf"> Deck</a>
+<li><i class="fa-li fa fa-flask"></i>        Apr 22   Lab 8 - (Due May 2) <a target="_blank" href=./Labs/lab8//multiple_regression.html>Multiple Linear Regression Lab</a>
+
+
+<li><i class="fa-li fa fa-object-ungroup"></i> Apr 13 No class, WPSA -  Work on lab 6 and problem set
+
+</ul>
+
+
+***
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-book"></i> Reading:  OpenIntro  - Ch 7 + Ch 8 - Sec 8.1, 8.2, 8.3</a>
+</ul>
+
+***
+***
+
+
+### Unit 6
+**Presenting results**
+
+
+<ul class="fa-ul">
+
+<li><i class="fa-li fa fa-flask"></i>        Apr 27   Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Predicted probabilities -  Visualizaton </a>
+<li><i class="fa-li fa fa-flask"></i>        May 29    Lecture/Lab <a target="_blank" href=./Labs/lab0/lab0.html>Case study</a>
+<!--<li><i class="fa-li fa"></i>        May 7   Project Consulting -->
+</ul>
+
+***
+***
+
+### Final assessment
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-microphone"></i>**May  4, 12  Final Presentation** 
+<li><i class="fa-li fa fa-file-text-o"></i> **May  15  Final Paper Due** 
+</ul>

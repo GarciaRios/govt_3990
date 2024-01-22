@@ -1,0 +1,4 @@
+"0","ci <- do(50) * ames %>%"
+"0","                  sample_n(n) %>%  "
+"0","  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)), "
+"0","            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))"

@@ -1,0 +1,191 @@
+---
+title: "Lab 4 - Confidence intervals"
+author: "Logan Morales"
+date: "April 8, 2020"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+knitr::opts_chunk$set(echo = TRUE)
+#knitr::opts_chunk$set(cache = TRUE)
+library(dplyr)
+library(ggplot2)
+library(mosaic)
+```
+
+* * *
+
+## Lab report
+
+#### Disclaimer: I definitely want to apologize for not showing up to the second class when we did the lab. I unfortunately forgot that we had class since I'm still adapting to the new schedule and this is my only live class. Sorry!
+
+#### Load data:
+```{r load-data}
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/data/ames.RData"))
+```
+
+#### Set a seed:
+```{r set-seed}
+
+#set.seed(07052001)
+
+
+
+```
+
+
+## Exercises:
+
+#### Exercise 1: 
+
+```{r ex1}
+
+n <- 60
+samp <- sample_n(ames, n)
+
+ggplot(samp, aes(x = Lot.Area)) + 
+  geom_histogram(binwidth = 2000)
+
+samp %>%
+  select(Lot.Area) %>%
+  summary()
+
+# It appears that the "typical" size of a house from the sample (given a set seed of 07052000) is roughly around 9550-9650 units. I interpret "typical" to mean "average", which is why my upper bound is 9650 (mean = 9649). I thought it would be fair to use the median as my lower bound in order to get a better grasp of an average house and to account for outliers, so I used a lower bound of 9550 since the median is 9566 units.
+```
+
+#### Exercise 2: 
+
+
+```{r ex2}
+
+# I certainly would not expect another random distribution to be identical to mine. The sample of n=60 is coming from a pool of 2930 different observations, so it is extremely unlikely my sample would be identical. With that said, if my sample is in fact a fair representation of the whole Ames housing population, then I would expect another sample to be similar in its median and mean (when discounting outliers).
+```
+
+
+#### Exercise 3: 
+
+```{r ex3}
+
+z_star_95 <- qnorm(0.975)
+z_star_95
+
+samp %>%
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)),
+            mean = mean(Lot.Area),
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+
+# To meet such conditions, the variables in question must be random and independent.
+
+```
+
+
+#### Exercise 4: 
+
+
+```{r ex4}
+
+# For infinitely many confidence intervals, 95% of them contain the actual mean.
+
+```
+
+
+#### Exercise 5: 
+
+```{r ex5}
+
+params <- ames %>%
+  summarise(mu = mean(Lot.Area))
+
+# Just like the amazing statisticians I am, my confidence interval (8725.865-10571.97) does indeed capture the true mean (10148).
+
+```
+
+#### Exercise 6:
+
+```{r ex6}
+
+# Theoretically, 95% of the intervals my classmates created should contain the confidence interval, meaning 5% of the students in this class will receive a failing grade for this assignment if the professor was anyone other than Sergio Garcia-Rios. Aside from that, our class also does not have an infinite number of students (that woud certainly make grading hectic), so it is fairly likely the observed percentage will vary from 95%.
+
+```
+
+#### Exercise 7: 
+
+```{r ex7}
+
+ci <- do(50) * ames %>%
+                  sample_n(n) %>%  
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)), 
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+
+ci %>%
+  slice(1:5)
+
+ci <- ci %>%
+  mutate(capture_mu = ifelse(lower < params$mu & upper > params$mu, "yes", "no"))
+
+ci_data <- data.frame(ci_id = c(1:50, 1:50),
+                      ci_bounds = c(ci$lower, ci$upper),
+                      capture_mu = c(ci$capture_mu, ci$capture_mu))
+
+ggplot(ci_data, aes(x = ci_bounds, y = ci_id, 
+      group = ci_id, color = capture_mu)) +
+  geom_point(size = 2) +  # add points at the ends, size = 2
+  geom_line() +           # connect with lines
+  geom_vline(xintercept = params$mu, color = "darkgray") + # draw vertical line
+  scale_color_brewer(palette= "Dark2") + # green and orange are far superior to red and blue (objectively)
+  theme_bw()
+
+# Only 90% of my confidence intervals captured the true mean, as opposed to the expected 95%. This makes sense though because we do not have an infinite number of confidence intervals, and having 90% at 50 samples is actually fairly close.
+
+```
+
+* * *
+
+## On your own:
+
+#### 1: 
+
+
+```{r oyo1}
+
+z_star_99 <- qnorm(0.995)
+z_star_99
+
+# I chose the confidence interval for the grade I hope to get on this assignment, so I used a 99% interval, whereby we obtain a critical value of 2.58. The reason I didn't choose the confidence interval for the grade I expect to get is because a confidence interval of 0% would not capture the true mean.
+
+```
+
+
+#### 2: 
+
+```{r oyo2}
+
+ci2 <- do(50) * ames %>%
+                  sample_n(n) %>%  
+  summarise(lower = mean(Lot.Area) - z_star_99 * (sd(Lot.Area) / sqrt(n)), 
+            upper = mean(Lot.Area) + z_star_99 * (sd(Lot.Area) / sqrt(n)))
+
+ci2 %>%
+  slice(1:5)
+
+ci2 <- ci2 %>%
+  mutate(capture_mu = ifelse(lower < params$mu & upper > params$mu, "yes", "no"))
+
+ci_data2 <- data.frame(ci_id = c(1:50, 1:50),
+                      ci_bounds = c(ci2$lower, ci2$upper),
+                      capture_mu = c(ci2$capture_mu, ci2$capture_mu))
+
+ggplot(ci_data2, aes(x = ci_bounds, y = ci_id, 
+      group = ci_id, color = capture_mu)) +
+  geom_point(size = 2) +  # add points at the ends, size = 2
+  geom_line() +           # connect with lines
+  geom_vline(xintercept = params$mu, color = "darkgray") # draw vertical line
+
+# With a critical value of 2.58 (for 99% confidence), there are now more confidence intervals that capture the true mean (92%) than the 95% confidence intervals (90% of which captured it). Even though 92% is somewhat far from 99%, again it makes sense that the proportions do not equal due to the finite number of intervals tested. Maybe next time. Probably not.
+
+```

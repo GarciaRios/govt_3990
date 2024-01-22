@@ -1,0 +1,170 @@
+---
+title: "Exploring Data 3990"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(haven)
+library(labelled)
+library(tidyverse)
+library(pander)
+library(forcats)
+library(stargazer)
+library(margins)
+library(magrittr)
+```
+
+## Loading the Data
+```{r}
+library(foreign)
+  read.dct <- function(dct, labels.included = "yes") {
+      temp <- readLines(dct)
+      temp <- temp[grepl("_column", temp)]
+      switch(labels.included,
+             yes = {
+                 pattern <- "_column\\(([0-9]+)\\)\\s+([a-z0-9]+)\\s+(.*)\\s+%([0-9]+)[a-z]\\s+(.*)"
+                 classes <- c("numeric", "character", "character", "numeric", "character")
+                 N <- 5
+                 NAMES <- c("StartPos", "Str", "ColName", "ColWidth", "ColLabel")
+             },
+             no = {
+                 pattern <- "_column\\(([0-9]+)\\)\\s+([a-z0-9]+)\\s+(.*)\\s+%([0-9]+).*"
+                 classes <- c("numeric", "character", "character", "numeric")
+                 N <- 4
+                 NAMES <- c("StartPos", "Str", "ColName", "ColWidth")
+             })
+      temp_metadata <- setNames(lapply(1:N, function(x) {
+          out <- gsub(pattern, paste("\\", x, sep = ""), temp)
+          out <- gsub("^\\s+|\\s+$", "", out)
+          out <- gsub('\"', "", out, fixed = TRUE)
+          class(out) <- classes[x] ; out }), NAMES)
+      temp_metadata[["ColName"]] <- make.names(gsub("\\s", "", temp_metadata[["ColName"]]))
+      temp_metadata
+  }
+
+  read.dat <- function(dat, metadata_var, labels.included = "yes") {
+      read.fwf(dat, widths = metadata_var[["ColWidth"]], col.names = metadata_var[["ColName"]])
+  }
+```
+
+```{r}
+GSS_metadata <- read.dct("GSS.dct")
+GSS_ascii <- read.dat("GSS.dat", GSS_metadata)
+attr(GSS_ascii, "col.label") <- GSS_metadata[["ColLabel"]]
+GSS <- GSS_ascii
+```
+
+
+## Recoding
+A summary of the data set
+```{r}
+names(GSS)
+str(GSS)
+```
+
+#### SEI:
+For SEI, based on the codebook (GSS Codebook Main Body p. 1912), the 169 responses of -1 are NA responses. These need to be recoded.
+```{r}
+GSS %>% count(SEI)
+```
+
+#### TEMPGEN1:
+For TEMPGEN1, 8 is don't know, 9 is no answer, and 0 is NA. Need to recode.
+```{r}
+GSS %>% count(TEMPGEN1) %>% 
+  mutate(pct = prop.table(n)) %>% pander()
+```
+
+#### GOD:
+For GOD, same issues with 8 and 9.
+```{r}
+GSS %>% count(GOD) %>% 
+  mutate(pct = prop.table(n)) %>% pander()
+```
+
+#### RELIG16
+For RELIG16, 98 is don't know and 99 is no answer. Recode.
+```{r}
+GSS %>% count(RELIG16) %>% 
+  mutate(pct = prop.table(n)) %>% pander()
+```
+
+#### PARTYID
+For PARTYID, 7 is other party and 9 is no answer. Recode the no answer one.
+```{r}
+GSS %>% count(PARTYID) %>% 
+  mutate(pct = prop.table(n)) %>% pander()
+```
+
+#### RACE
+Recode to 0, 1, 2.
+```{r}
+GSS %>% count(RACE) %>% 
+  mutate(pct = prop.table(n)) %>% pander()
+```
+
+#### SEX
+Recode to 0, 1.
+```{r}
+GSS %>% count(SEX) %>% 
+  mutate(pct = prop.table(n)) %>% pander()
+```
+
+#### AGE
+For AGE, 89 is 89 and older. Value 99 is no answer, so recode.
+```{r}
+GSS %>% count(AGE)
+```
+
+#### Recoding Each Variable
+
+```{r}
+df_tidy <-
+  GSS %>% 
+  mutate(
+    socioecon = recode(SEI,
+                 `-1` = NA_real_),
+    tempsrise = recode(TEMPGEN1,
+                      `8` = NA_real_,
+                      `9` = NA_real_,
+                      `0` = NA_real_),
+    god_belief = recode(GOD,
+                 `8` = NA_real_,
+                 `9` = NA_real_),
+    religion = recode(RELIG16,
+                     `98` = NA_real_,
+                     `99` = NA_real_),
+    party = recode(PARTYID,
+                     `9` = NA_real_),
+    white = case_when(
+      RACE == 1 ~ 0,
+      RACE == 2 ~ 1,
+      RACE == 3 ~ 2,
+      TRUE ~ NA_real_),
+    male = case_when(
+      SEX == 1 ~ 0,
+      SEX == 2 ~ 1,
+      TRUE ~ NA_real_),
+    age = recode(AGE,
+                 `99` = NA_real_)
+  )
+```
+
+
+
+## Introductory Graphs and Summary Statistics
+
+Socioeconomic status (SEI)
+```{r}
+ggplot(GSS, aes(x = SEI)) + 
+  geom_histogram(binwidth = 10)
+GSS %>% 
+  select(SEI) %>% 
+  summary()
+```
+
+

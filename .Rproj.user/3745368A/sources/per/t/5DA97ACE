@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580916363142.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5DA97ACE",
+    "lastKnownWriteTime" : 8319104478871053602,
+    "last_content_update" : 1580916363142,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "3FB29AF9",
+        "caption" : "arbuthnot",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=arbuthnot&cache_key=3FB29AF9",
+        "displayedObservations" : "82",
+        "environment" : "",
+        "expression" : "arbuthnot",
+        "object" : "arbuthnot",
+        "preview" : "0",
+        "totalObservations" : "82",
+        "variables" : "3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,151 @@
+---
+title: "Lab 4 - Confidence intervals"
+author: "Bo Hu"
+date: "April 3rd"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(cache = TRUE)
+library(dplyr)
+library(ggplot2)
+library(mosaic)
+```
+
+* * *
+
+## Lab report
+
+#### Load data:
+```{r load-data}
+load(url("https://raw.githubusercontent.com/GarciaRios/govt_3990/gh-pages/Labs/lab4/data/ames.RData"))
+
+```
+
+#### Set a seed:
+```{r set-seed}
+set.seed(5071642)
+
+```
+
+
+## Exercises:
+
+#### Exercise 1: 
+The distribution of house size is skewed to the right, with most of the families having a small house and only a few outliers having a very big house. The typical size is 9073 and by typical I mean the median of the entire population.
+```{r ex1}
+n <- 60
+samp <- sample_n(ames, n)
+ggplot(samp, aes(x=Lot.Area)) + geom_histogram()
+samp%>%
+  select(Lot.Area)%>%
+  summary()
+```
+
+#### Exercise 2: 
+
+I would expect it to be similar but not identical to mine. Since the sample is randomly selected, they should differ from one another a bit so cannnot be entirely the same. However, since the obeservations in the sample are independent of each other, the samples should share a more or less similar pattern that can mirror the entire population.
+```{r ex2}
+
+```
+
+
+#### Exercise 3: 
+
+First the observations in the sample should be independent. Second, they should satisfy the success-failure condition, meaning that both np and n(1-p) should be greater than 10.
+```{r ex3}
+z_star_95 <- qnorm(0.975)
+samp%>%
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)),
+            mean = mean(Lot.Area),
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+```
+
+
+#### Exercise 4: 
+
+95% confident means that if we take the sample several times and calculate the 95% confidence interval for each, 95% of those intervals will contain the actual population parameter.
+```{r ex4}
+
+```
+
+
+#### Exercise 5: 
+The mu calculated is 10147.92, which is between my confidence interval of 8313.06 to 11009.37.
+```{r ex5}
+params <- ames %>%
+  summarise(mu = mean(Lot.Area))
+params$mu
+```
+
+#### Exercise 6:
+About 95% of students will capture the true population mean, because we use a 95% confidence interval.
+```{r ex6}
+
+```
+
+#### Exercise 7: 
+0.92 of my confidence level include the true population mean. This number is different from 0.95 because the number of sampling we do is not big enough. When this number increases we can see the percentage approaching 0.95.
+```{r ex7}
+ci <- do(50) * ames %>%
+                  sample_n(n) %>%  
+  summarise(lower = mean(Lot.Area) - z_star_95 * (sd(Lot.Area) / sqrt(n)), 
+            upper = mean(Lot.Area) + z_star_95 * (sd(Lot.Area) / sqrt(n)))
+ci %>%
+  slice(1:5)
+ci <- ci%>%
+  mutate(capture_mu = ifelse(lower<params$mu & upper>params$mu, "yes", "no"))
+ci_data <- data.frame(ci_id = c(1:50, 1:50),
+                      ci_bounds = c(ci$lower, ci$upper),
+                      capture_mu = c(ci$capture_mu, ci$capture_mu))
+ggplot(ci_data, aes(x = ci_bounds, y = ci_id, 
+      group = ci_id, color = capture_mu)) +
+  geom_point(size = 2) +  # add points at the ends, size = 2
+  geom_line() +           # connect with lines
+  geom_vline(xintercept = params$mu, color = "darkgray") # draw vertical line
+ci%>%
+  select(capture_mu)%>%
+  table()%>%
+  prop.table()
+```
+
+* * *
+
+## On your own:
+
+#### 1: 
+
+I use a 99% confidence interval and get a critical value of 2.58.
+```{r oyo1}
+z_star_99<-qnorm(0.99+(1-0.99)/2)
+```
+
+
+#### 2: 
+84% intervals include the true population mean, which is smaller than the 99% confidence interval.
+```{r oyo2}
+ci2 <- do(50) * ames %>%
+  sample_n(n) %>% 
+  summarize(lower=mean(Lot.Area)-z_star_99*sd(Lot.Area)/sqrt(n),
+            upper=mean(Lot.Area)+z_star_99*sd(Lot.Area)/sqrt(n))
+ci2<- ci2%>%
+  mutate(capture_mu=ifelse(lower<params$mu&upper>params$mu, "yes", "no"))
+ci2_data <- data.frame(ci2_id=c(1:50, 1:50), 
+                       ci2_bound=c(ci2$lower, ci2$upper),
+                       ci2_capture=c(ci2$capture_mu, ci2$capture_mu))
+ggplot(ci2_data, aes(x=ci2_bound, y=ci2_id, 
+                     group=ci2_id, color=ci2_capture)) + 
+  geom_point(size=2) +
+  geom_line()+
+  geom_vline(xintercept = params$mu, color="darkgrey")
+ci2%>%select(capture_mu)%>%
+  table()%>%
+  prop.table()
+```
+

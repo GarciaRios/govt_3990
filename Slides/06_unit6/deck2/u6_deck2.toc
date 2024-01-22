@@ -1,0 +1,9 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Housekeeping}{2}{0}{1}
+\beamer@sectionintoc {2}{Main ideas}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Predicted values also have uncertainty around them}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{$R^2$ assesses model fit -- higher the better}{16}{0}{2}
+\beamer@subsectionintoc {2}{3}{Inference for regression uses the $t$-distribution}{26}{0}{2}
+\beamer@subsectionintoc {2}{4}{Conditions for regression}{31}{0}{2}
+\beamer@subsectionintoc {2}{5}{Type of outlier determines how it should be handled}{40}{0}{2}
+\beamer@sectionintoc {3}{Summary}{44}{0}{3}

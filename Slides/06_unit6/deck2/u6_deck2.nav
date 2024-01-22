@@ -1,0 +1,70 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\sectionentry {1}{Housekeeping}{2}{Housekeeping}{0}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {2}{2}}
+\headcommand {\beamer@subsectionpages {2}{2}}
+\headcommand {\sectionentry {2}{Main ideas}{3}{Main ideas}{0}}
+\headcommand {\slideentry {2}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{Predicted values also have uncertainty around them}}
+\headcommand {\slideentry {2}{1}{1}{4/4}{Predicted values also have uncertainty around them}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {2}{1}{2}{5/7}{Predicted values also have uncertainty around them}{0}}
+\headcommand {\beamer@framepages {5}{7}}
+\headcommand {\slideentry {2}{1}{3}{8/11}{Predicted values also have uncertainty around them}{0}}
+\headcommand {\beamer@framepages {8}{11}}
+\headcommand {\slideentry {2}{1}{4}{12/15}{Predicted values also have uncertainty around them}{0}}
+\headcommand {\beamer@framepages {12}{15}}
+\headcommand {\beamer@subsectionpages {4}{15}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{16}{$R^2$ assesses model fit -- higher the better}}
+\headcommand {\slideentry {2}{2}{1}{16/16}{$R^2$ assesses model fit -- higher the better}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {2}{2}{2}{17/19}{$R^2$ assesses model fit -- higher the better}{0}}
+\headcommand {\beamer@framepages {17}{19}}
+\headcommand {\slideentry {2}{2}{3}{20/23}{$R^2$ assesses model fit -- higher the better}{0}}
+\headcommand {\beamer@framepages {20}{23}}
+\headcommand {\slideentry {2}{2}{4}{24/25}{$R^2$ assesses model fit -- higher the better}{0}}
+\headcommand {\beamer@framepages {24}{25}}
+\headcommand {\beamer@subsectionpages {16}{25}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{26}{Inference for regression uses the $t$-distribution}}
+\headcommand {\slideentry {2}{3}{1}{26/26}{Inference for regression uses the $t$-distribution}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {2}{3}{2}{27/29}{Inference for regression uses the $t$-distribution}{0}}
+\headcommand {\beamer@framepages {27}{29}}
+\headcommand {\slideentry {2}{3}{3}{30/30}{Inference for regression uses the $t$-distribution}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@subsectionpages {26}{30}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{31}{Conditions for regression}}
+\headcommand {\slideentry {2}{4}{1}{31/31}{Conditions for regression}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {2}{4}{2}{32/35}{Conditions for regression}{0}}
+\headcommand {\beamer@framepages {32}{35}}
+\headcommand {\slideentry {2}{4}{3}{36/37}{Conditions for regression}{0}}
+\headcommand {\beamer@framepages {36}{37}}
+\headcommand {\slideentry {2}{4}{4}{38/39}{Conditions for regression}{0}}
+\headcommand {\beamer@framepages {38}{39}}
+\headcommand {\beamer@subsectionpages {31}{39}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{40}{Type of outlier determines how it should be handled}}
+\headcommand {\slideentry {2}{5}{1}{40/40}{Type of outlier determines how it should be handled}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {2}{5}{2}{41/42}{Type of outlier determines how it should be handled}{0}}
+\headcommand {\beamer@framepages {41}{42}}
+\headcommand {\slideentry {2}{5}{3}{43/43}{Type of outlier determines how it should be handled}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\beamer@sectionpages {3}{43}}
+\headcommand {\beamer@subsectionpages {40}{43}}
+\headcommand {\sectionentry {3}{Summary}{44}{Summary}{0}}
+\headcommand {\slideentry {3}{0}{1}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {3}{0}{2}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@subsectionpages {44}{45}}
+\headcommand {\beamer@sectionpages {44}{45}}
+\headcommand {\beamer@documentpages {45}}
+\headcommand {\gdef \inserttotalframenumber {14}}

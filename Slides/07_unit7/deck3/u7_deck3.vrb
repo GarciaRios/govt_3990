@@ -1,0 +1,12 @@
+\frametitle{Remove unusual observations}
+
+Let's remove trucks older than 20 years, and only focus on trucks made in 1992 or later.
+
+\pause
+
+\disc{Now what can you say about the relationship?}
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{figures/pickup/pu_price_year_scat_noline}
+\end{center}
+
